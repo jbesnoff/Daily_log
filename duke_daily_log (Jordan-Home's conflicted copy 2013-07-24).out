@@ -1,0 +1,106 @@
+\BOOKMARK [1][-]{section.1}{26 March 2012:}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Inductor Impedance Tests}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Loop Impedance Tests}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Chip Impedance Tests}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{31 May 2012:}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{NXP Tag Chip Impedance in Saline Using Agilent Cal}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Small Loop Impedance in Saline Using Agilent Cal}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Matching NXP Tag Chip in Saline to 50 }{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.4}{Matching Small Loop in Saline to 50 }{section.2}% 9
+\BOOKMARK [1][-]{section.3}{18 February 2013:}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Comparing Receiver Architecture Analog Front Ends \(AFE\)}{section.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Circulator Architecture}{subsection.3.1}% 12
+\BOOKMARK [3][-]{subsubsection.3.1.2}{23 dB Coupler Architecture}{subsection.3.1}% 13
+\BOOKMARK [3][-]{subsubsection.3.1.3}{10 dB Coupler Architecture}{subsection.3.1}% 14
+\BOOKMARK [1][-]{section.4}{19 February 2013:}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Harvested Voltage}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Return Signal Strength}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Rejection Ratio}{section.4}% 18
+\BOOKMARK [1][-]{section.5}{20 February 2013:}{}% 19
+\BOOKMARK [2][-]{subsection.5.1}{Using an LNA to Increase Backscatter Signal Strength}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{21 February 2013:}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Testing for Chip Damage}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Testing and Matching New Bug3 Chips}{section.6}% 23
+\BOOKMARK [1][-]{section.7}{22 February 2013:}{}% 24
+\BOOKMARK [2][-]{subsection.7.1}{Testing and Matching New Bug3 Chips}{section.7}% 25
+\BOOKMARK [1][-]{section.8}{25 February 2013:}{}% 26
+\BOOKMARK [2][-]{subsection.8.1}{Testing and Matching Bug3 Chips}{section.8}% 27
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Chip \0431}{subsection.8.1}% 28
+\BOOKMARK [3][-]{subsubsection.8.1.2}{Chip \0432}{subsection.8.1}% 29
+\BOOKMARK [2][-]{subsection.8.2}{Impedance Characteristics of 9.5 mm Diameter Loop Antenna in Saline}{section.8}% 30
+\BOOKMARK [2][-]{subsection.8.3}{Impedance Characteristics of Bug3 Chip in Saline}{section.8}% 31
+\BOOKMARK [2][-]{subsection.8.4}{Matching the Bug3 Chip to the Small Loop Antenna in Saline}{section.8}% 32
+\BOOKMARK [1][-]{section.9}{26 February 2013:}{}% 33
+\BOOKMARK [2][-]{subsection.9.1}{Matching the Bug3 Chip to the Small Loop Antenna in Saline}{section.9}% 34
+\BOOKMARK [1][-]{section.10}{27 February 2013:}{}% 35
+\BOOKMARK [1][-]{section.11}{28 February 2013:}{}% 36
+\BOOKMARK [2][-]{subsection.11.1}{MTT Paper Completion Plan}{section.11}% 37
+\BOOKMARK [2][-]{subsection.11.2}{Impedance Characteristics of 9.5 mm Single Turn Loop Antenna in Chicken}{section.11}% 38
+\BOOKMARK [3][-]{subsubsection.11.2.1}{Free Space}{subsection.11.2}% 39
+\BOOKMARK [3][-]{subsubsection.11.2.2}{Chicken}{subsection.11.2}% 40
+\BOOKMARK [1][-]{section.12}{1 March 2013:}{}% 41
+\BOOKMARK [2][-]{subsection.12.1}{Chip Mismatch in Chicken}{section.12}% 42
+\BOOKMARK [2][-]{subsection.12.2}{Demodulating a Signal in Saline}{section.12}% 43
+\BOOKMARK [3][-]{subsubsection.12.2.1}{Sine Wave Demodulation}{subsection.12.2}% 44
+\BOOKMARK [1][-]{section.13}{4 March 2013:}{}% 45
+\BOOKMARK [2][-]{subsection.13.1}{Demodulating a Signal in Saline}{section.13}% 46
+\BOOKMARK [3][-]{subsubsection.13.1.1}{Demodulating a Sine Wave in Saline}{subsection.13.1}% 47
+\BOOKMARK [3][-]{subsubsection.13.1.2}{Demodulating ECG Data in Saline}{subsection.13.1}% 48
+\BOOKMARK [1][-]{section.14}{5 March 2013:}{}% 49
+\BOOKMARK [2][-]{subsection.14.1}{Demodulating ECG Data in Saline}{section.14}% 50
+\BOOKMARK [1][-]{section.15}{6 March 2013:}{}% 51
+\BOOKMARK [1][-]{section.16}{7 March 2013:}{}% 52
+\BOOKMARK [1][-]{section.17}{8 March 2013:}{}% 53
+\BOOKMARK [2][-]{subsection.17.1}{Demodulating ECG Data in Saline}{section.17}% 54
+\BOOKMARK [1][-]{section.18}{11 March 2013:}{}% 55
+\BOOKMARK [1][-]{section.19}{12 March 2013:}{}% 56
+\BOOKMARK [2][-]{subsection.19.1}{RFID 2013 Paper Shepherding}{section.19}% 57
+\BOOKMARK [3][-]{subsubsection.19.1.1}{Telemetry Device Power Breakdown: Only Used Channels}{subsection.19.1}% 58
+\BOOKMARK [3][-]{subsubsection.19.1.2}{Operating Range Only Using Required Channels}{subsection.19.1}% 59
+\BOOKMARK [3][-]{subsubsection.19.1.3}{Calculating Semi-passive Ideal Range}{subsection.19.1}% 60
+\BOOKMARK [1][-]{section.20}{13 March 2013:}{}% 61
+\BOOKMARK [2][-]{subsection.20.1}{More RFID Shepherding}{section.20}% 62
+\BOOKMARK [3][-]{subsubsection.20.1.1}{``Ideal" OTA ECG}{subsection.20.1}% 63
+\BOOKMARK [2][-]{subsection.20.2}{Bistatic Receiver Setup}{section.20}% 64
+\BOOKMARK [2][-]{subsection.20.3}{Monostatic Receiver Setup}{section.20}% 65
+\BOOKMARK [2][-]{subsection.20.4}{Lining Up Tx and Rx ECG Data for Near-Field Biotelemetry Paper}{section.20}% 66
+\BOOKMARK [1][-]{section.21}{14 March 2013:}{}% 67
+\BOOKMARK [1][-]{section.22}{4 April 2013:}{}% 68
+\BOOKMARK [2][-]{subsection.22.1}{Using The EMG Channels On The Bug3 Chip For in vivo Biotelemetry}{section.22}% 69
+\BOOKMARK [1][-]{section.23}{6 May 2013:}{}% 70
+\BOOKMARK [2][-]{subsection.23.1}{Implantable Transponder Antenna}{section.23}% 71
+\BOOKMARK [1][-]{section.24}{7 May 2013:}{}% 72
+\BOOKMARK [2][-]{subsection.24.1}{Loop Antenna Background}{section.24}% 73
+\BOOKMARK [3][-]{subsubsection.24.1.1}{Introduction}{subsection.24.1}% 74
+\BOOKMARK [3][-]{subsubsection.24.1.2}{Antenna Radiation Efficiency}{subsection.24.1}% 75
+\BOOKMARK [3][-]{subsubsection.24.1.3}{Radiated Fields}{subsection.24.1}% 76
+\BOOKMARK [2][-]{subsection.24.2}{Radiation Resistance}{section.24}% 77
+\BOOKMARK [2][-]{subsection.24.3}{Loss Resistance}{section.24}% 78
+\BOOKMARK [1][-]{section.25}{8 May 2013:}{}% 79
+\BOOKMARK [2][-]{subsection.25.1}{Proximity Effect and Antenna Radiation Efficiency}{section.25}% 80
+\BOOKMARK [3][-]{subsubsection.25.1.1}{Model/Assumption Constraints}{subsection.25.1}% 81
+\BOOKMARK [3][-]{subsubsection.25.1.2}{Antenna Radiation Efficiency vs. Number of Turns and Wire Gauge}{subsection.25.1}% 82
+\BOOKMARK [1][-]{section.26}{9 \046 10 \046 13-14 May 2013:}{}% 83
+\BOOKMARK [2][-]{subsection.26.1}{Induced Voltage at Small Loop Antenna's Terminals}{section.26}% 84
+\BOOKMARK [3][-]{subsubsection.26.1.1}{Small Circular Loop Model}{subsection.26.1}% 85
+\BOOKMARK [3][-]{subsubsection.26.1.2}{Induced Voltage for Single Turn Loop}{subsection.26.1}% 86
+\BOOKMARK [3][-]{subsubsection.26.1.3}{Small Circular Loop Circuit Model}{subsection.26.1}% 87
+\BOOKMARK [3][-]{subsubsection.26.1.4}{Computing the Voltage Delivered to the Load}{subsection.26.1}% 88
+\BOOKMARK [1][-]{section.27}{17 May 2013:}{}% 89
+\BOOKMARK [2][-]{subsection.27.1}{Loop Antenna in Dielectric Medium}{section.27}% 90
+\BOOKMARK [1][-]{section.28}{23 May 2013:}{}% 91
+\BOOKMARK [2][-]{subsection.28.1}{New Dragonfly Test Board}{section.28}% 92
+\BOOKMARK [3][-]{subsubsection.28.1.1}{Input Impedance}{subsection.28.1}% 93
+\BOOKMARK [3][-]{subsubsection.28.1.2}{Harvesting Voltage}{subsection.28.1}% 94
+\BOOKMARK [1][-]{section.29}{24 May 2013:}{}% 95
+\BOOKMARK [1][-]{section.30}{27 May 2013:}{}% 96
+\BOOKMARK [2][-]{subsection.30.1}{Coaxial Cable as a Transmission Line}{section.30}% 97
+\BOOKMARK [3][-]{subsubsection.30.1.1}{Lumped Element Circuit Model for Transmission Line}{subsection.30.1}% 98
+\BOOKMARK [3][-]{subsubsection.30.1.2}{Wave Propagation on Transmission Lines}{subsection.30.1}% 99
+\BOOKMARK [3][-]{subsubsection.30.1.3}{Transmission Line Parameters of a Coaxial Line}{subsection.30.1}% 100
+\BOOKMARK [3][-]{subsubsection.30.1.4}{Coaxial Line Characteristic Impedance}{subsection.30.1}% 101
+\BOOKMARK [2][-]{subsection.30.2}{FEP Dielectric Wire Characteristics}{section.30}% 102
+\BOOKMARK [3][-]{subsubsection.30.2.1}{FEP Dielectric Wire as Coaxial Cable: Surrounded by PEC}{subsection.30.2}% 103
+\BOOKMARK [1][-]{section.31}{28 \046 29 \046 30 May 2013:}{}% 104
+\BOOKMARK [2][-]{subsection.31.1}{Dielectric Media Parameters}{section.31}% 105
+\BOOKMARK [2][-]{subsection.31.2}{Computing

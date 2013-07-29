@@ -1,0 +1,752 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 7.14.0.739 (R2012a). Operating System: Darwin 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386 i386.
+%%Title: ./SWTL_TDR_s11_AWG36_windowing.eps
+%%CreationDate: 07/22/2013  17:25:00
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:     0     0   648   720
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:     0     0   648   720
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode 0000 8640 csm
+
+    0     0  7776  8641 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 7777 8642 rf
+6 w
+0 1835 2602 0 0 -1835 1011 2512 4 MP
+PP
+-2602 0 0 1835 2602 0 0 -1835 1011 2512 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+1011 2512 mt 3613 2512 L
+1011  677 mt 3613  677 L
+1011 2512 mt 1011  677 L
+3613 2512 mt 3613  677 L
+1011 2512 mt 3613 2512 L
+1011 2512 mt 1011  677 L
+1011 2512 mt 1011 2485 L
+1011  677 mt 1011  703 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 168 FMSR
+
+ 965 2702 mt 
+(0) s
+1878 2512 mt 1878 2485 L
+1878  677 mt 1878  703 L
+1832 2702 mt 
+(5) s
+2745 2512 mt 2745 2485 L
+2745  677 mt 2745  703 L
+2652 2702 mt 
+(10) s
+3613 2512 mt 3613 2485 L
+3613  677 mt 3613  703 L
+3520 2702 mt 
+(15) s
+1011 2512 mt 1037 2512 L
+3613 2512 mt 3586 2512 L
+ 883 2574 mt 
+(0) s
+1011 2145 mt 1037 2145 L
+3613 2145 mt 3586 2145 L
+ 743 2207 mt 
+(0.2) s
+1011 1778 mt 1037 1778 L
+3613 1778 mt 3586 1778 L
+ 743 1840 mt 
+(0.4) s
+1011 1410 mt 1037 1410 L
+3613 1410 mt 3586 1410 L
+ 743 1472 mt 
+(0.6) s
+1011 1044 mt 1037 1044 L
+3613 1044 mt 3586 1044 L
+ 743 1106 mt 
+(0.8) s
+1011  677 mt 1037  677 L
+3613  677 mt 3586  677 L
+ 883  739 mt 
+(1) s
+1011 2512 mt 3613 2512 L
+1011  677 mt 3613  677 L
+1011 2512 mt 1011  677 L
+3613 2512 mt 3613  677 L
+gs 1011 677 2603 1836 rc
+24 w
+/c8 { 0.000000 0.000000 1.000000 sr} bdef
+c8
+3 0 58 1 58 -1 57 1 58 0 58 1 58 0 58 0 
+57 1 58 -2 58 2 58 -2 58 1 57 -1 58 -1 58 1 
+58 1 57 0 58 1 58 7 58 5 58 -3 57 -8 58 10 
+58 1 58 42 58 36 57 -23 58 -36 58 25 58 -33 57 199 
+58 1608 58 -373 58 -1383 58 16 57 -73 58 9 58 -16 58 8 
+58 -14 57 -1 58 13 58 8 58 83 57 27 1011 2373 47 MP stroke
+DA
+/c9 { 1.000000 0.000000 0.000000 sr} bdef
+c9
+3 0 58 3 58 3 57 3 58 3 58 4 58 3 58 3 
+57 3 58 0 58 0 58 -1 58 -1 57 -3 58 -1 58 0 
+58 -3 57 -2 58 -4 58 -4 58 14 58 -19 57 -1 58 -5 
+58 -2 58 36 58 112 57 78 58 -32 58 28 58 99 57 287 
+58 1195 58 -866 58 -588 58 -138 57 -74 58 -31 58 -22 58 -6 
+58 -15 57 -24 58 11 58 -22 58 65 57 -28 1011 2415 47 MP stroke
+gr
+
+24 w
+c9
+DA
+0 sg
+1956 2880 mt 
+(Time \(ns\)) s
+ 651 2758 mt  -90 rotate
+(Normalized Reflection Strength) s
+90 rotate
+ 937  545 mt 
+(TDR for SWTL: S11, Bartlett Window) s
+SO
+6 w
+1 sg
+0 1835 2602 0 0 -1835 4435 2512 4 MP
+PP
+-2602 0 0 1835 2602 0 0 -1835 4435 2512 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+4435 2512 mt 7037 2512 L
+4435  677 mt 7037  677 L
+4435 2512 mt 4435  677 L
+7037 2512 mt 7037  677 L
+4435 2512 mt 7037 2512 L
+4435 2512 mt 4435  677 L
+4435 2512 mt 4435 2485 L
+4435  677 mt 4435  703 L
+4389 2702 mt 
+(0) s
+5302 2512 mt 5302 2485 L
+5302  677 mt 5302  703 L
+5256 2702 mt 
+(5) s
+6169 2512 mt 6169 2485 L
+6169  677 mt 6169  703 L
+6076 2702 mt 
+(10) s
+7037 2512 mt 7037 2485 L
+7037  677 mt 7037  703 L
+6944 2702 mt 
+(15) s
+4435 2512 mt 4461 2512 L
+7037 2512 mt 7010 2512 L
+4307 2574 mt 
+(0) s
+4435 2145 mt 4461 2145 L
+7037 2145 mt 7010 2145 L
+4167 2207 mt 
+(0.2) s
+4435 1778 mt 4461 1778 L
+7037 1778 mt 7010 1778 L
+4167 1840 mt 
+(0.4) s
+4435 1410 mt 4461 1410 L
+7037 1410 mt 7010 1410 L
+4167 1472 mt 
+(0.6) s
+4435 1044 mt 4461 1044 L
+7037 1044 mt 7010 1044 L
+4167 1106 mt 
+(0.8) s
+4435  677 mt 4461  677 L
+7037  677 mt 7010  677 L
+4307  739 mt 
+(1) s
+4435 2512 mt 7037 2512 L
+4435  677 mt 7037  677 L
+4435 2512 mt 4435  677 L
+7037 2512 mt 7037  677 L
+gs 4435 677 2603 1836 rc
+24 w
+c8
+3 0 58 0 58 0 57 0 58 0 58 0 58 0 58 0 
+57 0 58 0 58 0 58 0 58 0 57 1 58 0 58 0 
+58 -1 57 1 58 0 58 8 58 6 58 -5 57 -7 58 -2 
+58 11 58 24 58 37 57 1 58 -30 58 -24 58 0 57 643 
+58 1171 58 -210 58 -1172 58 -433 57 -7 58 -5 58 6 58 -7 
+58 -1 57 12 58 5 58 35 58 69 57 17 4435 2368 47 MP stroke
+DA
+c9
+3 0 58 3 58 3 57 3 58 3 58 4 58 3 58 3 
+57 3 58 0 58 0 58 -1 58 -1 57 -3 58 -1 58 0 
+58 -3 57 -2 58 -4 58 -4 58 14 58 -19 57 -1 58 -5 
+58 -2 58 36 58 112 57 78 58 -32 58 28 58 99 57 287 
+58 1195 58 -866 58 -588 58 -138 57 -74 58 -31 58 -22 58 -6 
+58 -15 57 -24 58 11 58 -22 58 65 57 -28 4435 2415 47 MP stroke
+gr
+
+24 w
+c9
+DA
+0 sg
+5380 2880 mt 
+(Time \(ns\)) s
+4075 2758 mt  -90 rotate
+(Normalized Reflection Strength) s
+90 rotate
+4264  545 mt 
+(TDR for SWTL: S11, Blackman Window) s
+SO
+6 w
+1 sg
+0 1835 2602 0 0 -1835 1011 5101 4 MP
+PP
+-2602 0 0 1835 2602 0 0 -1835 1011 5101 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+1011 5101 mt 3613 5101 L
+1011 3266 mt 3613 3266 L
+1011 5101 mt 1011 3266 L
+3613 5101 mt 3613 3266 L
+1011 5101 mt 3613 5101 L
+1011 5101 mt 1011 3266 L
+1011 5101 mt 1011 5074 L
+1011 3266 mt 1011 3292 L
+ 965 5291 mt 
+(0) s
+1878 5101 mt 1878 5074 L
+1878 3266 mt 1878 3292 L
+1832 5291 mt 
+(5) s
+2745 5101 mt 2745 5074 L
+2745 3266 mt 2745 3292 L
+2652 5291 mt 
+(10) s
+3613 5101 mt 3613 5074 L
+3613 3266 mt 3613 3292 L
+3520 5291 mt 
+(15) s
+1011 5101 mt 1037 5101 L
+3613 5101 mt 3586 5101 L
+ 883 5163 mt 
+(0) s
+1011 4734 mt 1037 4734 L
+3613 4734 mt 3586 4734 L
+ 743 4796 mt 
+(0.2) s
+1011 4367 mt 1037 4367 L
+3613 4367 mt 3586 4367 L
+ 743 4429 mt 
+(0.4) s
+1011 4000 mt 1037 4000 L
+3613 4000 mt 3586 4000 L
+ 743 4062 mt 
+(0.6) s
+1011 3633 mt 1037 3633 L
+3613 3633 mt 3586 3633 L
+ 743 3695 mt 
+(0.8) s
+1011 3266 mt 1037 3266 L
+3613 3266 mt 3586 3266 L
+ 883 3328 mt 
+(1) s
+1011 5101 mt 3613 5101 L
+1011 3266 mt 3613 3266 L
+1011 5101 mt 1011 3266 L
+3613 5101 mt 3613 3266 L
+gs 1011 3266 2603 1836 rc
+24 w
+c8
+3 0 58 0 58 1 57 0 58 0 58 1 58 0 58 1 
+57 0 58 0 58 0 58 0 58 -1 57 0 58 -1 58 2 
+58 -2 57 1 58 -1 58 1 58 13 58 -12 57 -2 58 -3 
+58 8 58 24 58 52 57 7 58 -59 58 -14 58 -8 57 374 
+58 1449 58 -322 58 -1286 58 -193 57 -22 58 4 58 -2 58 4 
+58 -3 57 -6 58 17 58 12 58 84 57 17 1011 4962 47 MP stroke
+DA
+c9
+3 0 58 3 58 3 57 3 58 3 58 4 58 3 58 3 
+57 3 58 0 58 0 58 -1 58 -1 57 -3 58 -1 58 0 
+58 -3 57 -2 58 -4 58 -4 58 14 58 -19 57 -1 58 -5 
+58 -2 58 36 58 112 57 78 58 -32 58 28 58 99 57 287 
+58 1195 58 -866 58 -588 58 -138 57 -74 58 -31 58 -22 58 -6 
+58 -15 57 -24 58 11 58 -22 58 65 57 -28 1011 5004 47 MP stroke
+gr
+
+24 w
+c9
+DA
+0 sg
+1956 5469 mt 
+(Time \(ns\)) s
+ 651 5347 mt  -90 rotate
+(Normalized Reflection Strength) s
+90 rotate
+ 852 3134 mt 
+(TDR for SWTL: S11, Gaussian Window) s
+SO
+6 w
+1 sg
+0 1835 2602 0 0 -1835 4435 5101 4 MP
+PP
+-2602 0 0 1835 2602 0 0 -1835 4435 5101 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+4435 5101 mt 7037 5101 L
+4435 3266 mt 7037 3266 L
+4435 5101 mt 4435 3266 L
+7037 5101 mt 7037 3266 L
+4435 5101 mt 7037 5101 L
+4435 5101 mt 4435 3266 L
+4435 5101 mt 4435 5074 L
+4435 3266 mt 4435 3292 L
+4389 5291 mt 
+(0) s
+5302 5101 mt 5302 5074 L
+5302 3266 mt 5302 3292 L
+5256 5291 mt 
+(5) s
+6169 5101 mt 6169 5074 L
+6169 3266 mt 6169 3292 L
+6076 5291 mt 
+(10) s
+7037 5101 mt 7037 5074 L
+7037 3266 mt 7037 3292 L
+6944 5291 mt 
+(15) s
+4435 5101 mt 4461 5101 L
+7037 5101 mt 7010 5101 L
+4307 5163 mt 
+(0) s
+4435 4734 mt 4461 4734 L
+7037 4734 mt 7010 4734 L
+4167 4796 mt 
+(0.2) s
+4435 4367 mt 4461 4367 L
+7037 4367 mt 7010 4367 L
+4167 4429 mt 
+(0.4) s
+4435 4000 mt 4461 4000 L
+7037 4000 mt 7010 4000 L
+4167 4062 mt 
+(0.6) s
+4435 3633 mt 4461 3633 L
+7037 3633 mt 7010 3633 L
+4167 3695 mt 
+(0.8) s
+4435 3266 mt 4461 3266 L
+7037 3266 mt 7010 3266 L
+4307 3328 mt 
+(1) s
+4435 5101 mt 7037 5101 L
+4435 3266 mt 7037 3266 L
+4435 5101 mt 4435 3266 L
+7037 5101 mt 7037 3266 L
+gs 4435 3266 2603 1836 rc
+24 w
+c8
+3 0 58 0 58 1 57 0 58 0 58 1 58 1 58 0 
+57 1 58 0 58 0 58 0 58 -1 57 -1 58 0 58 2 
+58 -2 57 1 58 -2 58 -4 58 19 58 -17 57 3 58 -2 
+58 7 58 20 58 56 57 15 58 -66 58 -20 58 8 57 250 
+58 1559 58 -361 58 -1347 58 -115 57 -3 58 8 58 -2 58 6 
+58 -3 57 -11 58 19 58 4 58 90 57 16 4435 4965 47 MP stroke
+DA
+c9
+3 0 58 3 58 3 57 3 58 3 58 4 58 3 58 3 
+57 3 58 0 58 0 58 -1 58 -1 57 -3 58 -1 58 0 
+58 -3 57 -2 58 -4 58 -4 58 14 58 -19 57 -1 58 -5 
+58 -2 58 36 58 112 57 78 58 -32 58 28 58 99 57 287 
+58 1195 58 -866 58 -588 58 -138 57 -74 58 -31 58 -22 58 -6 
+58 -15 57 -24 58 11 58 -22 58 65 57 -28 4435 5004 47 MP stroke
+gr
+
+24 w
+c9
+DA
+0 sg
+5380 5469 mt 
+(Time \(ns\)) s
+4075 5347 mt  -90 rotate
+(Normalized Reflection Strength) s
+90 rotate
+4271 3134 mt 
+(TDR for SWTL: S11, Hamming Window) s
+SO
+6 w
+1 sg
+0 1835 2602 0 0 -1835 1011 7690 4 MP
+PP
+-2602 0 0 1835 2602 0 0 -1835 1011 7690 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+1011 7690 mt 3613 7690 L
+1011 5855 mt 3613 5855 L
+1011 7690 mt 1011 5855 L
+3613 7690 mt 3613 5855 L
+1011 7690 mt 3613 7690 L
+1011 7690 mt 1011 5855 L
+1011 7690 mt 1011 7663 L
+1011 5855 mt 1011 5881 L
+ 965 7880 mt 
+(0) s
+1878 7690 mt 1878 7663 L
+1878 5855 mt 1878 5881 L
+1832 7880 mt 
+(5) s
+2745 7690 mt 2745 7663 L
+2745 5855 mt 2745 5881 L
+2652 7880 mt 
+(10) s
+3613 7690 mt 3613 7663 L
+3613 5855 mt 3613 5881 L
+3520 7880 mt 
+(15) s
+1011 7690 mt 1037 7690 L
+3613 7690 mt 3586 7690 L
+ 883 7752 mt 
+(0) s
+1011 7323 mt 1037 7323 L
+3613 7323 mt 3586 7323 L
+ 743 7385 mt 
+(0.2) s
+1011 6956 mt 1037 6956 L
+3613 6956 mt 3586 6956 L
+ 743 7018 mt 
+(0.4) s
+1011 6589 mt 1037 6589 L
+3613 6589 mt 3586 6589 L
+ 743 6651 mt 
+(0.6) s
+1011 6222 mt 1037 6222 L
+3613 6222 mt 3586 6222 L
+ 743 6284 mt 
+(0.8) s
+1011 5855 mt 1037 5855 L
+3613 5855 mt 3586 5855 L
+ 883 5917 mt 
+(1) s
+1011 7690 mt 3613 7690 L
+1011 5855 mt 3613 5855 L
+1011 7690 mt 1011 5855 L
+3613 7690 mt 3613 5855 L
+gs 1011 5855 2603 1836 rc
+24 w
+c8
+3 0 58 0 58 0 57 0 58 0 58 0 58 0 58 0 
+57 1 58 -1 58 0 58 0 58 0 57 1 58 0 58 0 
+58 -1 57 1 58 0 58 7 58 7 58 -7 57 -5 58 0 
+58 13 58 27 58 41 57 -5 58 -33 58 -9 58 48 57 335 
+58 1414 58 -279 58 -1348 58 -176 57 -10 58 -15 58 8 58 -8 
+58 0 57 10 58 0 58 25 58 78 57 23 1011 7547 47 MP stroke
+DA
+c9
+3 0 58 3 58 3 57 3 58 3 58 4 58 3 58 3 
+57 3 58 0 58 0 58 -1 58 -1 57 -3 58 -1 58 0 
+58 -3 57 -2 58 -4 58 -4 58 14 58 -19 57 -1 58 -5 
+58 -2 58 36 58 112 57 78 58 -32 58 28 58 99 57 287 
+58 1195 58 -866 58 -588 58 -138 57 -74 58 -31 58 -22 58 -6 
+58 -15 57 -24 58 11 58 -22 58 65 57 -28 1011 7593 47 MP stroke
+gr
+
+24 w
+c9
+DA
+0 sg
+1956 8058 mt 
+(Time \(ns\)) s
+ 651 7936 mt  -90 rotate
+(Normalized Reflection Strength) s
+90 rotate
+ 894 5723 mt 
+(TDR for SWTL: S11, Hanning Window) s
+SO
+6 w
+1 sg
+0 1835 2602 0 0 -1835 4435 7690 4 MP
+PP
+-2602 0 0 1835 2602 0 0 -1835 4435 7690 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+4435 7690 mt 7037 7690 L
+4435 5855 mt 7037 5855 L
+4435 7690 mt 4435 5855 L
+7037 7690 mt 7037 5855 L
+4435 7690 mt 7037 7690 L
+4435 7690 mt 4435 5855 L
+4435 7690 mt 4435 7663 L
+4435 5855 mt 4435 5881 L
+4389 7880 mt 
+(0) s
+5302 7690 mt 5302 7663 L
+5302 5855 mt 5302 5881 L
+5256 7880 mt 
+(5) s
+6169 7690 mt 6169 7663 L
+6169 5855 mt 6169 5881 L
+6076 7880 mt 
+(10) s
+7037 7690 mt 7037 7663 L
+7037 5855 mt 7037 5881 L
+6944 7880 mt 
+(15) s
+4435 7690 mt 4461 7690 L
+7037 7690 mt 7010 7690 L
+4307 7752 mt 
+(0) s
+4435 7323 mt 4461 7323 L
+7037 7323 mt 7010 7323 L
+4167 7385 mt 
+(0.2) s
+4435 6956 mt 4461 6956 L
+7037 6956 mt 7010 6956 L
+4167 7018 mt 
+(0.4) s
+4435 6589 mt 4461 6589 L
+7037 6589 mt 7010 6589 L
+4167 6651 mt 
+(0.6) s
+4435 6222 mt 4461 6222 L
+7037 6222 mt 7010 6222 L
+4167 6284 mt 
+(0.8) s
+4435 5855 mt 4461 5855 L
+7037 5855 mt 7010 5855 L
+4307 5917 mt 
+(1) s
+4435 7690 mt 7037 7690 L
+4435 5855 mt 7037 5855 L
+4435 7690 mt 4435 5855 L
+7037 7690 mt 7037 5855 L
+gs 4435 5855 2603 1836 rc
+24 w
+c8
+3 0 58 2 58 3 57 3 58 3 58 4 58 3 58 3 
+57 2 58 1 58 0 58 -1 58 -2 57 -2 58 -2 58 0 
+58 -3 57 -1 58 -4 58 -4 58 14 58 -19 57 -1 58 -5 
+58 -3 58 35 58 112 57 75 58 -35 58 26 58 95 57 277 
+58 1221 58 -849 58 -615 58 -136 57 -72 58 -30 58 -22 58 -5 
+58 -15 57 -23 58 12 58 -23 58 67 57 -25 4435 7591 47 MP stroke
+DA
+c9
+3 0 58 3 58 3 57 3 58 3 58 4 58 3 58 3 
+57 3 58 0 58 0 58 -1 58 -1 57 -3 58 -1 58 0 
+58 -3 57 -2 58 -4 58 -4 58 14 58 -19 57 -1 58 -5 
+58 -2 58 36 58 112 57 78 58 -32 58 28 58 99 57 287 
+58 1195 58 -866 58 -588 58 -138 57 -74 58 -31 58 -22 58 -6 
+58 -15 57 -24 58 11 58 -22 58 65 57 -28 4435 7593 47 MP stroke
+gr
+
+24 w
+c9
+DA
+0 sg
+5380 8058 mt 
+(Time \(ns\)) s
+4075 7936 mt  -90 rotate
+(Normalized Reflection Strength) s
+90 rotate
+4393 5723 mt 
+(TDR for SWTL: S11, Kaiser Window) s
+SO
+6 w
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF

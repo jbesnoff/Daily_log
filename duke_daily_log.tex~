@@ -1,0 +1,241 @@
+\documentclass[12pt,onecolumn,titlepage]{article}
+\usepackage{geometry} % see geometry.pdf on how to lay out the page. There's lots.
+\geometry{letterpaper} % or letter or a5paper or ... etc
+% \geometry{landscape} % rotated page geometry
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+% See the ``Article customise'' template for come common customisations
+
+%For subfigures/subfloats
+\usepackage[caption=false,font=footnotesize]{subfig}
+
+
+\title{Daily Log}
+\author{Jordan Seth Besnoff \\ Duke University \\ ECE Department \\ \href{mailto:jordan.besnoff@duke.edu}{\nolinkurl{jordan.besnoff@duke.edu}}}
+\date{26 March 2012} % delete this line to display the current date
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\newpage
+
+\section{26 March 2012:}
+
+\textbf{Time in: 9:00 AM} \\
+\textbf{Time out: 6:15 PM} \\
+
+Much of today's work focused on matching a small loop antenna to the NXP tag chips, the SL3S1002FTB1 chip with the TSSOP8 package (the larger chip with 8 pins). Matching with this chip had been attempted before, but without much success. Problems with earlier matching attempts may be due to a few factors: the calibration plane (when using the network analyzer), mode of calibration, power level from the network analyzer, and the reported impedance value from NXP. 
+
+Impedance values read off the network analyzer for the NXP chip were drastically different from that reported in the data sheet, as shown below. This caused the first round of matching to be quite inaccurate, as matching was performed to the specifications as noted on the data sheet, which is seemingly not an accurate representation of the impedance. 
+
+In order to check if the calibration of the network analyzer was done correctly, a single inductor of a known value (plus or minus 5\%) was connected to a coaxial connector, and then to the network analyzer to see if the correct inductance could be read off the smith chart ($R+jX$). Once the inductance was properly verified, the small loop (9.50 mm diameter) and chip were tested. As a secondary check, the electrical delay of the network analyzer was altered so that the open condition was properly set. The electrical delay altered case was not explored while performing matching. Matching was then performed with the chip to match it to $50 \Omega$. After talking with Daniel about calibration planes and the data from the NXP spec sheet, a new calibration was performed with custom made short and load connectors, hopefully shifting the calibration plane to where the chip is seated. The power levels were also altered as the chip is a non-linear device and so is frequency dependent, and because of the existence of a power harvester on the chip. This will cause the components on the chip to function for certain power levels above a threshold (about -15 dBm according to the spec sheet), and below this point, the power drawn will drop. This is essential to reported impedance values on the spec sheet.
+
+\subsection{Inductor Impedance Tests}
+\indent \indent Calibration was performed using the short, open and load coaxial connectors in the SMA box near the network analyzer, not the calibration kit. Span was set from 800 MHz to 1 GHz, and the power level was set to the default value of 0 dBm. Measurements were performed with and without an electrical delay of 63.1 psec, as this value placed the open condition at the right end of the real line on the smith chart where it belongs for a true open. The results of this test are shown below in Figures \ref{fig:inductor_100nH} and \ref{fig:inductor_100nH_elec_delay}.
+
+\begin{figure*}[h!]
+	\centering
+	\subfloat[100 nH Inductor, no electrical delay]{
+	\includegraphics[width=3in]{Pictures/26Mar2012/INDUCTOR_100NH} 
+	\label{fig:inductor_100nH}
+	}
+	\subfloat[100 nH Inductor, with 63.1 psec electrical delay]{
+	\includegraphics[width=3in]{Pictures/26Mar2012/INDUCTOR_100NH_ELEC_DELAY} 
+	\label{fig:inductor_100nH_elec_delay}
+	}
+	\label{fig:inductor_test1}
+	\caption{Singular Inductor Connected To Straight Coaxial Connector}
+%	\caption[Optional caption for list of figures]{Backscattered signal strength as a function of
+%	distance in the saline proxy for various carrier frequencies. Modulated backscatter of 
+%	7.5 MHz in \subref{fig:backscatter_f75}, 15MHz in \subref{fig:backscatter_f15}, and 
+%	30 MHz in \subref{fig:backscatter_f30}.}
+\end{figure*}
+
+In the measurement with no electrical delay, the inductor appears capacitive, with a capacitance of $639.10$ fF. When the electrical delay was used to correct for open condition, the inductor appears inductive with an inductance of $479.24$ nH. All these values are taken at the frequency of interest of 915 MHz. This large error in both cases may be due to the fact that we're on the outer edge of the smith chart, where the network analyzer's error is larger. Another source of error may be the calibration plane, as the inductor is located at the edge of the coaxial pins, and the short used for calibration is close to the mating plane of the connector. Those few mm can make a large difference since the frequency of interest is 915 MHz. 
+
+\subsection{Loop Impedance Tests}
+\indent \indent The small loop antenna, diameter of 9.50 mm, was tested in a similar manner to the inductor, using the same settings. The results from testing the impedance of the small loop at 915 MHz are shown below in Figures \ref{fig:loop} and \ref{fig:loop_elec_delay}.
+
+\begin{figure*}[h!]
+	\centering
+	\subfloat[9.50 mm loop, no electrical delay]{
+	\includegraphics[width=3in]{Pictures/26Mar2012/LOOP} 
+	\label{fig:loop}
+	}
+	\subfloat[9.50 mm loop, with 63.1 psec electrical delay]{
+	\includegraphics[width=3in]{Pictures/26Mar2012/LOOP_ELEC_DELAY} 
+	\label{fig:loop_elec_delay}
+	}
+	\label{fig:loop_test1}
+	\caption{Impedance Of Small Loop Antenna, Diameter = 9.50 mm}
+%	\caption[Optional caption for list of figures]{Backscattered signal strength as a function of
+%	distance in the saline proxy for various carrier frequencies. Modulated backscatter of 
+%	7.5 MHz in \subref{fig:backscatter_f75}, 15MHz in \subref{fig:backscatter_f15}, and 
+%	30 MHz in \subref{fig:backscatter_f30}.}
+\end{figure*}
+
+As expected, the loop appears inductive, both with and without a corrective electrical delay. Unfortunately, it appears that the measured values for the loop don't match up with simulations obtained from Agilent ADS and CST Microwave Studio (not shown here, will include in the future...). Without the electrical delay, the loop's impedance is about $Z=64.5+j388.4\Omega$, which corresponds to an inductance of 67.6 nH, and with the electrical delay the impedance is $Z=11.3+j157.5\Omega$, for an inductance of 27.4 nH.
+
+\subsection{Chip Impedance Tests}
+\indent \indent The chip impedance was again tested in the same manner as the inductor and the small loop antenna. Note here the power level is 0 dBm. The impedance measurements are shown below in Figures \ref{fig:chip} and \ref{fig:chip_elec_delay}.
+
+\begin{figure*}[h!]
+	\centering
+	\subfloat[Chip impedance, no electrical delay]{
+	\includegraphics[width=3in]{Pictures/26Mar2012/CHIP} 
+	\label{fig:chip}
+	}
+	\subfloat[Chip impedance, with 63.1 psec electrical delay]{
+	\includegraphics[width=3in]{Pictures/26Mar2012/CHIP_ELEC_DELAY} 
+	\label{fig:chip_elec_delay}
+	}
+	\label{fig:loop_test1}
+	\caption{Impedance Of NXP SL3S1002FTB1 chip with the TSSOP8 package}
+%	\caption[Optional caption for list of figures]{Backscattered signal strength as a function of
+%	distance in the saline proxy for various carrier frequencies. Modulated backscatter of 
+%	7.5 MHz in \subref{fig:backscatter_f75}, 15MHz in \subref{fig:backscatter_f15}, and 
+%	30 MHz in \subref{fig:backscatter_f30}.}
+\end{figure*}
+
+Without the electrical delay, $Z=29.7-j45.9\Omega$, which is about 3.39 pF, and with the electrical delay $Z=45.6-j64.2\Omega$, or 2.71 pF. These values are significantly different from the reported value on the spec sheet for this package of $Z=16-j148\Omega$, which is 
+
+%Future stuff:
+%Inductor: smaller value, closer to 5 nH or so, to get a better reading, and do this with the new calibration setup
+
+
+
+%31 May 2012
+\clearpage
+\section{31 May 2012:}
+
+%\textbf{Time in: 9:45 AM} \\
+%\textbf{Time out:  PM} \\
+
+
+\indent \indent Focusing on matching both the NXP tag chip (SL3S1002FTB1 chip with the TSSOP8 package) and the small loop antenna (9.50 mm diameter) to 50 $\Omega$ in the saline tank. The calibration here was performed using the Agilent calibration kit (85033E) outside of the tank. Since the calibration kit is sealed, the calibration should not change once inside the tank. No manual calibration correction was performed here (ie: using the electrical delay to move the short \& open to the correct spots on the smith chart), since as long as both the loop and chip are matched to the same relative point with the same calibration, they will be matched when combined. 
+
+\subsection{NXP Tag Chip Impedance in Saline Using Agilent Cal}
+\indent \indent The impedance of the NXP tag chip using the calibration described above is shown below in Figure \ref{fig:chip_agilentcal_saline}. Note, the power level is set to -10.5 dBm.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=5in]{Pictures/31May2012/CHIP_SALINE_AGILENTCAL_NOCORR} % requires the graphicx package
+   \caption{NXP chip impedance in saline using the Agilent calibration kit, no manual calibration correction}
+   \label{fig:chip_agilentcal_saline}
+\end{figure}
+
+The impedance of the NXP chip in the saline for this scenario at 915 MHz is $Z=3.4378 - j57.866 \, \Omega$, which is equivalent to a capacitance of 3.0059 pF.
+
+
+\subsection{Small Loop Impedance in Saline Using Agilent Cal}
+\indent \indent The impedance of the small loop using the calibration described above is shown below in Figure \ref{fig:loop_agilentcal_saline}. The power level is again set to -10.5 dBm.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=5in]{Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_NOCORR} % requires the graphicx package
+   \caption{Small loop impedance in saline using the Agilent calibration kit, no manual calibration correction}
+   \label{fig:loop_agilentcal_saline}
+\end{figure}
+
+The impedance of the small loop in the saline for this scenario at 915 MHz is $Z=123.76 - j32.230 \, \Omega$, which is equivalent to a capacitance of 5.3969 pF.
+
+
+\subsection{Matching NXP Tag Chip in Saline to 50 $\Omega$}
+\indent \indent Using the impedance matching network designer (\url{http://bwrc.eecs.berkeley.edu/research/rf/projects/60ghz/matching/impmatch.html}), the following 2 matching networks shown in Figures \ref{fig:Chip_saline_agilentcal_match1} and \ref{fig:Chip_saline_agilentcal_match2} were determined and then built using the same type of coaxial connector used for testing. 
+
+\begin{figure*}[h!]
+	\centering
+	\subfloat[Matching network 1: Lowpass Hi-low]{
+	\includegraphics[width=3in]{Pictures/31May2012/Chip_saline_agilentcal_match1} 
+	\label{fig:Chip_saline_agilentcal_match1}
+	}
+	\subfloat[Matching network 2: Highpass Low-hi]{
+	\includegraphics[width=3in]{Pictures/31May2012/Chip_saline_agilentcal_match2} 
+	\label{fig:Chip_saline_agilentcal_match2}
+	}
+	\label{fig:Chip_saline_agilentcal_match}
+	\caption{Matching networks for the NXP tag chip}
+%	\caption[Optional caption for list of figures]{Backscattered signal strength as a function of
+%	distance in the saline proxy for various carrier frequencies. Modulated backscatter of 
+%	7.5 MHz in \subref{fig:backscatter_f75}, 15MHz in \subref{fig:backscatter_f15}, and 
+%	30 MHz in \subref{fig:backscatter_f30}.}
+\end{figure*}
+
+
+The resulting impedance with the addition of the matching networks is shown below in Figures \ref{fig:Chip_saline_agilentcal_match1_smithchart} and \ref{fig:Chip_saline_agilentcal_match2_smithchart}. The power level is -10.5 dBm.
+
+\begin{figure*}[h!]
+	\centering
+	\subfloat[Smith chart, matching network 1: Lowpass Hi-low]{
+	\includegraphics[width=3in]{Pictures/31May2012/CHIP_SALINE_MATCH_AGILENTCAL_NOCORR} 
+	\label{fig:Chip_saline_agilentcal_match1_smithchart}
+	}
+	\subfloat[Smith chart, matching network 2: Highpass Low-hi]{
+	\includegraphics[width=3in]{Pictures/31May2012/CHIP_SALINE_MATCH2_AGILENTCAL_NOCORR} 
+	\label{fig:Chip_saline_agilentcal_match2_smithchart}
+	}
+	\label{fig:Chip_saline_agilentcal_match_smithchart}
+	\caption{Resulting impedance using matching networks for the NXP tag chip}
+%	\caption[Optional caption for list of figures]{Backscattered signal strength as a function of
+%	distance in the saline proxy for various carrier frequencies. Modulated backscatter of 
+%	7.5 MHz in \subref{fig:backscatter_f75}, 15MHz in \subref{fig:backscatter_f15}, and 
+%	30 MHz in \subref{fig:backscatter_f30}.}
+\end{figure*}
+
+The impedance using the first matching network at 915 MHz is $Z=185.62+j20.096 \, \Omega$, which is equivalent to an inductance of 3.4955 nH. The second matching network at 915 MHz is $Z=1.4717+j18.428 \, \Omega$, which is equivalent to 3.2053 nH.
+
+
+
+\subsection{Matching Small Loop in Saline to 50 $\Omega$}
+\indent \indent The matching networks shown in Figures \ref{fig:Chip_saline_agilentcal_match1_smithchart} and \ref{fig:Chip_saline_agilentcal_match2_smithchart} were used.
+
+\begin{figure*}[h!]
+	\centering
+	\subfloat[Matching network 1: Lowpass Low-hi]{
+	\includegraphics[width=3in]{Pictures/31May2012/Loop_sngl_turn_saline_agilentcal_match1.png} 
+	\label{fig:Loop_sngl_turn_saline_agilentcal_match1}
+	}
+	\subfloat[Matching network 2: Highpass Low-hi]{
+	\includegraphics[width=3in]{Pictures/31May2012/Loop_sngl_turn_saline_agilentcal_match2.png} 
+	\label{fig:Loop_sngl_turn_saline_agilentcal_match2}
+	}
+	\label{fig:Loop_sngl_turn_saline_agilentcal_match}
+	\caption{Matching networks for the small loop}
+%	\caption[Optional caption for list of figures]{Backscattered signal strength as a function of
+%	distance in the saline proxy for various carrier frequencies. Modulated backscatter of 
+%	7.5 MHz in \subref{fig:backscatter_f75}, 15MHz in \subref{fig:backscatter_f15}, and 
+%	30 MHz in \subref{fig:backscatter_f30}.}
+\end{figure*}
+
+The resulting impedance with the addition of the matching networks is shown below in Figures \ref{fig:LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH1_NOCORR_smithchart} and \ref{fig:LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH2_NOCORR_smithchart}
+
+\begin{figure*}[h!]
+	\centering
+	\subfloat[Smith chart, matching network 1: Lowpass Low-hi]{
+	\includegraphics[width=3in]{Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH1_NOCORR} 
+	\label{fig:LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH1_NOCORR_smithchart}
+	}
+	\subfloat[Smith chart, matching network 2: Highpass Low-hi]{
+	\includegraphics[width=3in]{Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH2_NOCORR} 
+	\label{fig:LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH2_NOCORR_smithchart}
+	}
+	\label{fig:LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH_NOCORR_smithchart}
+	\caption{Resulting impedance using matching networks for the NXP tag chip}
+%	\caption[Optional caption for list of figures]{Backscattered signal strength as a function of
+%	distance in the saline proxy for various carrier frequencies. Modulated backscatter of 
+%	7.5 MHz in \subref{fig:backscatter_f75}, 15MHz in \subref{fig:backscatter_f15}, and 
+%	30 MHz in \subref{fig:backscatter_f30}.}
+\end{figure*}
+
+The impedance using the first matching network at 915 MHz is $Z=70.710-j21.530 \, \Omega$, which is equivalent to a capacitance of 8.0789 nH. The second matching network at 915 MHz is $Z=39.491+j6.6050 \, \Omega$, which is equivalent to 1.1489 nH. While these 2 matching networks do not work perfectly to match the small loop to 50 $\Omega$, it appears that they are close enough, especially for the 2nd matching network, since the close proximity of the components can explain any parasitic capacitance and small wire lengths/solder blobs/slightly incorrect placement can potentially create parasitic inductance. 
+
+
+
+
+%\subsection{}
+
+\end{document}
