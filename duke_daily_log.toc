@@ -153,3 +153,4 @@
 \contentsline {subsubsection}{\numberline {43.1.3}Combining $S_{11}$ and $S_{22}$ Data}{145}{subsubsection.43.1.3}
 \contentsline {subsection}{\numberline {43.2}Verifying Phase Velocity in SWTL in Saline}{147}{subsection.43.2}
 \contentsline {section}{\numberline {44}29 July 2013:}{151}{section.44}
+\contentsline {subsection}{\numberline {44.1}SWTL \& RFID Tag: New Bug3 Chip}{151}{subsection.44.1}

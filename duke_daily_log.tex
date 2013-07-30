@@ -3038,4 +3038,25 @@ Anyway, back to it. A couple of things in the works right now. One big one is th
 
 
 
+\subsection{SWTL \& RFID Tag: New Bug3 Chip}
+\indent \indent Using the newly fabricated Bug3 chip test board, I'm going to re-test it in conjunction with the SWTL submerged in saline. One thing I want to make sure of is that I have the power at the tag measured correctly. The same setup as before is being used, with the amplifier in the transmit path so the RF signal generator can stay in calibrated range. To take all the gains and losses into account, what I can do for each wire is terminate the CPL OUT port of the bi-directional coupler, connect one end of the SWTL system to the OUT port, and the other to the spectrum analyzer. This way, I can set the self-jammer canceler to the appropriate value, run the system through its paces and record the output power at each frequency. Now, I should know the gain at each power and frequency combination, and can use this to compensate and determine the power at the tag's input port. Table \ref{tab:SWTL_w_tag_test_settings_gainresp} shows the test settings used for testing the input power at the tag, and for testing the backscatter from the tag. 
+
+
+
+\begin{table}[h!]
+\centering
+	\caption{ Settings for SWTL and Tag Test }
+	\begin{tabular}{| c | c |}
+	\hline
+	{\bf Setting} & {\bf Value} \\ \hline
+	Self-Jammer Canceler & Short, 5 dB atten.  \\ \hline
+	Reference Level (Tag) & -10 dB  \\ \hline
+	Reference Level (Gain Resp, no Tag) & 15 db \\ \hline
+	Power Sweep & -25:0 (dBm)  \\ \hline
+	\end{tabular}
+\label{tab:SWTL_w_tag_test_settings_gainresp}
+\end{table}
+
+
+
 \end{document}
