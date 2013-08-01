@@ -3028,9 +3028,9 @@ In any case, the computed phase velocity in the SWTL in saline has been confirme
 
 
 
-%July 29, 2013-----------------------------------------------------------------------------------------------------------------------
+%July 29,30,31 2013-----------------------------------------------------------------------------------------------------------------------
 \clearpage
-\section{29 July 2013:}
+\section{29 \& 30 \& 31 July 2013:}
 
 \indent \indent Apologies for the slight hiatus in updates here, but on Thursday, July 25th, Matt announced that he's moving to the University of Washington in Seattle, so it's been tough to do work the last couple as we've all tried to process what we're going to do and how we're going to move ahead with work and everything.
 
@@ -3049,13 +3049,210 @@ Anyway, back to it. A couple of things in the works right now. One big one is th
 	\begin{tabular}{| c | c |}
 	\hline
 	{\bf Setting} & {\bf Value} \\ \hline
-	Self-Jammer Canceler & Short, 5 dB atten.  \\ \hline
+	Self-Jammer Canceler: AWG 36 & Short, 5 dB atten.  \\ \hline
+	Self-Jammer Canceler: AWG 29 & Short, 3 dB atten.  \\ \hline
 	Reference Level (Tag) & -10 dB  \\ \hline
 	Reference Level (Gain Resp, no Tag) & 15 db \\ \hline
-	Power Sweep & -25:0 (dBm)  \\ \hline
+	Power Sweep: AWG 36 & -25:0 (dBm)  \\ \hline
+	Power Sweep: AWG 29 & -25:5 (dBm) \\ \hline
 	\end{tabular}
 \label{tab:SWTL_w_tag_test_settings_gainresp}
 \end{table}
+
+
+
+The settings of the system and power sweep depend upon the wire gauge being tested, as each has a different return and insertion loss. 
+
+
+\subsubsection{AWG 36 SWTL \& RFID Tag}
+\indent \indent Here are the results of using the AWG 36 SWTL and Bug3 chip. We can represent this data in a few different ways. Figures \ref{fig:SWTL_w_tag_AWG36_USB_pwr_Bug3chipA} - \ref{fig:SWTL_w_tag_AWG36_Vunreg_Bug3chipA} show the full 3D representation of the data, with the carrier frequency on the x-axis, and the input power at the tag on the y-axis. From this, we can see that the tag ``turns on" around 5 or 6 dBm, which is expected based on its specs. Also, the harvested voltage follows the expected pattern. However, the scale on the harvested voltage plots is not the same, so it's difficult to compare these two values. A 3D representation is not the best way to present this data. It is much better to present slices of this data at specific frequencies.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[USB Backscatter Power]{
+		\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA} 
+		\label{fig:SWTL_w_tag_AWG36_USB_pwr_Bug3chipA}
+		}
+		\quad
+	\subfigure[Vreg]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG36_Vreg_Bug3chipA}
+	\label{fig:SWTL_w_tag_AWG36_Vreg_Bug3chipA}
+		}
+		
+	\subfigure[Vunreg]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG36_Vunreg_Bug3chipA}
+	\label{fig:SWTL_w_tag_AWG36_Vunreg_Bug3chipA}
+		}
+	\label{fig:SWTL_w_tag_AWG36}
+	\caption{Powering the Bug3 chip (chip ``A") with the AWG 36 SWTL system }
+\end{figure}
+
+
+
+If we take a slice of the data at 915 MHz, the center frequency of the UHF ISM band, we can better picture the data. Figures \ref{fig:SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D} - \ref{fig:SWTL_w_tag_AWG36_BSspec_915MHz} shows this slice of data at 915 MHz. 
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[USB Backscatter Power]{
+		\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D} 
+		\label{fig:SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D}
+		}
+		\quad
+	\subfigure[Harvested Voltage]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D}
+	\label{fig:SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D}
+		}
+		
+	\subfigure[Backscatter Spectrum, power = 4.63 dBm]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG36_BSspec_915MHz}
+	\label{fig:SWTL_w_tag_AWG36_BSspec_915MHz}
+		}
+	\label{fig:SWTL_w_tag_AWG36_2D}
+	\caption{Powering the Bug3 chip (chip ``A") with the AWG 36 SWTL system, 2D slice of the 3D data at 915 MHz }
+\end{figure}
+
+
+
+We have the backscatter power in the upper sideband, the harvested voltage (Vreg and Vunreg), as well as the backscatter spectrum right around where the chip turns on and begins transmitting, around an input power to the tag of +4.63 dBm. This data can't necessarily be demodulated, but the data sidelobes are clearly visible. We can see the tag turn on in the backscatter power plot, as well as the harvested voltage plot, where the turn-on voltage, 1.225 V, has been marked with a dotted black line. The chip reaches regulation around an input power to the tag of +9 dBm. One thing to keep in mind with these plots is that the input power reported on the x-axis is referred to the input terminals of the tag, using measured data. While I thought this was useful at first, it's basically the same as just characterizing the tag without the SWTL system, since it's effectively ``calibrated out" here. So, I think it makes more sense to refer everything to the power before the SWTL system, to get an idea of how effective it is at transmitting power through the lossy media (saline, in this case). To do this, I shorted the CPL OUT port, and measured the output power at the OUT port of the bi-directional coupler for the same frequency and power range. 
+
+Referring the input power to the beginning of the SWTL system, we arrive at Figures \ref{fig:SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D_SWTLref} - \ref{fig:SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D_SWTLref}. The backscatter power and harvested voltage plots have the same shape, obviously, but the scale on the x-axis, the input power, has changed. Now, we can see that the chip turns on when the input power to the SWTL system is approximately +15 dBm. This corresponds to about +5 dBm at the tag's terminals, so the SWTL system has a loss of about 10 dB, which is exactly what was measured previously for the AWG 36 wire. Now that we're referring the input power to the beginning of the SWTL system, we can compare different wire gauges to determine the characteristics and relative performance. 
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[USB Backscatter Power]{
+		\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D_SWTLref} 
+		\label{fig:SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D_SWTLref}
+		}
+		\quad
+	\subfigure[Harvested Voltage]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D_SWTLref}
+	\label{fig:SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D_SWTLref}
+		}
+	\label{fig:SWTL_w_tag_AWG36_2D_SWTLref}
+	\caption{Powering the Bug3 chip (chip ``A") with the AWG 36 SWTL system, 2D slice of the 3D data at 915 MHz, {\bf{referring the input power to the beginning of the SWTL}} }
+\end{figure}
+
+
+
+\subsubsection{AWG 29 SWTL \& RFID Tag}
+\indent \indent Here are the results of running the same tests but with the AWG 29 wire. Figures \ref{fig:SWTL_w_tag_AWG29_USB_pwr_Bug3chipA} - \ref{fig:SWTL_w_tag_AWG29_Vunreg_Bug3chipA} show the 3D results of the backscatter power and harvested voltage sweeping over power and frequency. The power here is referred to the input terminals of the tag. I'm realizing just now that the titles of these plots say ``AWG 36," but I just forgot to change this value in the title. These plots are of the AWG 29 wire. If these need to be changed in the future, the code in SWTL\_saline\_tag\_Bug3chipA.m can be ran again, and the resulting PNG's converted.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[USB Backscatter Power]{
+		\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA} 
+		\label{fig:SWTL_w_tag_AWG29_USB_pwr_Bug3chipA}
+		}
+		\quad
+	\subfigure[Vreg]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG29_Vreg_Bug3chipA}
+	\label{fig:SWTL_w_tag_AWG29_Vreg_Bug3chipA}
+		}
+		
+	\subfigure[Vunreg]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG29_Vunreg_Bug3chipA}
+	\label{fig:SWTL_w_tag_AWG29_Vunreg_Bug3chipA}
+		}
+	\label{fig:SWTL_w_tag_AWG29}
+	\caption{Powering the Bug3 chip (chip ``A") with the AWG 29 SWTL system }
+\end{figure}
+
+
+
+For the AWG 29 wire, the tag appears to turn on around the same input power level as the AWG 36 wire, approximately +5 dBm, since the power here is referred to the tag. The backscatter power jumps from around -55 dBm to -40 dBm at this input power level, and the unregulated and regulated voltages are right around the turn-on threshold of 1.225 V. However, different from the AWG 36 wire, the unregulated voltage does not exceed about 1.2 volts. This is due to the larger loss incurred by the AWG 29 SWTL system, so the input power to the tag doesn't exceed around +8 dBm. Up to this point, the results for the input power to the tag match up quite well, meaning the tag is functioning properly. Once we refer the power to the beginning of the SWTL system, a comparison between the wire gauges can be made.
+
+First, we can take a look at a 2D slice of the characteristics of the tag and SWTL system with the AWG 29 wire at 915 MHz. Figures \ref{fig:SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D} - \ref{fig:SWTL_w_tag_AWG29_BSspec_915MHz} show the tag and SWTL characteristics while the power is swept at a constant frequency of 915 MHz.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[USB Backscatter Power]{
+		\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D} 
+		\label{fig:SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D}
+		}
+		\quad
+	\subfigure[Harvested Voltage]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D}
+	\label{fig:SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D}
+		}
+		
+	\subfigure[Backscatter Spectrum, power = +5.01 dBm]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG29_BSspec_915MHz}
+	\label{fig:SWTL_w_tag_AWG29_BSspec_915MHz}
+		}
+	\label{fig:SWTL_w_tag_AWG29_2D}
+	\caption{Powering the Bug3 chip (chip ``A") with the AWG 29 SWTL system, 2D slice of 3D data at 915 MHz }
+\end{figure}
+
+
+
+Again, we can now clearly see where the tag starts transmitting backscatter, where the sidelobes are visible but might not necessarily be strong enough for demodulation. This appears to happen at about +5.01 dBm, shown by the backscatter power plot, the harvested voltage, and the backscatter spectrum at this measurement point. We can see what happens between the regulated and unregulated voltages as the power at the input terminals increases, and that while the voltages do increase accordingly, the input power to the tag's terminals does not exceed about +8 dBm, so we won't see what happens beyond this input power. This is due to the loss of the SWTL system for the AWG 29 wire and the saturation of the amplifier being used. The amplifier saturates around +24 dBm, and the loss of the AWG 29 SWTL cable assembly is about 15 dB, so the maximum achievable power at the tag's terminals with this setup should be around +8-9 dBm, which is exactly what we're seeing.
+
+Finally, to get a better idea of how well the AWG 29 wire functions as a SWTL when submerged in saline, we can plot the tag's response with the power referred to the beginning of the SWTL cable assembly, just as was done with the AWG 36 data. Figures \ref{fig:SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D_SWTLref} - \ref{fig:SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D_SWTLref} show the results of powering the tag with the AWG 29 SWTL cable assembly, with the power referred to the beginning of the SWTL cable assembly. 
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[USB Backscatter Power]{
+		\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D_SWTLref} 
+		\label{fig:SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D_SWTLref}
+		}
+		\quad
+	\subfigure[Harvested Voltage]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D_SWTLref}
+	\label{fig:SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D_SWTLref}
+		}
+	\label{fig:SWTL_w_tag_AWG29_2D_SWTLref}
+	\caption{Powering the Bug3 chip (chip ``A") with the AWG 29 SWTL system, 2D slice of 3D data at 915 MHz, power referred to the beginning of the SWTL cable assembly }
+\end{figure}
+
+
+
+We can see that the tag doesn't power up and begin transmitting until the power before the SWTL reaches about +20 dBm, compared to about +15 dBm for the AWG 36 wire. In order to compare these wires and the results, we can now place everything on the same plot, using the power referred to the beginning of the SWTL cable assembly.
+
+
+
+\subsubsection{Comparison of RFID Tag \& SWTL Cable Assembly for Different Wire Gauges}
+\indent \indent Using the data with the power reference at the beginning of the SWTL cable assembly, we can compare the performance of the SWTL system for different wire gauges. 
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[USB Backscatter Power]{
+		\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_combineplot} 
+		\label{fig:SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_combineplot}
+		}
+		\quad
+	\subfigure[Vreg]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_combineplot}
+	\label{fig:SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_combineplot}
+		}
+		
+	\subfigure[Vunreg ]{
+	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot}
+	\label{fig:SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot}
+		}
+	\label{fig:SWTL_w_tag_2D_SWTLref_combineplot}
+	\caption{Comparing powering Bug3 chip (``chip A") with SWTL system for different wire gauges, at a frequency of 915 MHz }
+\end{figure}
+
+
+
+a
+
+
+
 
 
 
