@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2008.12.28)  1 AUG 2013 15:21
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2008.12.28)  1 AUG 2013 16:07
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
@@ -3013,17 +3013,17 @@ File: Pictures/31July2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot-ep
 s-converted-to.pdf Graphic file (type pdf)
 
 <use Pictures/31July2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot-eps
--converted-to.pdf>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3259.
- [159 <./Pictures/31July2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_combineplo
-t-eps-converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWT
-Lref_combineplot-eps-converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_Vunreg
-_Bug3chipA_2D_SWTLref_combineplot-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3259.
+-converted-to.pdf> [159 <./Pictures/31July2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_
+SWTLref_combineplot-eps-converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_Vre
+g_Bug3chipA_2D_SWTLref_combineplot-eps-converted-to.pdf> <./Pictures/31July2013
+/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3261.
 
-(./duke_daily_log.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3259.
+[160]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3261.
+ (./duke_daily_log.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3261.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3261.
 
 Package rerunfilecheck Info: File `duke_daily_log.out' has not changed.
 (rerunfilecheck)             Checksum: 26248FC545A274B7CC35EFFCF931FDD8;12599.
@@ -3031,11 +3031,11 @@ Package rerunfilecheck Info: File `duke_daily_log.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3259.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3261.
  ) 
 Here is how much of TeX's memory you used:
- 7881 strings out of 493876
- 150723 string characters out of 1150567
+ 7882 strings out of 493876
+ 150731 string characters out of 1150567
  198260 words of memory out of 3000000
  10380 multiletter control sequences out of 10000+50000
  11872 words of font info for 43 fonts, out of 3000000 for 5000
@@ -3058,9 +3058,9 @@ pe1/bluesky/cm/cmr8.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky
 .pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmsy8.pfb></usr
 /local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb></usr/local/te
 xlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmtt12.pfb>
-Output written on duke_daily_log.pdf (160 pages, 32672125 bytes).
+Output written on duke_daily_log.pdf (161 pages, 32673987 bytes).
 PDF statistics:
- 3729 PDF objects out of 4296 (max. 8388607)
- 554 named destinations out of 1000 (max. 131072)
+ 3733 PDF objects out of 4296 (max. 8388607)
+ 555 named destinations out of 1000 (max. 131072)
  2003 words of extra memory for PDF output out of 10000 (max. 10000000)
 
