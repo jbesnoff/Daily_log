@@ -3258,4 +3258,47 @@ Moreover, the regulated voltage for the AWG 36 wire is essentially always greate
 
 
 
+%August 1, 2 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{1 \& 2 August 2013:}
+
+\indent \indent Since I have results for the performance of an RFID tag being powered by a SWTL submerged in saline for the AWG 36 and 29 wires, I just need to add the AWG 26 wire for a complete picture and comparison. Unfortunately, the AWG 26 wire I have been using appears to have leaked, since in the beginning, I did not properly coat the launcher ends with silicone compound. I think it would be best to quickly make a new AWG 26 cable, and then proceed with this final test.
+
+Other things I would like to get done today: editing the first half of the MTT paper so I can submit it soon (!!!), and taking a look at SAR (specific absorption rate) calculations and how I can incorporate those into the SWTL case. I think there is enough symmetry to do that calculation by hand for the SWTL case, and then I can verify that by simulation once we have the proper software. Also, I can take a look at the limit of the E-field that we can have in biological tissue based on the conductivity ($\sigma$). Basically, I can sweep this variable, and based on the FCC's safe limit of exposure, I can determine where the max field lies. 
+
+\subsection{AWG 26 SWTL \& RFID Tag}
+\indent \indent I've fabricated a new AWG 26 SWTL cable using some of the new coaxial cables we had ordered. I made sure to use the same length cable as previously, to keep the losses consistent among the cables tested for comparison purposes. The new cable is currently being tested for the same properties as the others. Now, the final table for the equipment settings can be updated to include all the cables tested as follows in Table \ref{tab:SWTL_w_tag_test_settings_final}.
+
+
+\begin{table}[h!]
+\centering
+	\caption{ Settings for SWTL and Tag Test }
+	\begin{tabular}{| c | c |}
+	\hline
+	{\bf Setting} & {\bf Value} \\ \hline
+	Self-Jammer Canceler: AWG 36 & Short, 5 dB atten.  \\ \hline
+	Self-Jammer Canceler: AWG 29 & Short, 3 dB atten.  \\ \hline
+	Self-Jammer Canceler: AWG 26 & Short, 4 dB atten.  \\ \hline
+	Reference Level w/ Tag: AWG 36 & -10 dB  \\ \hline
+	Reference Level w/ Tag: AWG 29 & -5 dB  \\ \hline
+	Reference Level w/ Tag: AWG 26 & -5 dB  \\ \hline
+	Reference Level (Gain Resp, no Tag) AWG 36 & 15 dB \\ \hline
+	Reference Level (Gain Resp, no Tag) AWG 29 & 7 dB \\ \hline
+	Reference Level (Gain Resp, no Tag) AWG 26 & 7 dB \\ \hline
+	Power Sweep: AWG 36 & -25:0 (dBm)  \\ \hline
+	Power Sweep: AWG 29 & -25:5 (dBm) \\ \hline
+	Power Sweep: AWG 26 & -25:5 (dBm) \\ \hline
+	\end{tabular}
+\label{tab:SWTL_w_tag_test_settings_final}
+\end{table}
+
+
+Now we have the results of testing the AWG 26 wire with the same RFID tag, the Bug3 chip (``chip A").
+
+
+
+\subsubsection{Tag Response: Power Referred to Tag Input Terminals}
+\indent \indent Just as was done with the other datasets, we can take a look at the tag response referring the power to the input terminals of the tag itself. 
+
+
 \end{document}
