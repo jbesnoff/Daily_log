@@ -160,3 +160,6 @@
 \contentsline {section}{\numberline {45}1 \& 2 August 2013:}{161}{section.45}
 \contentsline {subsection}{\numberline {45.1}AWG 26 SWTL \& RFID Tag}{161}{subsection.45.1}
 \contentsline {subsubsection}{\numberline {45.1.1}Tag Response: Power Referred to Tag Input Terminals}{161}{subsubsection.45.1.1}
+\contentsline {subsubsection}{\numberline {45.1.2}Tag Response: Power Referred to SWTL}{163}{subsubsection.45.1.2}
+\contentsline {subsection}{\numberline {45.2}Final Comparison of RFID Tag \& SWTL Cable Assembly for Different Wire Gauges}{165}{subsection.45.2}
+\contentsline {section}{\numberline {46}5 August 2013:}{166}{section.46}
