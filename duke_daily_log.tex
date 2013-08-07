@@ -3401,29 +3401,102 @@ Ran out of time to do this before I left for the day, so these results are shown
 \clearpage
 \section{5 August 2013:}
 
-\indent \indent Ran out of time yesterday to make the final comparison plots, so here they are now.
+\indent \indent Ran out of time yesterday to make the final comparison plots, so here they are now. Figures \ref{fig:SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges} - \ref{fig:SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges} show the results of comparing all wire gauges tested as SWTL's.
 
 
 
-%\begin{figure}[htbp]
-%	\centering
-%	\subfigure[USB Backscatter Power]{
-%		\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_combineplot} 
-%		\label{fig:SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_combineplot}
-%		}
-%		\quad
-%	\subfigure[Vreg]{
-%	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_combineplot}
-%	\label{fig:SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_combineplot}
-%		}
-%		
-%	\subfigure[Vunreg ]{
-%	\includegraphics[width=0.45\textwidth]{Pictures/31July2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot}
-%	\label{fig:SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot}
-%		}
-%	\label{fig:SWTL_w_tag_2D_SWTLref_combineplot}
-%	\caption{Comparing powering Bug3 chip (``chip A") with SWTL system for different wire gauges, at a frequency of 915 MHz }
-%\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\subfigure[USB Backscatter Power]{
+		\includegraphics[width=0.45\textwidth]{Pictures/5Aug2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges} 
+		\label{fig:SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges}
+		}
+		\quad
+	\subfigure[Vreg]{
+	\includegraphics[width=0.45\textwidth]{Pictures/5Aug2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_allgauges}
+	\label{fig:SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_allgauges}
+		}
+		
+	\subfigure[Vunreg ]{
+	\includegraphics[width=0.45\textwidth]{Pictures/5Aug2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges}
+	\label{fig:SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges}
+		}
+	\label{fig:SWTL_w_tag_2D_SWTLref_allgauges}
+	\caption{Comparing powering Bug3 chip (``chip A") with SWTL system for different wire gauges, at a frequency of 915 MHz }
+\end{figure}
+
+
+Now that all the wires are present and accounted for, we can make some observations. From theory and previous testing, it should have already been clear that the AWG 36 wire would perform the best, and that the AWG 29 and 26 wires would perform roughly the same. For the backscatter power in the upper sideband, we can see that the AWG 36 wire begins backscattering at a lower input power level, as it is less lossy. Also, the peak backscatter power is greater. The AWG 29 and 26 wires cause the tag to turn on at a significantly higher power level (20-22 dBm compared to 15 dBm), and backscatter at a lower power. The only strange occurrence here is that when the tag is off, it appears that the AWG 26 SWTL system reflects more power than the other two. This is not true, and this apparent difference when the tag is off is due to the amplitude reference level on the spectrum analyzer when the measurements were taken. The AWG 36 and 29 wires had a reference level of -10 dBm, and the AWG 26 wire used -5 dBm. The difference was necessary due to the peak power in the carrier. 
+
+Moving on to the harvested voltage plots, the difference is performance is also clear. The regulated voltage plot shows that the only gauge tested that reaches regulation in the power range tested is the AWG 36 SWTL system. The other 2 wire gauges do not reach regulation. Moreover, at each power level tested, the AWG 36 SWTL allowed the tag to harvest more regulated voltage. The AWG 29 wire performed slightly ahead of the AWG 26, as expected based on previous experiments as well. The unregulated voltage tells the same story. The AWG 36 wire reaches the turn on threshold around 16 dBm input to the SWTL system, and the other 2 wire gauges don't reach the threshold until approximately 22 dBm. Furthermore, the AWG 36 SWTL system allows the tag to harvest an excess of voltage, forcing the regulator to maintain the appropriate voltage to other components. 
+
+One final point. The reason the power level at the beginning of the SWTL system stops at approximately 25 dBm is because of the amplifier being used. The amplifier, Mini Circuits ZRL-3500+, has a gain of about 26 dB, and saturates around 24 dBm output power. So, the most power I could get at the beginning of all the SWTL systems was limited by this factor, and this is reason it stops around 25 dBm. For the lossier SWTL cables, namely the AWG 26, which has an overall loss of about 18 dB, this means that the most power I can get at the tag is about 6 - 7 dBm, which is just barely enough to reach the threshold voltage to turn the tag on. This is reflected in the harvested voltage for the AWG 26 and 29 wires, which have roughly the same loss (the AWG 29 is slightly less lossy, around 15 dB or so). The AWG 36 wire is the least lossy, with an overall loss of 10 - 11 dB, so the most power I can get at the tag for this scenario is about 13 dBm, more than enough to turn the tag on and force regulation. 
+
+
+
+
+%August 6, 7, 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{6 \& 7 August 2013:}
+
+\indent \indent Today, I thought I would take a look at the specific absorption rate (SAR), and how this factors into the single-wire transmission line (SWTL) system that I've been working on.
+
+\subsection{General Notes on Specific Absorption Rate (SAR)}
+\indent \indent Specific absorption rate, or SAR, "is a measure of the rate at which energy is absorbed by the body when exposed to a radio frequency (RF) electromagnetic field." That quote is from the first sentence of the wikipedia article on SAR. SAR is defined as the amount of power absorbed per mass of tissue, and has the units of W/kg. 
+
+SAR is typically averaged over the entire body being considered, or it is averaged over a small sample volume, usually 1 g or 10 g of tissue. The values we see cited for SAR are the maximum values measured in the tissue mass of concern. 
+
+Local SAR, at a singular point in the tissue mass, is defined as follows:
+
+\begin{equation}
+\text{SAR} = \frac{\sigma \left| E \right|^2}{\rho}
+\end{equation}
+
+where $\sigma$ is the tissue conductivity in S/m (or mhos/m), $E$ is the RMS electric field strength in V/m, and $\rho$ is the tissue density in kg/cubic meter.
+
+For the SAR over a sample of tissue, we must integrate the local SAR at every point as follows:
+
+\begin{equation}
+\text{SAR} = \int_{\text{sample}} \frac{\sigma \left( \vec{r} \right) \left| E \left( \vec{r} \right) \right|^2}{\rho \left( \vec{r} \right)} \, d \vec{r}
+\end{equation}
+
+where each component is the same as described above. Essentially, we are summing the SAR over a continuous region. 
+
+The limits for SAR are 1.6 W/kg, averaged over a 1 g mass of tissue where the most exposure occurs, for the USA set by the FCC, and 2 W/kg, averaged over a 10 g mass of tissue where the most exposure occurs, for the European Union (EU). 
+
+\subsubsection{A Quick Look at the Maximum $E$-field}
+\indent \indent Based on the maximum allowed SAR in the USA by the FCC of 1.6 W/kg, we can take a look at what the maximum field component can be in different media.
+
+If we consider the 0.91 \% saline that I've been using for testing, we have:
+
+\begin{eqnarray}
+\text{SAR} &=& \frac{\sigma \left| E \right|^2}{\rho} \\
+1.6 &=& \frac{1.4128 \left| E_{max} \right|^2}{1004.675} \\ 
+E_{max} &\approx&  33.7 \, \, \text{V/m}
+\end{eqnarray}
+
+So using the dielectric properties of saline as I had calculated previously (for the BioCAS paper), the maximum RMS $E$-field component can be about 33.7 V/m. It's difficult to say right now if that is a large or small value, but through further investigation, I should be able to find out.
+
+
+\subsection{Simple Example: SAR Around a Single, Non-Tx Line Wire in Dielectric Media}
+\indent \indent As a first step, and to make sure that I'm going about computing the SAR properly, I'm going to try and calculate the SAR around a single conducting wire in a dielectric media. This wire will not be used as a Tx-line, so current is only flowing in one direction.
+
+From my first attempt at a model for the SWTL in a dielectric media, and from the literature, for the $E$-field around an insulated conducting wire in a dielectric, we have the following formula:
+
+\begin{equation}
+% \begin{displaymath}
+   E_{\rho} = \left\{
+     \begin{array}{lr}
+       \frac{q_l}{2 \pi \epsilon_1 r} & : a < r \leq b\\
+       \frac{q_l}{2 \pi \epsilon_2 r} & : b \leq r < c
+     \end{array}
+   \right.
+%\end{displaymath} 
+\end{equation}
+
+where $q_l$ is the charge per unit length on the conductor, $\epsilon_1$ is the 
+
+
 
 
 \end{document}
