@@ -3449,6 +3449,7 @@ SAR is typically averaged over the entire body being considered, or it is averag
 Local SAR, at a singular point in the tissue mass, is defined as follows:
 
 \begin{equation}
+\label{equ:local_SAR}
 \text{SAR} = \frac{\sigma \left| E \right|^2}{\rho}
 \end{equation}
 
@@ -3484,6 +3485,7 @@ So using the dielectric properties of saline as I had calculated previously (for
 From my first attempt at a model for the SWTL in a dielectric media, and from the literature, for the $E$-field around an insulated conducting wire in a dielectric, we have the following formula:
 
 \begin{equation}
+\label{equ:E-field}
 % \begin{displaymath}
    E_{\rho} = \left\{
      \begin{array}{lr}
@@ -3494,7 +3496,57 @@ From my first attempt at a model for the SWTL in a dielectric media, and from th
 %\end{displaymath} 
 \end{equation}
 
-where $q_l$ is the charge per unit length on the conductor, $\epsilon_1$ is the 
+where $q_l$ is the charge per unit length on the conductor, $\epsilon_1$ is the permittivity of the 1st dielectric, $\epsilon_2$ is the permittivity of the 2nd dielectric, and $r$ is the radial distance from the center of the wire. 
+
+I used this formula to try and determine the SAR around a single, non-Tx line, wire surrounded by a normal saline dielectric. I used Equation \ref{equ:E-field} to determine the E-field in each dielectric, and then computed the local SAR at every point based on Equation \ref{equ:local_SAR}. The results are shown below in Figure \ref{fig:SAR_test_single_wire_saline}.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Pictures/6Aug2013/SAR_test_single_wire_saline}
+	\caption{ SAR of a single wire in a normal saline dielectric. The wire is the AWG 36 used for the SWTL tests, and so has an FEP dielectric coating. The charge per unit length on the wire is 100 pC/m. } 
+	\label{fig:SAR_test_single_wire_saline}
+\end{figure}
+
+
+
+The SAR should have radial symmetry, as the E-field emanating from the wire has radial symmetry, and the SAR is directly related to this. At a given distance from the center of the wire, the E-field strength will be the same regardless of angle. But for some reason, we see a strange "cross-like" behavior in the SAR, and I'm not sure why. The SAR is strongest closest to the wire, which makes sense, but it should be radially symmetric. This might be due to a miscalculation of the radial distance in the Matlab script, so I'll look into that.
+
+Also, oddly enough, if I changed the resolution of the plot by adding more points to make it finer, the maximum SAR value, and in fact all the computed SAR values, increased significantly, which does not make any sense. Regardless of the resolution, the SAR values should only depend on the E-field strength at a given point. This is something I'll have to look into further also. I'll give the script a good once-over, because I just scraped it together quickly before the meeting yesterday to show my idea for plots to create and add for a paper.
+
+
+
+
+%August 8, 9, 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{8 \& 9 August 2013:}
+
+\indent \indent Today, I'll be re-taking some measurements in the tank with the SWTL's, mainly to get the USB power plot ready for a paper. Also, I'll be taking a closer look at the SAR calculations for the single wire, since I got some good suggestions from group meeting the other day.
+
+\subsection{Simple SAR Example Revisited: SAR Around a Single, Non-Tx Line Wire in Dielectric Media}
+\indent \indent The other day, I was working on an analytic model of the SAR around a SWTL by first beginning with a single wire in a dielectric media, one that is not a Tx-line and only carries current in one direction. Figure \ref{fig:SAR_test_single_wire_saline} showed my first attempt at this, and it looked a bit off, mainly because of the strange ``cross." It should have been radially symmetric but wasn't, and I figured out why.
+
+\begin{description}
+\item[Problem 1] In computing the SAR, I was squaring a square matrix ($\wedge2$) when it should have been $.\wedge2$ (dot-squaring)
+\item[Problem 2] The reason the maximum SAR appeared to increase with resolution was because I was including the area inside the wire, and the higher the resolution, the closer the discrete values got to 0, and the closer the E-field there blew up to $\infty$
+\end{description}
+
+
+I think those are all the problems that arose from looking over that code again. Essentially, if I can remove the data from inside the wire, as it's invalid anyway, and fix the SAR calculation (which I already have by adding a `.'), the previous SAR plot can be fixed. The fixed plot is showed in Figure \ref{fig:SAR_single_wire_nonTx_AWG36_saline}.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Pictures/9Aug2013/SAR_single_wire_nonTx_AWG36_saline}
+	\caption{ Fixed plot of the SAR surrounding an AWG 36 wire carrying current in a single direction, where the wire is surrounding by a normal saline dielectric. The charge per unit length on the inner conductor is 30 pC/m. } 
+	\label{fig:SAR_single_wire_nonTx_AWG36_saline}
+\end{figure}
+
+
+
+From the SAR plot, we can now see that there is clearly radial symmetry, as there should be. Also, I've removed the SAR that was computed in the FEP dielectric surrounding the inner conductor, represented by the white area on the plot (as this is a cross sectional view of the wire). This was just increasing the value of the maximum SAR, since the radial distance was so small here, and it was throwing off the contrast of the rest of the plot. Also, the black circle on the inside represents the inner conductor.
 
 
 

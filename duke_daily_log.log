@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2008.12.28)  7 AUG 2013 17:14
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2008.12.28)  9 AUG 2013 15:39
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
@@ -346,10 +346,6 @@ LaTeX Warning: Label `fig:SWTL_w_tag_AWG36' multiply defined.
 
 LaTeX Warning: Label `fig:SWTL_w_tag_AWG29' multiply defined.
 
-! Undefined control sequence.
-l.745 \newlab
-             
-? 
 )
 \openout1 = `duke_daily_log.aux'.
 
@@ -440,71 +436,67 @@ LaTeX Info: Redefining \nameref on input line 31.
 \MPscratchDim=\dimen125
 \MPnumerator=\count122
 \everyMPtoPDFconversion=\toks22
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 34.
+ (/usr/local/texlive/2008/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ) [1
 
 {/usr/local/texlive/2008/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+wasy on input line 34.
-
-(/usr/local/texlive/2008/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+(./duke_daily_log.tocpdfTeX warning (ext4): destination with the same identifie
+r (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 \tableofcontents
-                      [1] (./duke_daily_log.toc)
+l.33 ...rline {9}26 February 2013:}{38}{section.9}
+                                                   [1] [2] [3] [4] [5])
 \tf@toc=\write4
 \openout4 = `duke_daily_log.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.36 \newpage
-              [1]
+
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-[2] <Pictures/26Mar2012/INDUCTOR_100NH.pdf, id=651, 642.4pt x 481.8pt>
+[7] <Pictures/26Mar2012/INDUCTOR_100NH.pdf, id=909, 642.4pt x 481.8pt>
 File: Pictures/26Mar2012/INDUCTOR_100NH.pdf Graphic file (type pdf)
 
 <use Pictures/26Mar2012/INDUCTOR_100NH.pdf>
-<Pictures/26Mar2012/INDUCTOR_100NH_ELEC_DELAY.pdf, id=652, 642.4pt x 481.8pt>
+<Pictures/26Mar2012/INDUCTOR_100NH_ELEC_DELAY.pdf, id=910, 642.4pt x 481.8pt>
 File: Pictures/26Mar2012/INDUCTOR_100NH_ELEC_DELAY.pdf Graphic file (type pdf)
 
 <use Pictures/26Mar2012/INDUCTOR_100NH_ELEC_DELAY.pdf>
-<Pictures/26Mar2012/LOOP.pdf, id=655, 642.4pt x 481.8pt>
+<Pictures/26Mar2012/LOOP.pdf, id=913, 642.4pt x 481.8pt>
 File: Pictures/26Mar2012/LOOP.pdf Graphic file (type pdf)
 
 <use Pictures/26Mar2012/LOOP.pdf>
-<Pictures/26Mar2012/LOOP_ELEC_DELAY.pdf, id=656, 642.4pt x 481.8pt>
+<Pictures/26Mar2012/LOOP_ELEC_DELAY.pdf, id=914, 642.4pt x 481.8pt>
 File: Pictures/26Mar2012/LOOP_ELEC_DELAY.pdf Graphic file (type pdf)
 
 <use Pictures/26Mar2012/LOOP_ELEC_DELAY.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./Pictures/26Mar2012/INDUCTOR_100NH.pdf> <./Pictures/26Mar2012/INDUCTOR_100
-NH_ELEC_DELAY.pdf>] <Pictures/26Mar2012/CHIP.pdf, id=687, 642.4pt x 481.8pt>
+[8 <./Pictures/26Mar2012/INDUCTOR_100NH.pdf> <./Pictures/26Mar2012/INDUCTOR_100
+NH_ELEC_DELAY.pdf>] <Pictures/26Mar2012/CHIP.pdf, id=945, 642.4pt x 481.8pt>
 File: Pictures/26Mar2012/CHIP.pdf Graphic file (type pdf)
 
 <use Pictures/26Mar2012/CHIP.pdf>
-<Pictures/26Mar2012/CHIP_ELEC_DELAY.pdf, id=688, 642.4pt x 481.8pt>
+<Pictures/26Mar2012/CHIP_ELEC_DELAY.pdf, id=946, 642.4pt x 481.8pt>
 File: Pictures/26Mar2012/CHIP_ELEC_DELAY.pdf Graphic file (type pdf)
 
-<use Pictures/26Mar2012/CHIP_ELEC_DELAY.pdf> [4 <./Pictures/26Mar2012/LOOP.pdf>
- <./Pictures/26Mar2012/LOOP_ELEC_DELAY.pdf>] [5 <./Pictures/26Mar2012/CHIP.pdf>
- <./Pictures/26Mar2012/CHIP_ELEC_DELAY.pdf>]
-<Pictures/31May2012/CHIP_SALINE_AGILENTCAL_NOCORR.png, id=740, 642.4pt x 481.8p
+<use Pictures/26Mar2012/CHIP_ELEC_DELAY.pdf> [9 <./Pictures/26Mar2012/LOOP.pdf>
+ <./Pictures/26Mar2012/LOOP_ELEC_DELAY.pdf>] [10 <./Pictures/26Mar2012/CHIP.pdf
+> <./Pictures/26Mar2012/CHIP_ELEC_DELAY.pdf>]
+<Pictures/31May2012/CHIP_SALINE_AGILENTCAL_NOCORR.png, id=997, 642.4pt x 481.8p
 t>
 File: Pictures/31May2012/CHIP_SALINE_AGILENTCAL_NOCORR.png Graphic file (type p
 ng)
- <use Pictures/31May2012/CHIP_SALINE_AGILENTCAL_NOCORR.png> [6
+ <use Pictures/31May2012/CHIP_SALINE_AGILENTCAL_NOCORR.png> [11
 
  <./Pictures/31May2012/CHIP_SALINE_AGILENTCAL_NOCORR.png (PNG copy)>]
-<Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_NOCORR.png, id=748, 642.4p
-t x 481.8pt>
+<Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_NOCORR.png, id=1005, 642.4
+pt x 481.8pt>
 File: Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_NOCORR.png Graphic fi
 le (type png)
 
@@ -528,28 +520,28 @@ Overfull \hbox (19.27344pt too wide) in paragraph at lines 160--161
  []
 
 
-<Pictures/31May2012/Chip_saline_agilentcal_match1.png, id=752, 420.57124pt x 15
-9.59625pt>
+<Pictures/31May2012/Chip_saline_agilentcal_match1.png, id=1009, 420.57124pt x 1
+59.59625pt>
 File: Pictures/31May2012/Chip_saline_agilentcal_match1.png Graphic file (type p
 ng)
  <use Pictures/31May2012/Chip_saline_agilentcal_match1.png>
-<Pictures/31May2012/Chip_saline_agilentcal_match2.png, id=753, 388.45125pt x 17
-8.6675pt>
+<Pictures/31May2012/Chip_saline_agilentcal_match2.png, id=1010, 388.45125pt x 1
+78.6675pt>
 File: Pictures/31May2012/Chip_saline_agilentcal_match2.png Graphic file (type p
 ng)
  <use Pictures/31May2012/Chip_saline_agilentcal_match2.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_NOCORR.png (PNG copy)
->]
-<Pictures/31May2012/CHIP_SALINE_MATCH_AGILENTCAL_NOCORR.pdf, id=765, 642.4pt x 
-481.8pt>
+[12 <./Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_NOCORR.png (PNG copy
+)>]
+<Pictures/31May2012/CHIP_SALINE_MATCH_AGILENTCAL_NOCORR.pdf, id=1023, 642.4pt x
+ 481.8pt>
 File: Pictures/31May2012/CHIP_SALINE_MATCH_AGILENTCAL_NOCORR.pdf Graphic file (
 type pdf)
  <use Pictures/31May2012/CHIP_SALINE_MATCH_AGILENTCAL_NOCORR.pdf>
-<Pictures/31May2012/CHIP_SALINE_MATCH2_AGILENTCAL_NOCORR.pdf, id=766, 642.4pt x
- 481.8pt>
+<Pictures/31May2012/CHIP_SALINE_MATCH2_AGILENTCAL_NOCORR.pdf, id=1024, 642.4pt 
+x 481.8pt>
 File: Pictures/31May2012/CHIP_SALINE_MATCH2_AGILENTCAL_NOCORR.pdf Graphic file 
 (type pdf)
  <use Pictures/31May2012/CHIP_SALINE_MATCH2_AGILENTCAL_NOCORR.pdf>
@@ -566,14 +558,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 205.
 
 
-<Pictures/31May2012/Loop_sngl_turn_saline_agilentcal_match1.png, id=769, 391.46
-25pt x 170.6375pt>
+<Pictures/31May2012/Loop_sngl_turn_saline_agilentcal_match1.png, id=1027, 391.4
+625pt x 170.6375pt>
 File: Pictures/31May2012/Loop_sngl_turn_saline_agilentcal_match1.png Graphic fi
 le (type png)
 
 <use Pictures/31May2012/Loop_sngl_turn_saline_agilentcal_match1.png>
-<Pictures/31May2012/Loop_sngl_turn_saline_agilentcal_match2.png, id=770, 391.46
-25pt x 178.6675pt>
+<Pictures/31May2012/Loop_sngl_turn_saline_agilentcal_match2.png, id=1028, 391.4
+625pt x 178.6675pt>
 File: Pictures/31May2012/Loop_sngl_turn_saline_agilentcal_match2.png Graphic fi
 le (type png)
 
@@ -582,14 +574,14 @@ le (type png)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH1_NOCORR.png, id=773,
- 642.4pt x 481.8pt>
+<Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH1_NOCORR.png, id=1031
+, 642.4pt x 481.8pt>
 File: Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH1_NOCORR.png Gra
 phic file (type png)
 
 <use Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH1_NOCORR.png>
-<Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH2_NOCORR.png, id=774,
- 642.4pt x 481.8pt>
+<Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH2_NOCORR.png, id=1032
+, 642.4pt x 481.8pt>
 File: Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGILENTCAL_MATCH2_NOCORR.png Gra
 phic file (type png)
 
@@ -597,19 +589,20 @@ phic file (type png)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./Pictures/31May2012/Chip_saline_agilentcal_match1.png (PNG copy)> <./Pictu
-res/31May2012/Chip_saline_agilentcal_match2.png (PNG copy)> <./Pictures/31May20
-12/CHIP_SALINE_MATCH_AGILENTCAL_NOCORR.pdf> <./Pictures/31May2012/CHIP_SALINE_M
-ATCH2_AGILENTCAL_NOCORR.pdf>] [9 <./Pictures/31May2012/Loop_sngl_turn_saline_ag
-ilentcal_match1.png (PNG copy)> <./Pictures/31May2012/Loop_sngl_turn_saline_agi
-lentcal_match2.png (PNG copy)> <./Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AGIL
-ENTCAL_MATCH1_NOCORR.png (PNG copy)> <./Pictures/31May2012/LOOP_SNGL_TURN_SALIN
-E_AGILENTCAL_MATCH2_NOCORR.png (PNG copy)>] [10
+[13 <./Pictures/31May2012/Chip_saline_agilentcal_match1.png (PNG copy)> <./Pict
+ures/31May2012/Chip_saline_agilentcal_match2.png (PNG copy)> <./Pictures/31May2
+012/CHIP_SALINE_MATCH_AGILENTCAL_NOCORR.pdf> <./Pictures/31May2012/CHIP_SALINE_
+MATCH2_AGILENTCAL_NOCORR.pdf>] [14 <./Pictures/31May2012/Loop_sngl_turn_saline_
+agilentcal_match1.png (PNG copy)> <./Pictures/31May2012/Loop_sngl_turn_saline_a
+gilentcal_match2.png (PNG copy)> <./Pictures/31May2012/LOOP_SNGL_TURN_SALINE_AG
+ILENTCAL_MATCH1_NOCORR.png (PNG copy)> <./Pictures/31May2012/LOOP_SNGL_TURN_SAL
+INE_AGILENTCAL_MATCH2_NOCORR.png (PNG copy)>] [15
 
 ]
-<Pictures/18Feb2013/alt_Rx_architecture.pdf, id=823, 777.90625pt x 318.18875pt>
+<Pictures/18Feb2013/alt_Rx_architecture.pdf, id=1081, 777.90625pt x 318.18875pt
+>
 File: Pictures/18Feb2013/alt_Rx_architecture.pdf Graphic file (type pdf)
-<use Pictures/18Feb2013/alt_Rx_architecture.pdf>
+ <use Pictures/18Feb2013/alt_Rx_architecture.pdf>
 Package epstopdf Info: Source file: <Pictures/18Feb2013/alt_Rx_architecture_can
 celer.eps>
 (epstopdf)                    date: 2013-02-18 13:38:06
@@ -624,8 +617,8 @@ e_canceler.eps>
 (epstopdf)             \includegraphics on input line 277.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/18Feb2013/alt_Rx_architecture_canceler-eps-converted-to.pdf, id=824, 
-505.89pt x 361.35pt>
+<Pictures/18Feb2013/alt_Rx_architecture_canceler-eps-converted-to.pdf, id=1082,
+ 505.89pt x 361.35pt>
 File: Pictures/18Feb2013/alt_Rx_architecture_canceler-eps-converted-to.pdf Grap
 hic file (type pdf)
 
@@ -634,10 +627,10 @@ Underfull \hbox (badness 1515) in paragraph at lines 277--277
 \OT1/cmr/m/n/10 ceiver ar-chi-tec-ture with and with-out self-
  []
 
-[11 <./Pictures/18Feb2013/alt_Rx_architecture.pdf> <./Pictures/18Feb2013/alt_Rx
+[16 <./Pictures/18Feb2013/alt_Rx_architecture.pdf> <./Pictures/18Feb2013/alt_Rx
 _architecture_canceler-eps-converted-to.pdf>]
-<Pictures/18Feb2013/orig_23dBcoup_Rx_architecture.pdf, id=887, 590.205pt x 366.
-36874pt>
+<Pictures/18Feb2013/orig_23dBcoup_Rx_architecture.pdf, id=1144, 590.205pt x 366
+.36874pt>
 File: Pictures/18Feb2013/orig_23dBcoup_Rx_architecture.pdf Graphic file (type p
 df)
  <use Pictures/18Feb2013/orig_23dBcoup_Rx_architecture.pdf>
@@ -656,15 +649,15 @@ architecture_canceler_23dBcoup.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/18Feb2013/orig_Rx_architecture_canceler_23dBcoup-eps-converted-to.pdf
-, id=888, 505.89pt x 361.35pt>
+, id=1145, 505.89pt x 361.35pt>
 File: Pictures/18Feb2013/orig_Rx_architecture_canceler_23dBcoup-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use Pictures/18Feb2013/orig_Rx_architecture_canceler_23dBcoup-eps-converted-to
-.pdf> [12 <./Pictures/18Feb2013/orig_23dBcoup_Rx_architecture.pdf> <./Pictures/
+.pdf> [17 <./Pictures/18Feb2013/orig_23dBcoup_Rx_architecture.pdf> <./Pictures/
 18Feb2013/orig_Rx_architecture_canceler_23dBcoup-eps-converted-to.pdf>]
-<Pictures/18Feb2013/orig_10dBcoup_Rx_architecture.pdf, id=943, 590.205pt x 366.
-36874pt>
+<Pictures/18Feb2013/orig_10dBcoup_Rx_architecture.pdf, id=1200, 590.205pt x 366
+.36874pt>
 File: Pictures/18Feb2013/orig_10dBcoup_Rx_architecture.pdf Graphic file (type p
 df)
  <use Pictures/18Feb2013/orig_10dBcoup_Rx_architecture.pdf>
@@ -683,7 +676,7 @@ architecture_canceler_10dBcoup.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/18Feb2013/orig_Rx_architecture_canceler_10dBcoup-eps-converted-to.pdf
-, id=944, 505.89pt x 361.35pt>
+, id=1201, 505.89pt x 361.35pt>
 File: Pictures/18Feb2013/orig_Rx_architecture_canceler_10dBcoup-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -692,7 +685,7 @@ o.pdf Graphic file (type pdf)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14 <./Pictures/18Feb2013/orig_10dBcoup_Rx_architecture.pdf> <./Pictures/1
+[18] [19 <./Pictures/18Feb2013/orig_10dBcoup_Rx_architecture.pdf> <./Pictures/1
 8Feb2013/orig_Rx_architecture_canceler_10dBcoup-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/19Feb2013/VHarvest_small_oct_loop
 _retune.eps>
@@ -708,13 +701,13 @@ ct_loop_retune.eps>
 (epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/19Feb2013/VHarvest_small_oct_loop_retune-eps-converted-to.pdf, id=100
-1, 505.89pt x 361.35pt>
+<Pictures/19Feb2013/VHarvest_small_oct_loop_retune-eps-converted-to.pdf, id=125
+9, 505.89pt x 361.35pt>
 File: Pictures/19Feb2013/VHarvest_small_oct_loop_retune-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
 <use Pictures/19Feb2013/VHarvest_small_oct_loop_retune-eps-converted-to.pdf>
-[15
+[20
 
  <./Pictures/19Feb2013/VHarvest_small_oct_loop_retune-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/19Feb2013/return_signal_strength_
@@ -732,12 +725,12 @@ turn_signal_strength_small_oct_loop_retune.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/19Feb2013/return_signal_strength_small_oct_loop_retune-eps-converted-
-to.pdf, id=1015, 505.89pt x 361.35pt>
+to.pdf, id=1273, 505.89pt x 361.35pt>
 File: Pictures/19Feb2013/return_signal_strength_small_oct_loop_retune-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
 <use Pictures/19Feb2013/return_signal_strength_small_oct_loop_retune-eps-conver
-ted-to.pdf> [16 <./Pictures/19Feb2013/return_signal_strength_small_oct_loop_ret
+ted-to.pdf> [21 <./Pictures/19Feb2013/return_signal_strength_small_oct_loop_ret
 une-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/19Feb2013/rejection_ratio_retune.
 eps>
@@ -753,13 +746,13 @@ ps>
 (epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/19Feb2013/rejection_ratio_retune-eps-converted-to.pdf, id=1028, 505.8
+<Pictures/19Feb2013/rejection_ratio_retune-eps-converted-to.pdf, id=1286, 505.8
 9pt x 361.35pt>
 File: Pictures/19Feb2013/rejection_ratio_retune-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
-<use Pictures/19Feb2013/rejection_ratio_retune-eps-converted-to.pdf> [17 <./Pic
-tures/19Feb2013/rejection_ratio_retune-eps-converted-to.pdf>] [18]
+<use Pictures/19Feb2013/rejection_ratio_retune-eps-converted-to.pdf> [22 <./Pic
+tures/19Feb2013/rejection_ratio_retune-eps-converted-to.pdf>] [23]
 Package epstopdf Info: Source file: <Pictures/20Feb2013/BS_envelope_amplifier_c
 omparison.eps>
 (epstopdf)                    date: 2013-02-20 16:26:11
@@ -775,7 +768,7 @@ plifier_comparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/20Feb2013/BS_envelope_amplifier_comparison-eps-converted-to.pdf, id=1
-048, 505.89pt x 361.35pt>
+305, 505.89pt x 361.35pt>
 File: Pictures/20Feb2013/BS_envelope_amplifier_comparison-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -783,10 +776,10 @@ Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19
+[24
 
-] [20 <./Pictures/20Feb2013/BS_envelope_amplifier_comparison-eps-converted-to.p
-df>] [21]
+] [25 <./Pictures/20Feb2013/BS_envelope_amplifier_comparison-eps-converted-to.p
+df>] [26]
 Package epstopdf Info: Source file: <Pictures/21Feb2013/regulator_damage_test.e
 ps>
 (epstopdf)                    date: 2013-02-21 11:41:58
@@ -801,22 +794,22 @@ r_damage_test-eps-converted-to.pdf Pictures/21Feb2013/regulator_damage_test.eps
 (epstopdf)             \includegraphics on input line 474.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/21Feb2013/regulator_damage_test-eps-converted-to.pdf, id=1074, 505.89
+<Pictures/21Feb2013/regulator_damage_test-eps-converted-to.pdf, id=1332, 505.89
 pt x 361.35pt>
 File: Pictures/21Feb2013/regulator_damage_test-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
-<use Pictures/21Feb2013/regulator_damage_test-eps-converted-to.pdf> [22
+<use Pictures/21Feb2013/regulator_damage_test-eps-converted-to.pdf> [27
 
 ]
-<Pictures/21Feb2013/Chip_in_glove.pdf, id=1084, 722.7pt x 542.025pt>
+<Pictures/21Feb2013/Chip_in_glove.pdf, id=1342, 722.7pt x 542.025pt>
 File: Pictures/21Feb2013/Chip_in_glove.pdf Graphic file (type pdf)
 
 <use Pictures/21Feb2013/Chip_in_glove.pdf>
-<Pictures/21Feb2013/possible_MN_corrosion.pdf, id=1085, 714.67pt x 506.89375pt>
+<Pictures/21Feb2013/possible_MN_corrosion.pdf, id=1343, 714.67pt x 506.89375pt>
 File: Pictures/21Feb2013/possible_MN_corrosion.pdf Graphic file (type pdf)
-<use Pictures/21Feb2013/possible_MN_corrosion.pdf> [23 <./Pictures/21Feb2013/re
-gulator_damage_test-eps-converted-to.pdf>] [24 <./Pictures/21Feb2013/Chip_in_gl
+<use Pictures/21Feb2013/possible_MN_corrosion.pdf> [28 <./Pictures/21Feb2013/re
+gulator_damage_test-eps-converted-to.pdf>] [29 <./Pictures/21Feb2013/Chip_in_gl
 ove.pdf> <./Pictures/21Feb2013/possible_MN_corrosion.pdf>]
 Overfull \hbox (0.45767pt too wide) in paragraph at lines 515--516
 []\OT1/cmr/m/n/12 To en-sure that the newly sol-dered Bug3 chips work, I had to
@@ -836,7 +829,7 @@ _impedance-eps-converted-to.pdf Pictures/22Feb2013/chip1_FS_impedance.eps>
 (epstopdf)             \includegraphics on input line 524.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22Feb2013/chip1_FS_impedance-eps-converted-to.pdf, id=1149, 505.89pt 
+<Pictures/22Feb2013/chip1_FS_impedance-eps-converted-to.pdf, id=1406, 505.89pt 
 x 361.35pt>
 File: Pictures/22Feb2013/chip1_FS_impedance-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -854,21 +847,21 @@ _impedance-eps-converted-to.pdf Pictures/22Feb2013/chip2_FS_impedance.eps>
 (epstopdf)             \includegraphics on input line 529.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22Feb2013/chip2_FS_impedance-eps-converted-to.pdf, id=1150, 505.89pt 
+<Pictures/22Feb2013/chip2_FS_impedance-eps-converted-to.pdf, id=1407, 505.89pt 
 x 361.35pt>
 File: Pictures/22Feb2013/chip2_FS_impedance-eps-converted-to.pdf Graphic file (
 type pdf)
  <use Pictures/22Feb2013/chip2_FS_impedance-eps-converted-to.pdf>
-[25
+[30
 
 ]
 Overfull \hbox (68.66695pt too wide) in paragraph at lines 554--567
  [][] 
  []
 
-[26] [27 <./Pictures/22Feb2013/chip1_FS_impedance-eps-converted-to.pdf> <./Pict
+[31] [32 <./Pictures/22Feb2013/chip1_FS_impedance-eps-converted-to.pdf> <./Pict
 ures/22Feb2013/chip2_FS_impedance-eps-converted-to.pdf>]
-<Pictures/25Feb2013/Chip1_MN_schematic.pdf, id=1197, 334.24875pt x 151.56625pt>
+<Pictures/25Feb2013/Chip1_MN_schematic.pdf, id=1455, 334.24875pt x 151.56625pt>
 File: Pictures/25Feb2013/Chip1_MN_schematic.pdf Graphic file (type pdf)
 <use Pictures/25Feb2013/Chip1_MN_schematic.pdf>
 Package epstopdf Info: Source file: <Pictures/25Feb2013/Chip1_MN_Smith.eps>
@@ -883,7 +876,7 @@ _Smith-eps-converted-to.pdf Pictures/25Feb2013/Chip1_MN_Smith.eps>
 (epstopdf)             \includegraphics on input line 599.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/25Feb2013/Chip1_MN_Smith-eps-converted-to.pdf, id=1198, 505.89pt x 36
+<Pictures/25Feb2013/Chip1_MN_Smith-eps-converted-to.pdf, id=1456, 505.89pt x 36
 1.35pt>
 File: Pictures/25Feb2013/Chip1_MN_Smith-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -900,11 +893,11 @@ _logmag-eps-converted-to.pdf Pictures/25Feb2013/Chip1_MN_logmag.eps>
 (epstopdf)             \includegraphics on input line 604.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/25Feb2013/Chip1_MN_logmag-eps-converted-to.pdf, id=1199, 505.89pt x 3
+<Pictures/25Feb2013/Chip1_MN_logmag-eps-converted-to.pdf, id=1457, 505.89pt x 3
 61.35pt>
 File: Pictures/25Feb2013/Chip1_MN_logmag-eps-converted-to.pdf Graphic file (typ
 e pdf)
- <use Pictures/25Feb2013/Chip1_MN_logmag-eps-converted-to.pdf> [28
+ <use Pictures/25Feb2013/Chip1_MN_logmag-eps-converted-to.pdf> [33
 
  <./Pictures/25Feb2013/Chip1_MN_schematic.pdf>]
 Package epstopdf Info: Source file: <Pictures/25Feb2013/sngl_loop_saline_smith.
@@ -921,7 +914,7 @@ ps>
 (epstopdf)             \includegraphics on input line 629.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/25Feb2013/sngl_loop_saline_smith-eps-converted-to.pdf, id=1232, 505.8
+<Pictures/25Feb2013/sngl_loop_saline_smith-eps-converted-to.pdf, id=1490, 505.8
 9pt x 361.35pt>
 File: Pictures/25Feb2013/sngl_loop_saline_smith-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -940,13 +933,13 @@ p_saline_RL-eps-converted-to.pdf Pictures/25Feb2013/sngl_loop_saline_RL.eps>
 (epstopdf)             \includegraphics on input line 634.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/25Feb2013/sngl_loop_saline_RL-eps-converted-to.pdf, id=1233, 505.89pt
+<Pictures/25Feb2013/sngl_loop_saline_RL-eps-converted-to.pdf, id=1491, 505.89pt
  x 361.35pt>
 File: Pictures/25Feb2013/sngl_loop_saline_RL-eps-converted-to.pdf Graphic file 
 (type pdf)
  <use Pictures/25Feb2013/sngl_loop_saline_RL-eps-converted-to.pdf>
-[29 <./Pictures/25Feb2013/Chip1_MN_Smith-eps-converted-to.pdf> <./Pictures/25Fe
-b2013/Chip1_MN_logmag-eps-converted-to.pdf>] [30 <./Pictures/25Feb2013/sngl_loo
+[34 <./Pictures/25Feb2013/Chip1_MN_Smith-eps-converted-to.pdf> <./Pictures/25Fe
+b2013/Chip1_MN_logmag-eps-converted-to.pdf>] [35 <./Pictures/25Feb2013/sngl_loo
 p_saline_smith-eps-converted-to.pdf> <./Pictures/25Feb2013/sngl_loop_saline_RL-
 eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/25Feb2013/chip1_saline_impedance.
@@ -963,7 +956,7 @@ ps>
 (epstopdf)             \includegraphics on input line 667.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/25Feb2013/chip1_saline_impedance-eps-converted-to.pdf, id=1284, 505.8
+<Pictures/25Feb2013/chip1_saline_impedance-eps-converted-to.pdf, id=1540, 505.8
 9pt x 361.35pt>
 File: Pictures/25Feb2013/chip1_saline_impedance-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -983,7 +976,7 @@ ps>
 (epstopdf)             \includegraphics on input line 672.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/25Feb2013/chip2_saline_impedance-eps-converted-to.pdf, id=1285, 505.8
+<Pictures/25Feb2013/chip2_saline_impedance-eps-converted-to.pdf, id=1541, 505.8
 9pt x 361.35pt>
 File: Pictures/25Feb2013/chip2_saline_impedance-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -996,14 +989,14 @@ Overfull \hbox (68.66695pt too wide) in paragraph at lines 684--697
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31 <./Pictures/25Feb2013/chip1_saline_impedance-eps-converted-to.pdf> <./Pictu
-res/25Feb2013/chip2_saline_impedance-eps-converted-to.pdf>] [32]
+[36 <./Pictures/25Feb2013/chip1_saline_impedance-eps-converted-to.pdf> <./Pictu
+res/25Feb2013/chip2_saline_impedance-eps-converted-to.pdf>] [37]
 Overfull \hbox (7.09084pt too wide) in paragraph at lines 720--721
 []\OT1/cmr/m/n/12 Continuing to match the chip to the con-ju-gate of the small 
 loop an-tenna impedance. 
  []
 
-<Pictures/26Feb2013/Chip1_MN1_saline.pdf, id=1326, 337.26pt x 144.54pt>
+<Pictures/26Feb2013/Chip1_MN1_saline.pdf, id=1583, 337.26pt x 144.54pt>
 File: Pictures/26Feb2013/Chip1_MN1_saline.pdf Graphic file (type pdf)
 
 <use Pictures/26Feb2013/Chip1_MN1_saline.pdf>
@@ -1021,16 +1014,16 @@ ps>
 (epstopdf)             \includegraphics on input line 738.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/26Feb2013/Chip1_MN1_saline_smith-eps-converted-to.pdf, id=1327, 505.8
+<Pictures/26Feb2013/Chip1_MN1_saline_smith-eps-converted-to.pdf, id=1584, 505.8
 9pt x 361.35pt>
 File: Pictures/26Feb2013/Chip1_MN1_saline_smith-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
-<use Pictures/26Feb2013/Chip1_MN1_saline_smith-eps-converted-to.pdf> [33
+<use Pictures/26Feb2013/Chip1_MN1_saline_smith-eps-converted-to.pdf> [38
 
  <./Pictures/26Feb2013/Chip1_MN1_saline.pdf> <./Pictures/26Feb2013/Chip1_MN1_sa
 line_smith-eps-converted-to.pdf>]
-<Pictures/26Feb2013/Chip1_MN2_saline.pdf, id=1366, 337.26pt x 144.54pt>
+<Pictures/26Feb2013/Chip1_MN2_saline.pdf, id=1623, 337.26pt x 144.54pt>
 File: Pictures/26Feb2013/Chip1_MN2_saline.pdf Graphic file (type pdf)
 
 <use Pictures/26Feb2013/Chip1_MN2_saline.pdf>
@@ -1048,14 +1041,14 @@ ps>
 (epstopdf)             \includegraphics on input line 766.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/26Feb2013/Chip1_MN2_saline_smith-eps-converted-to.pdf, id=1367, 505.8
+<Pictures/26Feb2013/Chip1_MN2_saline_smith-eps-converted-to.pdf, id=1624, 505.8
 9pt x 361.35pt>
 File: Pictures/26Feb2013/Chip1_MN2_saline_smith-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
-<use Pictures/26Feb2013/Chip1_MN2_saline_smith-eps-converted-to.pdf> [34 <./Pic
+<use Pictures/26Feb2013/Chip1_MN2_saline_smith-eps-converted-to.pdf> [39 <./Pic
 tures/26Feb2013/Chip1_MN2_saline.pdf> <./Pictures/26Feb2013/Chip1_MN2_saline_sm
-ith-eps-converted-to.pdf>] [35] [36
+ith-eps-converted-to.pdf>] [40] [41
 
 ]
 Package epstopdf Info: Source file: <Pictures/28Feb2013/sngl_loop_FS_smith.eps>
@@ -1071,7 +1064,7 @@ p_FS_smith-eps-converted-to.pdf Pictures/28Feb2013/sngl_loop_FS_smith.eps>
 (epstopdf)             \includegraphics on input line 832.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/28Feb2013/sngl_loop_FS_smith-eps-converted-to.pdf, id=1418, 505.89pt 
+<Pictures/28Feb2013/sngl_loop_FS_smith-eps-converted-to.pdf, id=1674, 505.89pt 
 x 361.35pt>
 File: Pictures/28Feb2013/sngl_loop_FS_smith-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1088,7 +1081,7 @@ p_FS_RL-eps-converted-to.pdf Pictures/28Feb2013/sngl_loop_FS_RL.eps>
 (epstopdf)             \includegraphics on input line 837.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/28Feb2013/sngl_loop_FS_RL-eps-converted-to.pdf, id=1419, 505.89pt x 3
+<Pictures/28Feb2013/sngl_loop_FS_RL-eps-converted-to.pdf, id=1675, 505.89pt x 3
 61.35pt>
 File: Pictures/28Feb2013/sngl_loop_FS_RL-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1096,7 +1089,7 @@ e pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37
+[42
 
 ]
 Package epstopdf Info: Source file: <Pictures/28Feb2013/sngl_loop_chicken_smith
@@ -1113,7 +1106,7 @@ p_chicken_smith-eps-converted-to.pdf Pictures/28Feb2013/sngl_loop_chicken_smith
 (epstopdf)             \includegraphics on input line 871.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/28Feb2013/sngl_loop_chicken_smith-eps-converted-to.pdf, id=1432, 505.
+<Pictures/28Feb2013/sngl_loop_chicken_smith-eps-converted-to.pdf, id=1689, 505.
 89pt x 361.35pt>
 File: Pictures/28Feb2013/sngl_loop_chicken_smith-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -1132,16 +1125,16 @@ p_chicken_RL-eps-converted-to.pdf Pictures/28Feb2013/sngl_loop_chicken_RL.eps>
 (epstopdf)             \includegraphics on input line 876.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/28Feb2013/sngl_loop_chicken_RL-eps-converted-to.pdf, id=1433, 505.89p
+<Pictures/28Feb2013/sngl_loop_chicken_RL-eps-converted-to.pdf, id=1690, 505.89p
 t x 361.35pt>
 File: Pictures/28Feb2013/sngl_loop_chicken_RL-eps-converted-to.pdf Graphic file
  (type pdf)
 
-<use Pictures/28Feb2013/sngl_loop_chicken_RL-eps-converted-to.pdf> [38 <./Pictu
+<use Pictures/28Feb2013/sngl_loop_chicken_RL-eps-converted-to.pdf> [43 <./Pictu
 res/28Feb2013/sngl_loop_FS_smith-eps-converted-to.pdf> <./Pictures/28Feb2013/sn
-gl_loop_FS_RL-eps-converted-to.pdf>] [39 <./Pictures/28Feb2013/sngl_loop_chicke
+gl_loop_FS_RL-eps-converted-to.pdf>] [44 <./Pictures/28Feb2013/sngl_loop_chicke
 n_smith-eps-converted-to.pdf> <./Pictures/28Feb2013/sngl_loop_chicken_RL-eps-co
-nverted-to.pdf>] [40
+nverted-to.pdf>] [45
 
 ]
 Package epstopdf Info: Source file: <Pictures/1Mar2013/sine500Hz_1p5cm_saline_d
@@ -1159,7 +1152,7 @@ _saline_demod_filt.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/1Mar2013/sine500Hz_1p5cm_saline_demod_filt-eps-converted-to.pdf, id=1
-486, 505.89pt x 361.35pt>
+743, 505.89pt x 361.35pt>
 File: Pictures/1Mar2013/sine500Hz_1p5cm_saline_demod_filt-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -1179,12 +1172,12 @@ _1p5cm_saline_demod_compare-eps-converted-to.pdf Pictures/1Mar2013/sine500Hz_1p
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/1Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-to.pdf, i
-d=1487, 505.89pt x 361.35pt>
+d=1744, 505.89pt x 361.35pt>
 File: Pictures/1Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use Pictures/1Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-to.pd
-f> [41 <./Pictures/1Mar2013/sine500Hz_1p5cm_saline_demod_filt-eps-converted-to.
+f> [46 <./Pictures/1Mar2013/sine500Hz_1p5cm_saline_demod_filt-eps-converted-to.
 pdf> <./Pictures/1Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-to
 .pdf>]
 Package epstopdf Info: Source file: <Pictures/4Mar2013/sine250Hz_1p5cm_saline_d
@@ -1202,7 +1195,7 @@ _1p5cm_saline_demod_compare-eps-converted-to.pdf Pictures/4Mar2013/sine250Hz_1p
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/4Mar2013/sine250Hz_1p5cm_saline_demod_compare-eps-converted-to.pdf, i
-d=1520, 505.89pt x 361.35pt>
+d=1776, 505.89pt x 361.35pt>
 File: Pictures/4Mar2013/sine250Hz_1p5cm_saline_demod_compare-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1223,7 +1216,7 @@ _1p5cm_saline_demod_compare-eps-converted-to.pdf Pictures/4Mar2013/sine500Hz_1p
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/4Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-to.pdf, i
-d=1521, 505.89pt x 361.35pt>
+d=1777, 505.89pt x 361.35pt>
 File: Pictures/4Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1244,17 +1237,17 @@ _1p5cm_saline_demod_compare-eps-converted-to.pdf Pictures/4Mar2013/sine750Hz_1p
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/4Mar2013/sine750Hz_1p5cm_saline_demod_compare-eps-converted-to.pdf, i
-d=1522, 505.89pt x 361.35pt>
+d=1778, 505.89pt x 361.35pt>
 File: Pictures/4Mar2013/sine750Hz_1p5cm_saline_demod_compare-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use Pictures/4Mar2013/sine750Hz_1p5cm_saline_demod_compare-eps-converted-to.pd
-f> [42
+f> [47
 
-] [43 <./Pictures/4Mar2013/sine250Hz_1p5cm_saline_demod_compare-eps-converted-t
+] [48 <./Pictures/4Mar2013/sine250Hz_1p5cm_saline_demod_compare-eps-converted-t
 o.pdf> <./Pictures/4Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-
 to.pdf> <./Pictures/4Mar2013/sine750Hz_1p5cm_saline_demod_compare-eps-converted
--to.pdf>] [44]
+-to.pdf>] [49]
 Package epstopdf Info: Source file: <Pictures/5Mar2013/ecg750Hz_demod_saline_fi
 lt_compare.eps>
 (epstopdf)                    date: 2013-03-06 11:36:19
@@ -1270,7 +1263,7 @@ _saline_filt_compare.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/5Mar2013/ecg750Hz_demod_saline_filt_compare-eps-converted-to.pdf, id=
-1571, 505.89pt x 361.35pt>
+1828, 505.89pt x 361.35pt>
 File: Pictures/5Mar2013/ecg750Hz_demod_saline_filt_compare-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1289,7 +1282,7 @@ demod_compare-eps-converted-to.pdf Pictures/5Mar2013/ecg750Hz_demod_compare.eps
 (epstopdf)             \includegraphics on input line 1016.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/5Mar2013/ecg750Hz_demod_compare-eps-converted-to.pdf, id=1572, 505.89
+<Pictures/5Mar2013/ecg750Hz_demod_compare-eps-converted-to.pdf, id=1829, 505.89
 pt x 361.35pt>
 File: Pictures/5Mar2013/ecg750Hz_demod_compare-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1309,7 +1302,7 @@ ompare.eps>
 (epstopdf)             \includegraphics on input line 1021.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/5Mar2013/ecg750Hz_filt_demod_compare-eps-converted-to.pdf, id=1573, 5
+<Pictures/5Mar2013/ecg750Hz_filt_demod_compare-eps-converted-to.pdf, id=1830, 5
 05.89pt x 361.35pt>
 File: Pictures/5Mar2013/ecg750Hz_filt_demod_compare-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1329,15 +1322,15 @@ od_compare.eps>
 (epstopdf)             \includegraphics on input line 1026.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/5Mar2013/ecg750Hz_smooth_demod_compare-eps-converted-to.pdf, id=1574,
+<Pictures/5Mar2013/ecg750Hz_smooth_demod_compare-eps-converted-to.pdf, id=1831,
  505.89pt x 361.35pt>
 File: Pictures/5Mar2013/ecg750Hz_smooth_demod_compare-eps-converted-to.pdf Grap
 hic file (type pdf)
 
 <use Pictures/5Mar2013/ecg750Hz_smooth_demod_compare-eps-converted-to.pdf>
-[45
+[50
 
-] [46 <./Pictures/5Mar2013/ecg750Hz_demod_saline_filt_compare-eps-converted-to.
+] [51 <./Pictures/5Mar2013/ecg750Hz_demod_saline_filt_compare-eps-converted-to.
 pdf> <./Pictures/5Mar2013/ecg750Hz_demod_compare-eps-converted-to.pdf> <./Pictu
 res/5Mar2013/ecg750Hz_filt_demod_compare-eps-converted-to.pdf> <./Pictures/5Mar
 2013/ecg750Hz_smooth_demod_compare-eps-converted-to.pdf>]
@@ -1356,7 +1349,7 @@ _1p5cm_saline_demod_compare-eps-converted-to.pdf Pictures/6Mar2013/sine250Hz_1p
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/6Mar2013/sine250Hz_1p5cm_saline_demod_compare-eps-converted-to.pdf, i
-d=1631, 505.89pt x 361.35pt>
+d=1888, 505.89pt x 361.35pt>
 File: Pictures/6Mar2013/sine250Hz_1p5cm_saline_demod_compare-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1377,7 +1370,7 @@ _1p5cm_saline_demod_compare-eps-converted-to.pdf Pictures/6Mar2013/sine500Hz_1p
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/6Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-to.pdf, i
-d=1632, 505.89pt x 361.35pt>
+d=1889, 505.89pt x 361.35pt>
 File: Pictures/6Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1398,21 +1391,21 @@ _1p5cm_saline_demod_compare-eps-converted-to.pdf Pictures/6Mar2013/sine750Hz_1p
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/6Mar2013/sine750Hz_1p5cm_saline_demod_compare-eps-converted-to.pdf, i
-d=1633, 505.89pt x 361.35pt>
+d=1890, 505.89pt x 361.35pt>
 File: Pictures/6Mar2013/sine750Hz_1p5cm_saline_demod_compare-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use Pictures/6Mar2013/sine750Hz_1p5cm_saline_demod_compare-eps-converted-to.pd
-f> [47
+f> [52
 
-] [48 <./Pictures/6Mar2013/sine250Hz_1p5cm_saline_demod_compare-eps-converted-t
+] [53 <./Pictures/6Mar2013/sine250Hz_1p5cm_saline_demod_compare-eps-converted-t
 o.pdf> <./Pictures/6Mar2013/sine500Hz_1p5cm_saline_demod_compare-eps-converted-
 to.pdf> <./Pictures/6Mar2013/sine750Hz_1p5cm_saline_demod_compare-eps-converted
--to.pdf>] [49
+-to.pdf>] [54
 
-] [50
+] [55
 
-] [51
+] [56
 
 ]
 Overfull \hbox (66.33186pt too wide) in paragraph at lines 1122--1143
@@ -1422,15 +1415,15 @@ Overfull \hbox (66.33186pt too wide) in paragraph at lines 1122--1143
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[52
+[57
 
-] [53] [54]
+] [58] [59]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/13Mar2013/arb_sig_gen_OTA
 _ECG_freq_resp.pdf): PDF inclusion: found PDF version <1.5>, but at most versio
 n <1.4> allowed
 
-<Pictures/13Mar2013/arb_sig_gen_OTA_ECG_freq_resp.pdf, id=1717, 510.90875pt x 4
+<Pictures/13Mar2013/arb_sig_gen_OTA_ECG_freq_resp.pdf, id=1973, 510.90875pt x 4
 05.515pt>
 File: Pictures/13Mar2013/arb_sig_gen_OTA_ECG_freq_resp.pdf Graphic file (type p
 df)
@@ -1440,14 +1433,14 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/13Mar2013/arb_sig_gen_OTA
 _ECG_EMGfreq_resp.pdf): PDF inclusion: found PDF version <1.5>, but at most ver
 sion <1.4> allowed
 
-<Pictures/13Mar2013/arb_sig_gen_OTA_ECG_EMGfreq_resp.pdf, id=1718, 494.84875pt 
+<Pictures/13Mar2013/arb_sig_gen_OTA_ECG_EMGfreq_resp.pdf, id=1974, 494.84875pt 
 x 405.515pt>
 File: Pictures/13Mar2013/arb_sig_gen_OTA_ECG_EMGfreq_resp.pdf Graphic file (typ
 e pdf)
  <use Pictures/13Mar2013/arb_sig_gen_OTA_ECG_EMGfreq_resp.pdf>
-[55
+[60
 
-] [56 <./Pictures/13Mar2013/arb_sig_gen_OTA_ECG_freq_resp.pdf>] [57 <./Pictures
+] [61 <./Pictures/13Mar2013/arb_sig_gen_OTA_ECG_freq_resp.pdf>] [62 <./Pictures
 /13Mar2013/arb_sig_gen_OTA_ECG_EMGfreq_resp.pdf>]
 Package epstopdf Info: Source file: <Pictures/13Mar2013/bistatic_1p2Hz_OTA_Rx.e
 ps>
@@ -1463,7 +1456,7 @@ _1p2Hz_OTA_Rx-eps-converted-to.pdf Pictures/13Mar2013/bistatic_1p2Hz_OTA_Rx.eps
 (epstopdf)             \includegraphics on input line 1240.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/13Mar2013/bistatic_1p2Hz_OTA_Rx-eps-converted-to.pdf, id=1757, 505.89
+<Pictures/13Mar2013/bistatic_1p2Hz_OTA_Rx-eps-converted-to.pdf, id=2014, 505.89
 pt x 361.35pt>
 File: Pictures/13Mar2013/bistatic_1p2Hz_OTA_Rx-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1483,7 +1476,7 @@ _1p2Hz_OTA_Tx-eps-converted-to.pdf Pictures/13Mar2013/bistatic_1p2Hz_OTA_Tx.eps
 (epstopdf)             \includegraphics on input line 1245.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/13Mar2013/bistatic_1p2Hz_OTA_Tx-eps-converted-to.pdf, id=1758, 505.89
+<Pictures/13Mar2013/bistatic_1p2Hz_OTA_Tx-eps-converted-to.pdf, id=2015, 505.89
 pt x 361.35pt>
 File: Pictures/13Mar2013/bistatic_1p2Hz_OTA_Tx-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1503,7 +1496,7 @@ ic_1p2Hz_OTA_Rx-eps-converted-to.pdf Pictures/13Mar2013/monostatic_1p2Hz_OTA_Rx
 (epstopdf)             \includegraphics on input line 1260.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/13Mar2013/monostatic_1p2Hz_OTA_Rx-eps-converted-to.pdf, id=1761, 505.
+<Pictures/13Mar2013/monostatic_1p2Hz_OTA_Rx-eps-converted-to.pdf, id=2018, 505.
 89pt x 361.35pt>
 File: Pictures/13Mar2013/monostatic_1p2Hz_OTA_Rx-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -1540,8 +1533,8 @@ mer_comparison.eps>
 (epstopdf)             \includegraphics on input line 1276.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/13Mar2013/ECG_OTA_self_jammer_comparison-eps-converted-to.pdf, id=176
-3, 505.89pt x 361.35pt>
+<Pictures/13Mar2013/ECG_OTA_self_jammer_comparison-eps-converted-to.pdf, id=202
+0, 505.89pt x 361.35pt>
 File: Pictures/13Mar2013/ECG_OTA_self_jammer_comparison-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -1550,36 +1543,36 @@ Overfull \hbox (20.71815pt too wide) in paragraph at lines 1283--1283
 []\OT1/cmr/bx/n/14.4 Lining Up Tx and Rx ECG Data for Near-Field Bioteleme-
  []
 
-[58 <./Pictures/13Mar2013/bistatic_1p2Hz_OTA_Rx-eps-converted-to.pdf> <./Pictur
-es/13Mar2013/bistatic_1p2Hz_OTA_Tx-eps-converted-to.pdf>] [59 <./Pictures/13Mar
+[63 <./Pictures/13Mar2013/bistatic_1p2Hz_OTA_Rx-eps-converted-to.pdf> <./Pictur
+es/13Mar2013/bistatic_1p2Hz_OTA_Tx-eps-converted-to.pdf>] [64 <./Pictures/13Mar
 2013/monostatic_1p2Hz_OTA_Rx-eps-converted-to.pdf> <./Pictures/13Mar2013/ECG_OT
-A_self_jammer_comparison-eps-converted-to.pdf>] [60] [61
+A_self_jammer_comparison-eps-converted-to.pdf>] [65] [66
 
-] [62
+] [67
 
-] [63
+] [68
 
-] [64
+] [69
 
 ]
-[65]
+[70]
 Underfull \hbox (badness 10000) in paragraph at lines 1388--1395
 
  []
 
-[66] [67]
-<Pictures/8May2013/proximity_effect.pdf, id=1855, 563.10374pt x 429.605pt>
+[71] [72]
+<Pictures/8May2013/proximity_effect.pdf, id=2111, 563.10374pt x 429.605pt>
 File: Pictures/8May2013/proximity_effect.pdf Graphic file (type pdf)
 
 <use Pictures/8May2013/proximity_effect.pdf>
-<Pictures/8May2013/proximity_effect_table.pdf, id=1856, 397.485pt x 432.61626pt
+<Pictures/8May2013/proximity_effect_table.pdf, id=2112, 397.485pt x 432.61626pt
 >
 File: Pictures/8May2013/proximity_effect_table.pdf Graphic file (type pdf)
- <use Pictures/8May2013/proximity_effect_table.pdf> [68
+ <use Pictures/8May2013/proximity_effect_table.pdf> [73
 
-] [69 <./Pictures/8May2013/proximity_effect.pdf> <./Pictures/8May2013/proximity
+] [74 <./Pictures/8May2013/proximity_effect.pdf> <./Pictures/8May2013/proximity
 _effect_table.pdf>]
-[70]
+[75]
 Package epstopdf Info: Source file: <Pictures/8May2013/rad_eff_v_turns.eps>
 (epstopdf)                    date: 2013-05-08 23:40:27
 (epstopdf)                    size: 14536 bytes
@@ -1592,42 +1585,42 @@ _turns-eps-converted-to.pdf Pictures/8May2013/rad_eff_v_turns.eps>
 (epstopdf)             \includegraphics on input line 1499.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/8May2013/rad_eff_v_turns-eps-converted-to.pdf, id=1968, 505.89pt x 36
+<Pictures/8May2013/rad_eff_v_turns-eps-converted-to.pdf, id=2224, 505.89pt x 36
 1.35pt>
 File: Pictures/8May2013/rad_eff_v_turns-eps-converted-to.pdf Graphic file (type
  pdf)
- <use Pictures/8May2013/rad_eff_v_turns-eps-converted-to.pdf> [71 <./Pictures/8
-May2013/rad_eff_v_turns-eps-converted-to.pdf>] [72]
-<Pictures/9May2013/loop_mag_field_load.pdf, id=1985, 244.915pt x 150.5625pt>
+ <use Pictures/8May2013/rad_eff_v_turns-eps-converted-to.pdf> [76 <./Pictures/8
+May2013/rad_eff_v_turns-eps-converted-to.pdf>] [77]
+<Pictures/9May2013/loop_mag_field_load.pdf, id=2240, 244.915pt x 150.5625pt>
 File: Pictures/9May2013/loop_mag_field_load.pdf Graphic file (type pdf)
 
-<use Pictures/9May2013/loop_mag_field_load.pdf> [73
+<use Pictures/9May2013/loop_mag_field_load.pdf> [78
 
- <./Pictures/9May2013/loop_mag_field_load.pdf>] [74]
-<Pictures/9May2013/loop_model_schematic.pdf, id=2033, 490.83376pt x 208.78pt>
+ <./Pictures/9May2013/loop_mag_field_load.pdf>] [79]
+<Pictures/9May2013/loop_model_schematic.pdf, id=2289, 490.83376pt x 208.78pt>
 File: Pictures/9May2013/loop_model_schematic.pdf Graphic file (type pdf)
 
 <use Pictures/9May2013/loop_model_schematic.pdf>
-<Pictures/9May2013/loop_model_simplified.pdf, id=2034, 286.06876pt x 173.64874p
+<Pictures/9May2013/loop_model_simplified.pdf, id=2290, 286.06876pt x 173.64874p
 t>
 File: Pictures/9May2013/loop_model_simplified.pdf Graphic file (type pdf)
  <use Pictures/9May2013/loop_model_simplified.pdf>
-<Pictures/9May2013/loop_model_thevenin.pdf, id=2035, 291.0875pt x 144.54pt>
+<Pictures/9May2013/loop_model_thevenin.pdf, id=2291, 291.0875pt x 144.54pt>
 File: Pictures/9May2013/loop_model_thevenin.pdf Graphic file (type pdf)
 
-<use Pictures/9May2013/loop_model_thevenin.pdf> [75 <./Pictures/9May2013/loop_m
+<use Pictures/9May2013/loop_model_thevenin.pdf> [80 <./Pictures/9May2013/loop_m
 odel_schematic.pdf> <./Pictures/9May2013/loop_model_simplified.pdf> <./Pictures
 /9May2013/loop_model_thevenin.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1606--1607
 
  []
 
-[76]
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 1647--1648
 
  []
 
-[77]
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 1657--1658
 
  []
@@ -1649,7 +1642,7 @@ rns-eps-converted-to.pdf Pictures/9May2013/Voc_vs_turns.eps>
 (epstopdf)             \includegraphics on input line 1671.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/9May2013/Voc_vs_turns-eps-converted-to.pdf, id=2136, 505.89pt x 361.3
+<Pictures/9May2013/Voc_vs_turns-eps-converted-to.pdf, id=2391, 505.89pt x 361.3
 5pt>
 File: Pictures/9May2013/Voc_vs_turns-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1670,7 +1663,7 @@ rns_zoom-eps-converted-to.pdf Pictures/9May2013/Voc_vs_turns_zoom.eps>
 (epstopdf)             \includegraphics on input line 1676.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/9May2013/Voc_vs_turns_zoom-eps-converted-to.pdf, id=2137, 505.89pt x 
+<Pictures/9May2013/Voc_vs_turns_zoom-eps-converted-to.pdf, id=2392, 505.89pt x 
 361.35pt>
 File: Pictures/9May2013/Voc_vs_turns_zoom-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1687,7 +1680,7 @@ urns-eps-converted-to.pdf Pictures/9May2013/Iout_vs_turns.eps>
 (epstopdf)             \includegraphics on input line 1681.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/9May2013/Iout_vs_turns-eps-converted-to.pdf, id=2138, 505.89pt x 361.
+<Pictures/9May2013/Iout_vs_turns-eps-converted-to.pdf, id=2393, 505.89pt x 361.
 35pt>
 File: Pictures/9May2013/Iout_vs_turns-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1708,7 +1701,7 @@ urns_zoom-eps-converted-to.pdf Pictures/9May2013/Iout_vs_turns_zoom.eps>
 (epstopdf)             \includegraphics on input line 1686.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/9May2013/Iout_vs_turns_zoom-eps-converted-to.pdf, id=2139, 505.89pt x
+<Pictures/9May2013/Iout_vs_turns_zoom-eps-converted-to.pdf, id=2394, 505.89pt x
  361.35pt>
 File: Pictures/9May2013/Iout_vs_turns_zoom-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1717,10 +1710,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1692--1693
 
  []
 
-[78] [79 <./Pictures/9May2013/Voc_vs_turns-eps-converted-to.pdf> <./Pictures/9M
+[83] [84 <./Pictures/9May2013/Voc_vs_turns-eps-converted-to.pdf> <./Pictures/9M
 ay2013/Voc_vs_turns_zoom-eps-converted-to.pdf> <./Pictures/9May2013/Iout_vs_tur
 ns-eps-converted-to.pdf> <./Pictures/9May2013/Iout_vs_turns_zoom-eps-converted-
-to.pdf>] [80]
+to.pdf>] [85]
 Package epstopdf Info: Source file: <Pictures/17May2013/L_vs_turns_saline.eps>
 (epstopdf)                    date: 2013-05-17 14:12:35
 (epstopdf)                    size: 15567 bytes
@@ -1733,7 +1726,7 @@ ns_saline-eps-converted-to.pdf Pictures/17May2013/L_vs_turns_saline.eps>
 (epstopdf)             \includegraphics on input line 1718.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/17May2013/L_vs_turns_saline-eps-converted-to.pdf, id=2182, 505.89pt x
+<Pictures/17May2013/L_vs_turns_saline-eps-converted-to.pdf, id=2438, 505.89pt x
  361.35pt>
 File: Pictures/17May2013/L_vs_turns_saline-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1750,7 +1743,7 @@ ns_saline-eps-converted-to.pdf Pictures/17May2013/C_vs_turns_saline.eps>
 (epstopdf)             \includegraphics on input line 1723.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/17May2013/C_vs_turns_saline-eps-converted-to.pdf, id=2183, 505.89pt x
+<Pictures/17May2013/C_vs_turns_saline-eps-converted-to.pdf, id=2439, 505.89pt x
  361.35pt>
 File: Pictures/17May2013/C_vs_turns_saline-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1767,13 +1760,13 @@ ns-eps-converted-to.pdf Pictures/17May2013/C_vs_turns.eps>
 (epstopdf)             \includegraphics on input line 1728.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/17May2013/C_vs_turns-eps-converted-to.pdf, id=2184, 505.89pt x 361.35
+<Pictures/17May2013/C_vs_turns-eps-converted-to.pdf, id=2440, 505.89pt x 361.35
 pt>
 File: Pictures/17May2013/C_vs_turns-eps-converted-to.pdf Graphic file (type pdf
 )
- <use Pictures/17May2013/C_vs_turns-eps-converted-to.pdf> [81
+ <use Pictures/17May2013/C_vs_turns-eps-converted-to.pdf> [86
 
-] [82 <./Pictures/17May2013/L_vs_turns_saline-eps-converted-to.pdf> <./Pictures
+] [87 <./Pictures/17May2013/L_vs_turns_saline-eps-converted-to.pdf> <./Pictures
 /17May2013/C_vs_turns_saline-eps-converted-to.pdf> <./Pictures/17May2013/C_vs_t
 urns-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/17May2013/SRF_v_turns.eps>
@@ -1788,11 +1781,11 @@ rns-eps-converted-to.pdf Pictures/17May2013/SRF_v_turns.eps>
 (epstopdf)             \includegraphics on input line 1748.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/17May2013/SRF_v_turns-eps-converted-to.pdf, id=2216, 505.89pt x 361.3
+<Pictures/17May2013/SRF_v_turns-eps-converted-to.pdf, id=2472, 505.89pt x 361.3
 5pt>
 File: Pictures/17May2013/SRF_v_turns-eps-converted-to.pdf Graphic file (type pd
 f)
- <use Pictures/17May2013/SRF_v_turns-eps-converted-to.pdf> [83 <./Pictures/17Ma
+ <use Pictures/17May2013/SRF_v_turns-eps-converted-to.pdf> [88 <./Pictures/17Ma
 y2013/SRF_v_turns-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1757--1758
 
@@ -1810,27 +1803,27 @@ x_v_turns-eps-converted-to.pdf Pictures/17May2013/Cload_max_v_turns.eps>
 (epstopdf)             \includegraphics on input line 1769.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/17May2013/Cload_max_v_turns-eps-converted-to.pdf, id=2231, 505.89pt x
+<Pictures/17May2013/Cload_max_v_turns-eps-converted-to.pdf, id=2486, 505.89pt x
  361.35pt>
 File: Pictures/17May2013/Cload_max_v_turns-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use Pictures/17May2013/Cload_max_v_turns-eps-converted-to.pdf>
-[84] [85 <./Pictures/17May2013/Cload_max_v_turns-eps-converted-to.pdf>]
-[86] [87
+[89] [90 <./Pictures/17May2013/Cload_max_v_turns-eps-converted-to.pdf>]
+[91] [92
 
-] [88] [89
+] [93] [94
 
 ]
-<Pictures/27May2013/Tx_line_circuit_model.pdf, id=2268, 643.40375pt x 235.96245
+<Pictures/27May2013/Tx_line_circuit_model.pdf, id=2523, 643.40375pt x 235.96245
 pt>
 File: Pictures/27May2013/Tx_line_circuit_model.pdf Graphic file (type pdf)
- <use Pictures/27May2013/Tx_line_circuit_model.pdf> [90
+ <use Pictures/27May2013/Tx_line_circuit_model.pdf> [95
 
-] [91 <./Pictures/27May2013/Tx_line_circuit_model.pdf>]
-<Pictures/27May2013/coaxial_geometry.pdf, id=2369, 573.14125pt x 385.44pt>
+] [96 <./Pictures/27May2013/Tx_line_circuit_model.pdf>]
+<Pictures/27May2013/coaxial_geometry.pdf, id=2625, 573.14125pt x 385.44pt>
 File: Pictures/27May2013/coaxial_geometry.pdf Graphic file (type pdf)
 
-<use Pictures/27May2013/coaxial_geometry.pdf> [92] [93 <./Pictures/27May2013/co
+<use Pictures/27May2013/coaxial_geometry.pdf> [97] [98 <./Pictures/27May2013/co
 axial_geometry.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1955--1956
 
@@ -1841,21 +1834,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 1957--1960
 
  []
 
-[94] [95]
+[99] [100]
 Overfull \hbox (68.41957pt too wide) in paragraph at lines 2021--2030
  [][] 
  []
 
-[96] [97
+[101] [102
 
-] [98] [99
+] [103] [104
 
 ]
-<Pictures/4June2013/single_wire_coax_diagram.pdf, id=2518, 658.46pt x 447.6725p
+<Pictures/4June2013/single_wire_coax_diagram.pdf, id=2774, 658.46pt x 447.6725p
 t>
 File: Pictures/4June2013/single_wire_coax_diagram.pdf Graphic file (type pdf)
  <use Pictures/4June2013/single_wire_coax_diagram.pdf>
-<Pictures/4June2013/dielectric_interface.png, id=2520, 626.34pt x 344.28625pt>
+<Pictures/4June2013/dielectric_interface.png, id=2776, 626.34pt x 344.28625pt>
 File: Pictures/4June2013/dielectric_interface.png Graphic file (type png)
 
 <use Pictures/4June2013/dielectric_interface.png>
@@ -1870,10 +1863,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 2132--2132
 w . ittc . ku . edu % 2F[]jstiles %
  []
 
-[100] [101 <./Pictures/4June2013/single_wire_coax_diagram.pdf>] [102 <./Picture
-s/4June2013/dielectric_interface.png (PNG copy)>] [103] [104
+[105] [106 <./Pictures/4June2013/single_wire_coax_diagram.pdf>] [107 <./Picture
+s/4June2013/dielectric_interface.png (PNG copy)>] [108] [109
 
-] [105] [106]
+] [110] [111]
 Package epstopdf Info: Source file: <Pictures/10June2013/s11_s22_AWG_26_Saline.
 eps>
 (epstopdf)                    date: 2013-06-12 09:27:41
@@ -1888,7 +1881,7 @@ ps>
 (epstopdf)             \includegraphics on input line 2264.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10June2013/s11_s22_AWG_26_Saline-eps-converted-to.pdf, id=2584, 505.8
+<Pictures/10June2013/s11_s22_AWG_26_Saline-eps-converted-to.pdf, id=2840, 505.8
 9pt x 361.35pt>
 File: Pictures/10June2013/s11_s22_AWG_26_Saline-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1908,7 +1901,7 @@ ps>
 (epstopdf)             \includegraphics on input line 2269.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10June2013/s11_s22_AWG_29_Saline-eps-converted-to.pdf, id=2585, 505.8
+<Pictures/10June2013/s11_s22_AWG_29_Saline-eps-converted-to.pdf, id=2841, 505.8
 9pt x 361.35pt>
 File: Pictures/10June2013/s11_s22_AWG_29_Saline-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1928,15 +1921,15 @@ ps>
 (epstopdf)             \includegraphics on input line 2274.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10June2013/s11_s22_AWG_36_Saline-eps-converted-to.pdf, id=2586, 505.8
+<Pictures/10June2013/s11_s22_AWG_36_Saline-eps-converted-to.pdf, id=2842, 505.8
 9pt x 361.35pt>
 File: Pictures/10June2013/s11_s22_AWG_36_Saline-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
-<use Pictures/10June2013/s11_s22_AWG_36_Saline-eps-converted-to.pdf> [107
+<use Pictures/10June2013/s11_s22_AWG_36_Saline-eps-converted-to.pdf> [112
 
 ]
-[108 <./Pictures/10June2013/s11_s22_AWG_26_Saline-eps-converted-to.pdf> <./Pict
+[113 <./Pictures/10June2013/s11_s22_AWG_26_Saline-eps-converted-to.pdf> <./Pict
 ures/10June2013/s11_s22_AWG_29_Saline-eps-converted-to.pdf> <./Pictures/10June2
 013/s11_s22_AWG_36_Saline-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/10June2013/s12_s21_AWG_26_Saline.
@@ -1953,7 +1946,7 @@ ps>
 (epstopdf)             \includegraphics on input line 2311.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10June2013/s12_s21_AWG_26_Saline-eps-converted-to.pdf, id=2620, 505.8
+<Pictures/10June2013/s12_s21_AWG_26_Saline-eps-converted-to.pdf, id=2875, 505.8
 9pt x 361.35pt>
 File: Pictures/10June2013/s12_s21_AWG_26_Saline-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1973,7 +1966,7 @@ ps>
 (epstopdf)             \includegraphics on input line 2316.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10June2013/s12_s21_AWG_29_Saline-eps-converted-to.pdf, id=2621, 505.8
+<Pictures/10June2013/s12_s21_AWG_29_Saline-eps-converted-to.pdf, id=2876, 505.8
 9pt x 361.35pt>
 File: Pictures/10June2013/s12_s21_AWG_29_Saline-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1993,15 +1986,15 @@ ps>
 (epstopdf)             \includegraphics on input line 2321.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10June2013/s12_s21_AWG_36_Saline-eps-converted-to.pdf, id=2622, 505.8
+<Pictures/10June2013/s12_s21_AWG_36_Saline-eps-converted-to.pdf, id=2877, 505.8
 9pt x 361.35pt>
 File: Pictures/10June2013/s12_s21_AWG_36_Saline-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
-<use Pictures/10June2013/s12_s21_AWG_36_Saline-eps-converted-to.pdf> [109]
-[110 <./Pictures/10June2013/s12_s21_AWG_26_Saline-eps-converted-to.pdf> <./Pict
+<use Pictures/10June2013/s12_s21_AWG_36_Saline-eps-converted-to.pdf> [114]
+[115 <./Pictures/10June2013/s12_s21_AWG_26_Saline-eps-converted-to.pdf> <./Pict
 ures/10June2013/s12_s21_AWG_29_Saline-eps-converted-to.pdf> <./Pictures/10June2
-013/s12_s21_AWG_36_Saline-eps-converted-to.pdf>] [111
+013/s12_s21_AWG_36_Saline-eps-converted-to.pdf>] [116
 
 ]
 Package epstopdf Info: Source file: <Pictures/24June2013/saline_epr_v_temp.eps>
@@ -2017,7 +2010,7 @@ epr_v_temp-eps-converted-to.pdf Pictures/24June2013/saline_epr_v_temp.eps>
 (epstopdf)             \includegraphics on input line 2381.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/24June2013/saline_epr_v_temp-eps-converted-to.pdf, id=2661, 505.89pt 
+<Pictures/24June2013/saline_epr_v_temp-eps-converted-to.pdf, id=2917, 505.89pt 
 x 361.35pt>
 File: Pictures/24June2013/saline_epr_v_temp-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2035,7 +2028,7 @@ eppr_v_temp-eps-converted-to.pdf Pictures/24June2013/saline_eppr_v_temp.eps>
 (epstopdf)             \includegraphics on input line 2386.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/24June2013/saline_eppr_v_temp-eps-converted-to.pdf, id=2662, 505.89pt
+<Pictures/24June2013/saline_eppr_v_temp-eps-converted-to.pdf, id=2918, 505.89pt
  x 361.35pt>
 File: Pictures/24June2013/saline_eppr_v_temp-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2052,7 +2045,7 @@ er_v_temp-eps-converted-to.pdf Pictures/24June2013/saline_er_v_temp.eps>
 (epstopdf)             \includegraphics on input line 2391.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/24June2013/saline_er_v_temp-eps-converted-to.pdf, id=2663, 505.89pt x
+<Pictures/24June2013/saline_er_v_temp-eps-converted-to.pdf, id=2919, 505.89pt x
  361.35pt>
 File: Pictures/24June2013/saline_er_v_temp-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2070,7 +2063,7 @@ tanD_v_temp-eps-converted-to.pdf Pictures/24June2013/saline_tanD_v_temp.eps>
 (epstopdf)             \includegraphics on input line 2396.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/24June2013/saline_tanD_v_temp-eps-converted-to.pdf, id=2664, 505.89pt
+<Pictures/24June2013/saline_tanD_v_temp-eps-converted-to.pdf, id=2920, 505.89pt
  x 361.35pt>
 File: Pictures/24June2013/saline_tanD_v_temp-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2078,16 +2071,16 @@ File: Pictures/24June2013/saline_tanD_v_temp-eps-converted-to.pdf Graphic file
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[112
+[117
 
-] [113 <./Pictures/24June2013/saline_epr_v_temp-eps-converted-to.pdf> <./Pictur
+] [118 <./Pictures/24June2013/saline_epr_v_temp-eps-converted-to.pdf> <./Pictur
 es/24June2013/saline_eppr_v_temp-eps-converted-to.pdf> <./Pictures/24June2013/s
 aline_er_v_temp-eps-converted-to.pdf> <./Pictures/24June2013/saline_tanD_v_temp
--eps-converted-to.pdf>] [114]
-<Pictures/25June2013/SWTL_w_tag.pdf, id=2727, 657.45625pt x 230.8625pt>
+-eps-converted-to.pdf>] [119]
+<Pictures/25June2013/SWTL_w_tag.pdf, id=2982, 657.45625pt x 230.8625pt>
 File: Pictures/25June2013/SWTL_w_tag.pdf Graphic file (type pdf)
 
-<use Pictures/25June2013/SWTL_w_tag.pdf> [115
+<use Pictures/25June2013/SWTL_w_tag.pdf> [120
 
  <./Pictures/25June2013/SWTL_w_tag.pdf>]
 Package epstopdf Info: Source file: <Pictures/25June2013/SWTL_w_tag_USB_pwr.eps
@@ -2103,7 +2096,7 @@ tag_USB_pwr-eps-converted-to.pdf Pictures/25June2013/SWTL_w_tag_USB_pwr.eps>
 (epstopdf)             \includegraphics on input line 2475.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/25June2013/SWTL_w_tag_USB_pwr-eps-converted-to.pdf, id=2759, 505.89pt
+<Pictures/25June2013/SWTL_w_tag_USB_pwr-eps-converted-to.pdf, id=3015, 505.89pt
  x 361.35pt>
 File: Pictures/25June2013/SWTL_w_tag_USB_pwr-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2121,72 +2114,72 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 2487.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/25June2013/BS_env_915MHz_20dBm-eps-converted-to.pdf, id=2761, 505.89p
+<Pictures/25June2013/BS_env_915MHz_20dBm-eps-converted-to.pdf, id=3017, 505.89p
 t x 361.35pt>
 File: Pictures/25June2013/BS_env_915MHz_20dBm-eps-converted-to.pdf Graphic file
  (type pdf)
 
-<use Pictures/25June2013/BS_env_915MHz_20dBm-eps-converted-to.pdf> [116]
-[117 <./Pictures/25June2013/SWTL_w_tag_USB_pwr-eps-converted-to.pdf>] [118 <./P
+<use Pictures/25June2013/BS_env_915MHz_20dBm-eps-converted-to.pdf> [121]
+[122 <./Pictures/25June2013/SWTL_w_tag_USB_pwr-eps-converted-to.pdf>] [123 <./P
 ictures/25June2013/BS_env_915MHz_20dBm-eps-converted-to.pdf>]
-<Pictures/27June2013/SWTL_w_tag_modified.pdf, id=2786, 767.86874pt x 230.8625pt
+<Pictures/27June2013/SWTL_w_tag_modified.pdf, id=3042, 767.86874pt x 230.8625pt
 >
 File: Pictures/27June2013/SWTL_w_tag_modified.pdf Graphic file (type pdf)
- <use Pictures/27June2013/SWTL_w_tag_modified.pdf> [119
+ <use Pictures/27June2013/SWTL_w_tag_modified.pdf> [124
 
  <./Pictures/27June2013/SWTL_w_tag_modified.pdf>]
-<Pictures/27June2013/SWTL_w_tag_AWG36_USB_pwr.png, id=2821, 578.16pt x 433.62pt
+<Pictures/27June2013/SWTL_w_tag_AWG36_USB_pwr.png, id=3076, 578.16pt x 433.62pt
 >
 File: Pictures/27June2013/SWTL_w_tag_AWG36_USB_pwr.png Graphic file (type png)
  <use Pictures/27June2013/SWTL_w_tag_AWG36_USB_pwr.png>
-<Pictures/27June2013/SWTL_w_tag_AWG36_Vreg.png, id=2822, 578.16pt x 433.62pt>
+<Pictures/27June2013/SWTL_w_tag_AWG36_Vreg.png, id=3077, 578.16pt x 433.62pt>
 File: Pictures/27June2013/SWTL_w_tag_AWG36_Vreg.png Graphic file (type png)
 
 <use Pictures/27June2013/SWTL_w_tag_AWG36_Vreg.png>
-<Pictures/27June2013/SWTL_w_tag_AWG36_Vunreg.png, id=2823, 578.16pt x 433.62pt>
+<Pictures/27June2013/SWTL_w_tag_AWG36_Vunreg.png, id=3078, 578.16pt x 433.62pt>
 File: Pictures/27June2013/SWTL_w_tag_AWG36_Vunreg.png Graphic file (type png)
-<use Pictures/27June2013/SWTL_w_tag_AWG36_Vunreg.png> [120] [121 <./Pictures/27
+<use Pictures/27June2013/SWTL_w_tag_AWG36_Vunreg.png> [125] [126 <./Pictures/27
 June2013/SWTL_w_tag_AWG36_USB_pwr.png (PNG copy)> <./Pictures/27June2013/SWTL_w
 _tag_AWG36_Vreg.png (PNG copy)> <./Pictures/27June2013/SWTL_w_tag_AWG36_Vunreg.
-png (PNG copy)>] [122]
-<Pictures/2July2013/SWTL_w_tag_AWG29_USB_pwr_r1.png, id=2843, 578.16pt x 433.62
+png (PNG copy)>] [127]
+<Pictures/2July2013/SWTL_w_tag_AWG29_USB_pwr_r1.png, id=3099, 578.16pt x 433.62
 pt>
 File: Pictures/2July2013/SWTL_w_tag_AWG29_USB_pwr_r1.png Graphic file (type png
 )
  <use Pictures/2July2013/SWTL_w_tag_AWG29_USB_pwr_r1.png>
-<Pictures/2July2013/SWTL_w_tag_AWG29_Vreg_r1.png, id=2844, 578.16pt x 433.62pt>
+<Pictures/2July2013/SWTL_w_tag_AWG29_Vreg_r1.png, id=3100, 578.16pt x 433.62pt>
 File: Pictures/2July2013/SWTL_w_tag_AWG29_Vreg_r1.png Graphic file (type png)
 <use Pictures/2July2013/SWTL_w_tag_AWG29_Vreg_r1.png>
-<Pictures/2July2013/SWTL_w_tag_AWG29_Vunreg_r1.png, id=2845, 578.16pt x 433.62p
+<Pictures/2July2013/SWTL_w_tag_AWG29_Vunreg_r1.png, id=3101, 578.16pt x 433.62p
 t>
 File: Pictures/2July2013/SWTL_w_tag_AWG29_Vunreg_r1.png Graphic file (type png)
 
- <use Pictures/2July2013/SWTL_w_tag_AWG29_Vunreg_r1.png> [123
+ <use Pictures/2July2013/SWTL_w_tag_AWG29_Vunreg_r1.png> [128
 
-] [124 <./Pictures/2July2013/SWTL_w_tag_AWG29_USB_pwr_r1.png (PNG copy)> <./Pic
+] [129 <./Pictures/2July2013/SWTL_w_tag_AWG29_USB_pwr_r1.png (PNG copy)> <./Pic
 tures/2July2013/SWTL_w_tag_AWG29_Vreg_r1.png (PNG copy)> <./Pictures/2July2013/
 SWTL_w_tag_AWG29_Vunreg_r1.png (PNG copy)>]
-<Pictures/2July2013/SWTL_w_tag_AWG36_USB_pwr_powm20t0stp25.png, id=2864, 578.16
+<Pictures/2July2013/SWTL_w_tag_AWG36_USB_pwr_powm20t0stp25.png, id=3120, 578.16
 pt x 433.62pt>
 File: Pictures/2July2013/SWTL_w_tag_AWG36_USB_pwr_powm20t0stp25.png Graphic fil
 e (type png)
 
 <use Pictures/2July2013/SWTL_w_tag_AWG36_USB_pwr_powm20t0stp25.png>
-<Pictures/2July2013/SWTL_w_tag_AWG36_Vreg_powm20t0stp25.png, id=2865, 578.16pt 
+<Pictures/2July2013/SWTL_w_tag_AWG36_Vreg_powm20t0stp25.png, id=3121, 578.16pt 
 x 433.62pt>
 File: Pictures/2July2013/SWTL_w_tag_AWG36_Vreg_powm20t0stp25.png Graphic file (
 type png)
  <use Pictures/2July2013/SWTL_w_tag_AWG36_Vreg_powm20t0stp25.png>
-<Pictures/2July2013/SWTL_w_tag_AWG36_Vunreg_powm20t0stp25.png, id=2866, 578.16p
+<Pictures/2July2013/SWTL_w_tag_AWG36_Vunreg_powm20t0stp25.png, id=3122, 578.16p
 t x 433.62pt>
 File: Pictures/2July2013/SWTL_w_tag_AWG36_Vunreg_powm20t0stp25.png Graphic file
  (type png)
 
-<use Pictures/2July2013/SWTL_w_tag_AWG36_Vunreg_powm20t0stp25.png> [125]
-[126 <./Pictures/2July2013/SWTL_w_tag_AWG36_USB_pwr_powm20t0stp25.png (PNG copy
+<use Pictures/2July2013/SWTL_w_tag_AWG36_Vunreg_powm20t0stp25.png> [130]
+[131 <./Pictures/2July2013/SWTL_w_tag_AWG36_USB_pwr_powm20t0stp25.png (PNG copy
 )> <./Pictures/2July2013/SWTL_w_tag_AWG36_Vreg_powm20t0stp25.png (PNG copy)> <.
 /Pictures/2July2013/SWTL_w_tag_AWG36_Vunreg_powm20t0stp25.png (PNG copy)>]
-<Pictures/5July2013/Bug3a_chipA_MN.pdf, id=2884, 334.24875pt x 151.56625pt>
+<Pictures/5July2013/Bug3a_chipA_MN.pdf, id=3139, 334.24875pt x 151.56625pt>
 File: Pictures/5July2013/Bug3a_chipA_MN.pdf Graphic file (type pdf)
 
 <use Pictures/5July2013/Bug3a_chipA_MN.pdf>
@@ -2202,14 +2195,14 @@ ipA_RL-eps-converted-to.pdf Pictures/5July2013/Bug3a_chipA_RL.eps>
 (epstopdf)             \includegraphics on input line 2695.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/5July2013/Bug3a_chipA_RL-eps-converted-to.pdf, id=2886, 505.89pt x 36
+<Pictures/5July2013/Bug3a_chipA_RL-eps-converted-to.pdf, id=3141, 505.89pt x 36
 1.35pt>
 File: Pictures/5July2013/Bug3a_chipA_RL-eps-converted-to.pdf Graphic file (type
  pdf)
- <use Pictures/5July2013/Bug3a_chipA_RL-eps-converted-to.pdf> [127
+ <use Pictures/5July2013/Bug3a_chipA_RL-eps-converted-to.pdf> [132
 
  <./Pictures/5July2013/Bug3a_chipA_MN.pdf>]
-<Pictures/5July2013/Bug3a_chipA_cropped.jpg, id=2917, 617.1055pt x 747.593pt>
+<Pictures/5July2013/Bug3a_chipA_cropped.jpg, id=3173, 617.1055pt x 747.593pt>
 File: Pictures/5July2013/Bug3a_chipA_cropped.jpg Graphic file (type jpg)
 
 <use Pictures/5July2013/Bug3a_chipA_cropped.jpg>
@@ -2227,16 +2220,16 @@ ipA_voltage_915MHz-eps-converted-to.pdf Pictures/5July2013/Bug3a_chipA_voltage_
 (epstopdf)             \includegraphics on input line 2725.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/5July2013/Bug3a_chipA_voltage_915MHz-eps-converted-to.pdf, id=2919, 5
+<Pictures/5July2013/Bug3a_chipA_voltage_915MHz-eps-converted-to.pdf, id=3175, 5
 05.89pt x 361.35pt>
 File: Pictures/5July2013/Bug3a_chipA_voltage_915MHz-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use Pictures/5July2013/Bug3a_chipA_voltage_915MHz-eps-converted-to.pdf>
-[128 <./Pictures/5July2013/Bug3a_chipA_RL-eps-converted-to.pdf>] [129 <./Pictur
+[133 <./Pictures/5July2013/Bug3a_chipA_RL-eps-converted-to.pdf>] [134 <./Pictur
 es/5July2013/Bug3a_chipA_cropped.jpg> <./Pictures/5July2013/Bug3a_chipA_voltage
-_915MHz-eps-converted-to.pdf>] [130]
-<Pictures/10July2013/SWTL_TDR_diagram.pdf, id=2947, 461.725pt x 174.6525pt>
+_915MHz-eps-converted-to.pdf>] [135]
+<Pictures/10July2013/SWTL_TDR_diagram.pdf, id=3203, 461.725pt x 174.6525pt>
 File: Pictures/10July2013/SWTL_TDR_diagram.pdf Graphic file (type pdf)
 
 <use Pictures/10July2013/SWTL_TDR_diagram.pdf>
@@ -2253,7 +2246,7 @@ R_full_AWG36-eps-converted-to.pdf Pictures/10July2013/SWTL_TDR_full_AWG36.eps>
 (epstopdf)             \includegraphics on input line 2766.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10July2013/SWTL_TDR_full_AWG36-eps-converted-to.pdf, id=2950, 505.89p
+<Pictures/10July2013/SWTL_TDR_full_AWG36-eps-converted-to.pdf, id=3206, 505.89p
 t x 361.35pt>
 File: Pictures/10July2013/SWTL_TDR_full_AWG36-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2272,12 +2265,12 @@ R_zoom_AWG36-eps-converted-to.pdf Pictures/10July2013/SWTL_TDR_zoom_AWG36.eps>
 (epstopdf)             \includegraphics on input line 2771.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10July2013/SWTL_TDR_zoom_AWG36-eps-converted-to.pdf, id=2951, 505.89p
+<Pictures/10July2013/SWTL_TDR_zoom_AWG36-eps-converted-to.pdf, id=3207, 505.89p
 t x 361.35pt>
 File: Pictures/10July2013/SWTL_TDR_zoom_AWG36-eps-converted-to.pdf Graphic file
  (type pdf)
 
-<use Pictures/10July2013/SWTL_TDR_zoom_AWG36-eps-converted-to.pdf> [131
+<use Pictures/10July2013/SWTL_TDR_zoom_AWG36-eps-converted-to.pdf> [136
 
  <./Pictures/10July2013/SWTL_TDR_diagram.pdf>]
 Package epstopdf Info: Source file: <Pictures/10July2013/SWTL_TDR_zoom_s11_all_
@@ -2294,7 +2287,7 @@ _all_wires.eps>
 (epstopdf)             \includegraphics on input line 2789.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10July2013/SWTL_TDR_zoom_s11_all_wires-eps-converted-to.pdf, id=2988,
+<Pictures/10July2013/SWTL_TDR_zoom_s11_all_wires-eps-converted-to.pdf, id=3243,
  505.89pt x 361.35pt>
 File: Pictures/10July2013/SWTL_TDR_zoom_s11_all_wires-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2314,13 +2307,13 @@ _all_wires.eps>
 (epstopdf)             \includegraphics on input line 2794.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10July2013/SWTL_TDR_zoom_s22_all_wires-eps-converted-to.pdf, id=2989,
+<Pictures/10July2013/SWTL_TDR_zoom_s22_all_wires-eps-converted-to.pdf, id=3244,
  505.89pt x 361.35pt>
 File: Pictures/10July2013/SWTL_TDR_zoom_s22_all_wires-eps-converted-to.pdf Grap
 hic file (type pdf)
 
 <use Pictures/10July2013/SWTL_TDR_zoom_s22_all_wires-eps-converted-to.pdf>
-[132 <./Pictures/10July2013/SWTL_TDR_full_AWG36-eps-converted-to.pdf> <./Pictur
+[137 <./Pictures/10July2013/SWTL_TDR_full_AWG36-eps-converted-to.pdf> <./Pictur
 es/10July2013/SWTL_TDR_zoom_AWG36-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/10July2013/SWTL_TDR_s11_dist_all_
 wires.eps>
@@ -2336,7 +2329,7 @@ _all_wires.eps>
 (epstopdf)             \includegraphics on input line 2811.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10July2013/SWTL_TDR_s11_dist_all_wires-eps-converted-to.pdf, id=3009,
+<Pictures/10July2013/SWTL_TDR_s11_dist_all_wires-eps-converted-to.pdf, id=3264,
  505.89pt x 361.35pt>
 File: Pictures/10July2013/SWTL_TDR_s11_dist_all_wires-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2356,17 +2349,17 @@ _all_wires.eps>
 (epstopdf)             \includegraphics on input line 2816.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/10July2013/SWTL_TDR_s22_dist_all_wires-eps-converted-to.pdf, id=3010,
+<Pictures/10July2013/SWTL_TDR_s22_dist_all_wires-eps-converted-to.pdf, id=3265,
  505.89pt x 361.35pt>
 File: Pictures/10July2013/SWTL_TDR_s22_dist_all_wires-eps-converted-to.pdf Grap
 hic file (type pdf)
 
 <use Pictures/10July2013/SWTL_TDR_s22_dist_all_wires-eps-converted-to.pdf>
-[133 <./Pictures/10July2013/SWTL_TDR_zoom_s11_all_wires-eps-converted-to.pdf> <
+[138 <./Pictures/10July2013/SWTL_TDR_zoom_s11_all_wires-eps-converted-to.pdf> <
 ./Pictures/10July2013/SWTL_TDR_zoom_s22_all_wires-eps-converted-to.pdf>]
-[134 <./Pictures/10July2013/SWTL_TDR_s11_dist_all_wires-eps-converted-to.pdf> <
+[139 <./Pictures/10July2013/SWTL_TDR_s11_dist_all_wires-eps-converted-to.pdf> <
 ./Pictures/10July2013/SWTL_TDR_s22_dist_all_wires-eps-converted-to.pdf>]
-[135
+[140
 
 ]
 
@@ -2393,7 +2386,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2862.
 
-[136
+[141
 
 ]
 Package epstopdf Info: Source file: <Pictures/22July2013/SWTL_TDR_AWG36_s11_inc
@@ -2410,13 +2403,13 @@ R_AWG36_s11_incrIFFT-eps-converted-to.pdf Pictures/22July2013/SWTL_TDR_AWG36_s1
 (epstopdf)             \includegraphics on input line 2872.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22July2013/SWTL_TDR_AWG36_s11_incrIFFT-eps-converted-to.pdf, id=3055,
+<Pictures/22July2013/SWTL_TDR_AWG36_s11_incrIFFT-eps-converted-to.pdf, id=3311,
  505.89pt x 361.35pt>
 File: Pictures/22July2013/SWTL_TDR_AWG36_s11_incrIFFT-eps-converted-to.pdf Grap
 hic file (type pdf)
 
 <use Pictures/22July2013/SWTL_TDR_AWG36_s11_incrIFFT-eps-converted-to.pdf>
-[137 <./Pictures/22July2013/SWTL_TDR_AWG36_s11_incrIFFT-eps-converted-to.pdf>]
+[142 <./Pictures/22July2013/SWTL_TDR_AWG36_s11_incrIFFT-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/22July2013/SWTL_TDR_s11_AWG36_win
 dowing.eps>
 (epstopdf)                    date: 2013-07-22 17:25:00
@@ -2431,7 +2424,7 @@ R_s11_AWG36_windowing-eps-converted-to.pdf Pictures/22July2013/SWTL_TDR_s11_AWG
 (epstopdf)             \includegraphics on input line 2895.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22July2013/SWTL_TDR_s11_AWG36_windowing-eps-converted-to.pdf, id=3068
+<Pictures/22July2013/SWTL_TDR_s11_AWG36_windowing-eps-converted-to.pdf, id=3323
 , 650.43pt x 722.7pt>
 File: Pictures/22July2013/SWTL_TDR_s11_AWG36_windowing-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -2451,13 +2444,13 @@ ll_wires_hamming.eps>
 (epstopdf)             \includegraphics on input line 2910.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22July2013/SWTL_TDR_s11_all_wires_hamming-eps-converted-to.pdf, id=30
-69, 505.89pt x 361.35pt>
+<Pictures/22July2013/SWTL_TDR_s11_all_wires_hamming-eps-converted-to.pdf, id=33
+24, 505.89pt x 361.35pt>
 File: Pictures/22July2013/SWTL_TDR_s11_all_wires_hamming-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use Pictures/22July2013/SWTL_TDR_s11_all_wires_hamming-eps-converted-to.pdf>
-[138] [139 <./Pictures/22July2013/SWTL_TDR_s11_AWG36_windowing-eps-converted-to
+[143] [144 <./Pictures/22July2013/SWTL_TDR_s11_AWG36_windowing-eps-converted-to
 .pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2497,7 +2490,7 @@ _hamming.eps>
 (epstopdf)             \includegraphics on input line 2935.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22July2013/SWTL_TDR_AWG36_s11_hamming-eps-converted-to.pdf, id=3088, 
+<Pictures/22July2013/SWTL_TDR_AWG36_s11_hamming-eps-converted-to.pdf, id=3344, 
 505.89pt x 361.35pt>
 File: Pictures/22July2013/SWTL_TDR_AWG36_s11_hamming-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2517,13 +2510,13 @@ _hamming.eps>
 (epstopdf)             \includegraphics on input line 2940.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22July2013/SWTL_TDR_AWG36_s22_hamming-eps-converted-to.pdf, id=3089, 
+<Pictures/22July2013/SWTL_TDR_AWG36_s22_hamming-eps-converted-to.pdf, id=3345, 
 505.89pt x 361.35pt>
 File: Pictures/22July2013/SWTL_TDR_AWG36_s22_hamming-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use Pictures/22July2013/SWTL_TDR_AWG36_s22_hamming-eps-converted-to.pdf>
-[140 <./Pictures/22July2013/SWTL_TDR_s11_all_wires_hamming-eps-converted-to.pdf
+[145 <./Pictures/22July2013/SWTL_TDR_s11_all_wires_hamming-eps-converted-to.pdf
 >]
 Package epstopdf Info: Source file: <Pictures/22July2013/SWTL_TDR_AWG36_combine
 d_sparam.eps>
@@ -2539,14 +2532,14 @@ _combined_sparam.eps>
 (epstopdf)             \includegraphics on input line 2954.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22July2013/SWTL_TDR_AWG36_combined_sparam-eps-converted-to.pdf, id=31
-02, 505.89pt x 361.35pt>
+<Pictures/22July2013/SWTL_TDR_AWG36_combined_sparam-eps-converted-to.pdf, id=33
+58, 505.89pt x 361.35pt>
 File: Pictures/22July2013/SWTL_TDR_AWG36_combined_sparam-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use Pictures/22July2013/SWTL_TDR_AWG36_combined_sparam-eps-converted-to.pdf>
-[141 <./Pictures/22July2013/SWTL_TDR_AWG36_s11_hamming-eps-converted-to.pdf> <.
-/Pictures/22July2013/SWTL_TDR_AWG36_s22_hamming-eps-converted-to.pdf>] [142 <./
+[146 <./Pictures/22July2013/SWTL_TDR_AWG36_s11_hamming-eps-converted-to.pdf> <.
+/Pictures/22July2013/SWTL_TDR_AWG36_s22_hamming-eps-converted-to.pdf>] [147 <./
 Pictures/22July2013/SWTL_TDR_AWG36_combined_sparam-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/22July2013/SWTL_TDR_s11_AWG36_por
 t2open.eps>
@@ -2562,13 +2555,13 @@ R_s11_AWG36_port2open-eps-converted-to.pdf Pictures/22July2013/SWTL_TDR_s11_AWG
 (epstopdf)             \includegraphics on input line 2990.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22July2013/SWTL_TDR_s11_AWG36_port2open-eps-converted-to.pdf, id=3129
+<Pictures/22July2013/SWTL_TDR_s11_AWG36_port2open-eps-converted-to.pdf, id=3385
 , 505.89pt x 361.35pt>
 File: Pictures/22July2013/SWTL_TDR_s11_AWG36_port2open-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use Pictures/22July2013/SWTL_TDR_s11_AWG36_port2open-eps-converted-to.pdf>
-[143 <./Pictures/22July2013/SWTL_TDR_s11_AWG36_port2open-eps-converted-to.pdf>]
+[148 <./Pictures/22July2013/SWTL_TDR_s11_AWG36_port2open-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/22July2013/SWTL_TDR_s11_AWG36_vpv
 erify.eps>
 (epstopdf)                    date: 2013-07-26 11:12:36
@@ -2583,7 +2576,7 @@ R_s11_AWG36_vpverify-eps-converted-to.pdf Pictures/22July2013/SWTL_TDR_s11_AWG3
 (epstopdf)             \includegraphics on input line 3006.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/22July2013/SWTL_TDR_s11_AWG36_vpverify-eps-converted-to.pdf, id=3143,
+<Pictures/22July2013/SWTL_TDR_s11_AWG36_vpverify-eps-converted-to.pdf, id=3398,
  505.89pt x 361.35pt>
 File: Pictures/22July2013/SWTL_TDR_s11_AWG36_vpverify-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2604,18 +2597,18 @@ _s11_dist_all_wires_vpverify.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/22July2013/SWTL_TDR_s11_dist_all_wires_vpverify-eps-converted-to.pdf,
- id=3145, 505.89pt x 361.35pt>
+ id=3400, 505.89pt x 361.35pt>
 File: Pictures/22July2013/SWTL_TDR_s11_dist_all_wires_vpverify-eps-converted-to
 .pdf Graphic file (type pdf)
 
 <use Pictures/22July2013/SWTL_TDR_s11_dist_all_wires_vpverify-eps-converted-to.
-pdf> [144 <./Pictures/22July2013/SWTL_TDR_s11_AWG36_vpverify-eps-converted-to.p
-df>] [145 <./Pictures/22July2013/SWTL_TDR_s11_dist_all_wires_vpverify-eps-conve
+pdf> [149 <./Pictures/22July2013/SWTL_TDR_s11_AWG36_vpverify-eps-converted-to.p
+df>] [150 <./Pictures/22July2013/SWTL_TDR_s11_dist_all_wires_vpverify-eps-conve
 rted-to.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[146
+[151
 
 ]
 Package epstopdf Info: Source file: <Pictures/31July2013/SWTL_w_tag_AWG36_USB_p
@@ -2633,7 +2626,7 @@ _AWG36_USB_pwr_Bug3chipA.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA-eps-converted-to.pdf, i
-d=3176, 578.16pt x 433.62pt>
+d=3431, 578.16pt x 433.62pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -2654,7 +2647,7 @@ G36_Vreg_Bug3chipA.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG36_Vreg_Bug3chipA-eps-converted-to.pdf, id=3
-177, 578.16pt x 433.62pt>
+432, 578.16pt x 433.62pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG36_Vreg_Bug3chipA-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -2674,7 +2667,7 @@ AWG36_Vunreg_Bug3chipA.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG36_Vunreg_Bug3chipA-eps-converted-to.pdf, id
-=3178, 578.16pt x 433.62pt>
+=3433, 578.16pt x 433.62pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG36_Vunreg_Bug3chipA-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -2695,7 +2688,7 @@ tag_AWG36_USB_pwr_Bug3chipA_2D.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D-eps-converted-to.pdf
-, id=3181, 505.89pt x 361.35pt>
+, id=3436, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -2716,7 +2709,7 @@ g_AWG36_HarvV_Bug3chipA_2D.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D-eps-converted-to.pdf, 
-id=3182, 505.89pt x 361.35pt>
+id=3437, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -2736,16 +2729,16 @@ tag_AWG36_BSspec_915MHz-eps-converted-to.pdf Pictures/31July2013/SWTL_w_tag_AWG
 (epstopdf)             \includegraphics on input line 3116.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/31July2013/SWTL_w_tag_AWG36_BSspec_915MHz-eps-converted-to.pdf, id=31
-83, 505.89pt x 361.35pt>
+<Pictures/31July2013/SWTL_w_tag_AWG36_BSspec_915MHz-eps-converted-to.pdf, id=34
+38, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG36_BSspec_915MHz-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use Pictures/31July2013/SWTL_w_tag_AWG36_BSspec_915MHz-eps-converted-to.pdf>
-[147] [148 <./Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA-eps-conver
+[152] [153 <./Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA-eps-conver
 ted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG36_Vreg_Bug3chipA-eps-converte
 d-to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG36_Vunreg_Bug3chipA-eps-converte
-d-to.pdf>] [149 <./Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D-ep
+d-to.pdf>] [154 <./Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D-ep
 s-converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D-
 eps-converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG36_BSspec_915MHz-eps
 -converted-to.pdf>]
@@ -2764,7 +2757,7 @@ tag_AWG36_USB_pwr_Bug3chipA_2D_SWTLref-eps-converted-to.pdf Pictures/31July2013
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D_SWTLref-eps-converte
-d-to.pdf, id=3234, 505.89pt x 361.35pt>
+d-to.pdf, id=3488, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D_SWTLref-eps-con
 verted-to.pdf Graphic file (type pdf)
 
@@ -2785,7 +2778,7 @@ WTL_w_tag_AWG36_HarvV_Bug3chipA_2D_SWTLref.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D_SWTLref-eps-converted-
-to.pdf, id=3235, 505.89pt x 361.35pt>
+to.pdf, id=3489, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D_SWTLref-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
@@ -2806,7 +2799,7 @@ _AWG29_USB_pwr_Bug3chipA.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA-eps-converted-to.pdf, i
-d=3238, 578.16pt x 433.62pt>
+d=3492, 578.16pt x 433.62pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -2827,7 +2820,7 @@ G29_Vreg_Bug3chipA.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG29_Vreg_Bug3chipA-eps-converted-to.pdf, id=3
-239, 578.16pt x 433.62pt>
+493, 578.16pt x 433.62pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG29_Vreg_Bug3chipA-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -2847,14 +2840,14 @@ AWG29_Vunreg_Bug3chipA.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG29_Vunreg_Bug3chipA-eps-converted-to.pdf, id
-=3240, 578.16pt x 433.62pt>
+=3494, 578.16pt x 433.62pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG29_Vunreg_Bug3chipA-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use Pictures/31July2013/SWTL_w_tag_AWG29_Vunreg_Bug3chipA-eps-converted-to.pdf
-> [150 <./Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D_SWTLref-eps
+> [155 <./Pictures/31July2013/SWTL_w_tag_AWG36_USB_pwr_Bug3chipA_2D_SWTLref-eps
 -converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG36_HarvV_Bug3chipA_2D_S
-WTLref-eps-converted-to.pdf>] [151 <./Pictures/31July2013/SWTL_w_tag_AWG29_USB_
+WTLref-eps-converted-to.pdf>] [156 <./Pictures/31July2013/SWTL_w_tag_AWG29_USB_
 pwr_Bug3chipA-eps-converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG29_Vre
 g_Bug3chipA-eps-converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG29_Vunre
 g_Bug3chipA-eps-converted-to.pdf>]
@@ -2873,7 +2866,7 @@ tag_AWG29_USB_pwr_Bug3chipA_2D.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D-eps-converted-to.pdf
-, id=3278, 505.89pt x 361.35pt>
+, id=3532, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -2894,7 +2887,7 @@ g_AWG29_HarvV_Bug3chipA_2D.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D-eps-converted-to.pdf, 
-id=3279, 505.89pt x 361.35pt>
+id=3533, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -2914,13 +2907,13 @@ tag_AWG29_BSspec_915MHz-eps-converted-to.pdf Pictures/31July2013/SWTL_w_tag_AWG
 (epstopdf)             \includegraphics on input line 3194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/31July2013/SWTL_w_tag_AWG29_BSspec_915MHz-eps-converted-to.pdf, id=32
-80, 505.89pt x 361.35pt>
+<Pictures/31July2013/SWTL_w_tag_AWG29_BSspec_915MHz-eps-converted-to.pdf, id=35
+34, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG29_BSspec_915MHz-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use Pictures/31July2013/SWTL_w_tag_AWG29_BSspec_915MHz-eps-converted-to.pdf>
-[152 <./Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D-eps-converted
+[157 <./Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D-eps-converted
 -to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D-eps-convert
 ed-to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG29_BSspec_915MHz-eps-converted-
 to.pdf>]
@@ -2939,7 +2932,7 @@ tag_AWG29_USB_pwr_Bug3chipA_2D_SWTLref-eps-converted-to.pdf Pictures/31July2013
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D_SWTLref-eps-converte
-d-to.pdf, id=3309, 505.89pt x 361.35pt>
+d-to.pdf, id=3563, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D_SWTLref-eps-con
 verted-to.pdf Graphic file (type pdf)
 
@@ -2960,12 +2953,12 @@ WTL_w_tag_AWG29_HarvV_Bug3chipA_2D_SWTLref.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D_SWTLref-eps-converted-
-to.pdf, id=3310, 505.89pt x 361.35pt>
+to.pdf, id=3564, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D_SWTLref-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
 <use Pictures/31July2013/SWTL_w_tag_AWG29_HarvV_Bug3chipA_2D_SWTLref-eps-conver
-ted-to.pdf> [153 <./Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D_S
+ted-to.pdf> [158 <./Pictures/31July2013/SWTL_w_tag_AWG29_USB_pwr_Bug3chipA_2D_S
 WTLref-eps-converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_AWG29_HarvV_Bug3
 chipA_2D_SWTLref-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/31July2013/SWTL_w_tag_USB_pwr_Bug
@@ -2983,7 +2976,7 @@ ly2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_combineplot.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_combineplot-eps-co
-nverted-to.pdf, id=3330, 505.89pt x 361.35pt>
+nverted-to.pdf, id=3584, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_combineplot-e
 ps-converted-to.pdf Graphic file (type pdf)
 
@@ -3004,7 +2997,7 @@ tag_Vreg_Bug3chipA_2D_SWTLref_combineplot-eps-converted-to.pdf Pictures/31July2
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_combineplot-eps-conve
-rted-to.pdf, id=3331, 505.89pt x 361.35pt>
+rted-to.pdf, id=3585, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_combineplot-eps-
 converted-to.pdf Graphic file (type pdf)
 
@@ -3025,16 +3018,16 @@ y2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/31July2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot-eps-con
-verted-to.pdf, id=3332, 505.89pt x 361.35pt>
+verted-to.pdf, id=3586, 505.89pt x 361.35pt>
 File: Pictures/31July2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot-ep
 s-converted-to.pdf Graphic file (type pdf)
 
 <use Pictures/31July2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot-eps
--converted-to.pdf> [154 <./Pictures/31July2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_
+-converted-to.pdf> [159 <./Pictures/31July2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_
 SWTLref_combineplot-eps-converted-to.pdf> <./Pictures/31July2013/SWTL_w_tag_Vre
 g_Bug3chipA_2D_SWTLref_combineplot-eps-converted-to.pdf> <./Pictures/31July2013
 /SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_combineplot-eps-converted-to.pdf>]
-[155]
+[160]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3053,7 +3046,7 @@ g_AWG26_USB_pwr_Bug3chipA-eps-converted-to.pdf Pictures/1Aug2013/SWTL_w_tag_AWG
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA-eps-converted-to.pdf, id=
-3368, 578.16pt x 433.62pt>
+3620, 578.16pt x 433.62pt>
 File: Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -3072,8 +3065,8 @@ Vreg_Bug3chipA.eps>
 (epstopdf)             \includegraphics on input line 3318.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/1Aug2013/SWTL_w_tag_AWG26_Vreg_Bug3chipA-eps-converted-to.pdf, id=336
-9, 578.16pt x 433.62pt>
+<Pictures/1Aug2013/SWTL_w_tag_AWG26_Vreg_Bug3chipA-eps-converted-to.pdf, id=362
+1, 578.16pt x 433.62pt>
 File: Pictures/1Aug2013/SWTL_w_tag_AWG26_Vreg_Bug3chipA-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -3093,18 +3086,14 @@ g_AWG26_Vunreg_Bug3chipA-eps-converted-to.pdf Pictures/1Aug2013/SWTL_w_tag_AWG2
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/1Aug2013/SWTL_w_tag_AWG26_Vunreg_Bug3chipA-eps-converted-to.pdf, id=3
-370, 578.16pt x 433.62pt>
+622, 578.16pt x 433.62pt>
 File: Pictures/1Aug2013/SWTL_w_tag_AWG26_Vunreg_Bug3chipA-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use Pictures/1Aug2013/SWTL_w_tag_AWG26_Vunreg_Bug3chipA-eps-converted-to.pdf>
+[161
 
-LaTeX Warning: Reference `fig:SWTL_w_tag_AWG26_BSspec_915MHz' on page 156 undef
-ined on input line 3333.
-
-[156
-
-] [157 <./Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA-eps-converted-to
+] [162 <./Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA-eps-converted-to
 .pdf> <./Pictures/1Aug2013/SWTL_w_tag_AWG26_Vreg_Bug3chipA-eps-converted-to.pdf
 > <./Pictures/1Aug2013/SWTL_w_tag_AWG26_Vunreg_Bug3chipA-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr
@@ -3122,7 +3111,7 @@ AWG26_USB_pwr_Bug3chipA_2D.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA_2D-eps-converted-to.pdf, 
-id=3397, 505.89pt x 361.35pt>
+id=3648, 505.89pt x 361.35pt>
 File: Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA_2D-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -3143,7 +3132,7 @@ G26_HarvV_Bug3chipA_2D.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/1Aug2013/SWTL_w_tag_AWG26_HarvV_Bug3chipA_2D-eps-converted-to.pdf, id
-=3398, 505.89pt x 361.35pt>
+=3649, 505.89pt x 361.35pt>
 File: Pictures/1Aug2013/SWTL_w_tag_AWG26_HarvV_Bug3chipA_2D-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -3163,24 +3152,12 @@ Sspec_915MHz.eps>
 (epstopdf)             \includegraphics on input line 3352.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/1Aug2013/SWTL_w_tag_AWG26_BSspec_915MHz-eps-converted-to.pdf, id=3399
+<Pictures/1Aug2013/SWTL_w_tag_AWG26_BSspec_915MHz-eps-converted-to.pdf, id=3650
 , 505.89pt x 361.35pt>
 File: Pictures/1Aug2013/SWTL_w_tag_AWG26_BSspec_915MHz-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use Pictures/1Aug2013/SWTL_w_tag_AWG26_BSspec_915MHz-eps-converted-to.pdf>
-
-LaTeX Warning: Reference `fig:SWTL_w_tag_AWG26_BSspec_915MHz' on page 158 undef
-ined on input line 3357.
-
-
-LaTeX Warning: Reference `fig:SWTL_w_tag_AWG26_USB_pwr_Bug3chipA_2D_SWTLref' on
- page 158 undefined on input line 3363.
-
-
-LaTeX Warning: Reference `fig:SWTL_w_tag_AWG26_HarvV_Bug3chipA_2D_SWTLref' on p
-age 158 undefined on input line 3363.
-
 Package epstopdf Info: Source file: <Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr
 _Bug3chipA_2D_SWTLref.eps>
 (epstopdf)                    date: 2013-08-05 15:08:04
@@ -3196,7 +3173,7 @@ L_w_tag_AWG26_USB_pwr_Bug3chipA_2D_SWTLref.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA_2D_SWTLref-eps-converted-
-to.pdf, id=3400, 505.89pt x 361.35pt>
+to.pdf, id=3654, 505.89pt x 361.35pt>
 File: Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA_2D_SWTLref-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
@@ -3217,25 +3194,17 @@ w_tag_AWG26_HarvV_Bug3chipA_2D_SWTLref.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/1Aug2013/SWTL_w_tag_AWG26_HarvV_Bug3chipA_2D_SWTLref-eps-converted-to
-.pdf, id=3401, 505.89pt x 361.35pt>
+.pdf, id=3655, 505.89pt x 361.35pt>
 File: Pictures/1Aug2013/SWTL_w_tag_AWG26_HarvV_Bug3chipA_2D_SWTLref-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
 <use Pictures/1Aug2013/SWTL_w_tag_AWG26_HarvV_Bug3chipA_2D_SWTLref-eps-converte
-d-to.pdf> [158] [159 <./Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA_2D
+d-to.pdf> [163] [164 <./Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA_2D
 -eps-converted-to.pdf> <./Pictures/1Aug2013/SWTL_w_tag_AWG26_HarvV_Bug3chipA_2D
 -eps-converted-to.pdf> <./Pictures/1Aug2013/SWTL_w_tag_AWG26_BSspec_915MHz-eps-
-converted-to.pdf>] [160 <./Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA
+converted-to.pdf>] [165 <./Pictures/1Aug2013/SWTL_w_tag_AWG26_USB_pwr_Bug3chipA
 _2D_SWTLref-eps-converted-to.pdf> <./Pictures/1Aug2013/SWTL_w_tag_AWG26_HarvV_B
 ug3chipA_2D_SWTLref-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges
-' on page 161 undefined on input line 3404.
-
-
-LaTeX Warning: Reference `fig:SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges'
- on page 161 undefined on input line 3404.
-
 Package epstopdf Info: Source file: <Pictures/5Aug2013/SWTL_w_tag_USB_pwr_Bug3c
 hipA_2D_SWTLref_allgauges.eps>
 (epstopdf)                    date: 2013-08-06 10:50:02
@@ -3251,7 +3220,7 @@ g_USB_pwr_Bug3chipA_2D_SWTLref_allgauges-eps-converted-to.pdf Pictures/5Aug2013
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/5Aug2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges-eps-conver
-ted-to.pdf, id=3454, 505.89pt x 361.35pt>
+ted-to.pdf, id=3708, 505.89pt x 361.35pt>
 File: Pictures/5Aug2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges-eps-c
 onverted-to.pdf Graphic file (type pdf)
 
@@ -3272,7 +3241,7 @@ TL_w_tag_Vreg_Bug3chipA_2D_SWTLref_allgauges.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/5Aug2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_allgauges-eps-converted
--to.pdf, id=3455, 505.89pt x 361.35pt>
+-to.pdf, id=3709, 505.89pt x 361.35pt>
 File: Pictures/5Aug2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_allgauges-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -3293,60 +3262,96 @@ SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Pictures/5Aug2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges-eps-convert
-ed-to.pdf, id=3456, 505.89pt x 361.35pt>
+ed-to.pdf, id=3710, 505.89pt x 361.35pt>
 File: Pictures/5Aug2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges-eps-co
 nverted-to.pdf Graphic file (type pdf)
 
 <use Pictures/5Aug2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges-eps-con
-verted-to.pdf> [161
+verted-to.pdf> [166
 
  <./Pictures/5Aug2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges-eps-con
 verted-to.pdf> <./Pictures/5Aug2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_allgau
 ges-eps-converted-to.pdf> <./Pictures/5Aug2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_S
-WTLref_allgauges-eps-converted-to.pdf>] [162]
+WTLref_allgauges-eps-converted-to.pdf>] [167]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3467.
+(hyperref)                removing `math shift' on input line 3468.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3467.
+(hyperref)                removing `math shift' on input line 3468.
 
-[163
+[168
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3500.
- [164]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3500.
+Package epstopdf Info: Source file: <Pictures/6Aug2013/SAR_test_single_wire_sal
+ine.eps>
+(epstopdf)                    date: 2013-08-07 14:55:29
+(epstopdf)                    size: 4751875 bytes
+(epstopdf)             Output file: <Pictures/6Aug2013/SAR_test_single_wire_sal
+ine-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-08 15:26:12
+(epstopdf)                    size: 37457 bytes
+(epstopdf)             Command: <epstopdf --outfile=Pictures/6Aug2013/SAR_test_
+single_wire_saline-eps-converted-to.pdf Pictures/6Aug2013/SAR_test_single_wire_
+saline.eps>
+(epstopdf)             \includegraphics on input line 3507.
+Package epstopdf Info: Output file is already uptodate.
+
+<Pictures/6Aug2013/SAR_test_single_wire_saline-eps-converted-to.pdf, id=3751, 5
+04.88625pt x 361.35pt>
+File: Pictures/6Aug2013/SAR_test_single_wire_saline-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use Pictures/6Aug2013/SAR_test_single_wire_saline-eps-converted-to.pdf>
+[169] [170 <./Pictures/6Aug2013/SAR_test_single_wire_saline-eps-converted-to.pd
+f>] [171]
+Package epstopdf Info: Source file: <Pictures/9Aug2013/SAR_single_wire_nonTx_AW
+G36_saline.eps>
+(epstopdf)                    date: 2013-08-09 15:35:10
+(epstopdf)                    size: 307699 bytes
+(epstopdf)             Output file: <Pictures/9Aug2013/SAR_single_wire_nonTx_AW
+G36_saline-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-09 15:39:24
+(epstopdf)                    size: 623636 bytes
+(epstopdf)             Command: <epstopdf --outfile=Pictures/9Aug2013/SAR_singl
+e_wire_nonTx_AWG36_saline-eps-converted-to.pdf Pictures/9Aug2013/SAR_single_wir
+e_nonTx_AWG36_saline.eps>
+(epstopdf)             \includegraphics on input line 3542.
+Package epstopdf Info: Output file is already uptodate.
+
+<Pictures/9Aug2013/SAR_single_wire_nonTx_AWG36_saline-eps-converted-to.pdf, id=
+3775, 578.16pt x 433.62pt>
+File: Pictures/9Aug2013/SAR_single_wire_nonTx_AWG36_saline-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use Pictures/9Aug2013/SAR_single_wire_nonTx_AWG36_saline-eps-converted-to.pdf>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3550.
+[172
+
+] [173 <./Pictures/9Aug2013/SAR_single_wire_nonTx_AWG36_saline-eps-converted-to
+.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3550.
  (./duke_daily_log.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3500.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3500.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3550.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3550.
 
-
-
-Package rerunfilecheck Warning: File `duke_daily_log.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `duke_daily_log.out':
-(rerunfilecheck)             Before: 828125B100EAE1D2971FFAA59CE70EB0;12288
-(rerunfilecheck)             After:  57F14E983A9F5FE589476C1C3B9D6F8D;13518.
-
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Info: File `duke_daily_log.out' has not changed.
+(rerunfilecheck)             Checksum: 90D3F5FCB8C5BBD873A25BD9CC099D82;13717.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3500.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3550.
  ) 
 Here is how much of TeX's memory you used:
- 8179 strings out of 493876
- 158354 string characters out of 1150567
- 200453 words of memory out of 3000000
- 10618 multiletter control sequences out of 10000+50000
+ 8223 strings out of 493876
+ 159534 string characters out of 1150567
+ 201893 words of memory out of 3000000
+ 10645 multiletter control sequences out of 10000+50000
  13367 words of font info for 50 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 30i,11n,35p,1348b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,11n,35p,1332b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></usr/l
 ocal/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx8.pfb></usr/local/texli
 ve/2008/texmf-dist/fonts/type1/bluesky/cm/cmbxti10.pfb></usr/local/texlive/2008
@@ -3365,9 +3370,9 @@ pe1/bluesky/cm/cmr8.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky
 /local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb></usr/local/te
 xlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmtt12.pfb></usr/local/texlive/200
 8/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
-Output written on duke_daily_log.pdf (166 pages, 34931642 bytes).
+Output written on duke_daily_log.pdf (174 pages, 35643759 bytes).
 PDF statistics:
- 3694 PDF objects out of 4296 (max. 8388607)
- 589 named destinations out of 1000 (max. 131072)
- 2034 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3979 PDF objects out of 4296 (max. 8388607)
+ 602 named destinations out of 1000 (max. 131072)
+ 2164 words of extra memory for PDF output out of 10000 (max. 10000000)
 
