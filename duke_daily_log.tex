@@ -3551,4 +3551,226 @@ From the SAR plot, we can now see that there is clearly radial symmetry, as ther
 
 
 
+%August 12 - 15, 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{12 - 15 August 2013:}
+
+\indent \indent Today, I'm going to re-plot the results of powering the Bug3 chip (``chip A") using a SWTL submerged in saline using the new results from the AWG 36 and 29 wires with the altered amplitude reference level on the spectrum analyzer. Also, I'll take a closer look at the SAR of a SWTL, and see if I can relate the SAR to the power along the line.
+
+
+\subsection{Re-Plot of Comparison of All Wire Gauges for Powering an RFID Tag With a SWTL}
+\indent \indent Here, in Figures \ref{fig:SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges_r2} - \ref{fig:SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges_r2}, we have the plots comparing the performance of all wire gauges tested for powering the Bug3 chip ``A" with a SWTL submerged in normal (0.91 \%) saline.
+
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[USB Backscatter Power]{
+		\includegraphics[width=0.45\textwidth]{Pictures/12Aug2013/SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges_r2} 
+		\label{fig:SWTL_w_tag_USB_pwr_Bug3chipA_2D_SWTLref_allgauges_r2}
+		}
+		\quad
+	\subfigure[Vreg]{
+	\includegraphics[width=0.45\textwidth]{Pictures/12Aug2013/SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_allgauges_r2}
+	\label{fig:SWTL_w_tag_Vreg_Bug3chipA_2D_SWTLref_allgauges_r2}
+		}
+		
+	\subfigure[Vunreg ]{
+	\includegraphics[width=0.45\textwidth]{Pictures/12Aug2013/SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges_r2}
+	\label{fig:SWTL_w_tag_Vunreg_Bug3chipA_2D_SWTLref_allgauges_r2}
+		}
+	\label{fig:SWTL_w_tag_2D_SWTLref_allgauges_replot}
+	\caption{Comparing powering Bug3 chip (``chip A") with SWTL system for different wire gauges, at a frequency of 915 MHz. Re-plot of previous data; changed the amplitude reference level to match that of the AWG 26 wire for recording the USB backscatter power.}
+\end{figure}
+
+
+
+For the USB backscatter power plot, all the data lines up when the tag is off, since the reference level for each measurement is now the same with the new data. This was the only issue I had to resolve, and now these plots can hopefully be used in an upcoming paper. I also changed the color of the AWG 26 data from green to black, as the green did not show up well on the projector during group meeting. Beyond these changes, everything else remains the same. 
+
+
+
+\subsection{SAR Around Single-Wire Tx and Non-Tx Lines and Coaxial Lines in a Dielectric Medium}
+\indent \indent Here, I'm continuing the work trying to determine analytically the specific absorption rate (SAR) of the surrounding dielectric for a couple of different wire geometries. I'm going to try to look at 3 separate cases: 
+
+\begin{itemize}
+\item Single non-Tx wire, carrying current in 1 direction
+\item Coaxial Tx-line (can look at SAR in between conductors)
+\item Single-wire Tx-line, utilizing surface waves for return signal
+\end{itemize}
+
+
+Ideally, I'd like to be able to analytically determine the SAR for each of these cases given only the power of the incoming wave on one side of the system.
+
+
+\subsubsection{Single non-Tx Wire}
+\indent \indent I started to look at this scenario previously, and was able to successfully compute the SAR in the normal saline dielectric surrounding the single-wire non-Tx line, as shown in Figure \ref{fig:SAR_single_wire_nonTx_AWG36_saline}.
+
+However, even though I was able to fix the issues with the radial symmetry and SAR values blowing up near the inside of the wire, this calculation is still solely based on the charge per unit length of the inner conductor, as this is directly related to the radiated E-field, and thus SAR. I've been trying to figure out a way to relate the E-field and SAR of a single non-Tx wire in a dielectric media to the power of a signal injected at one end, but have not had any success.
+
+The difficulty here lies in the formula for the E-field, and how to relate power to the charge per unit length. At first, I thought I could determine the resistance of the single-wire line based on the copper conductor, and from there, I could determine the voltage wave and relate those to the charge per unit length. But, the problem then became that the resistance of small lengths of thin wire is so small, that even with a small amount of power, the current would be huge ( $>$ 1 A), and the voltage quite small, and it didn't seem to make sense. Also, I couldn't find a way to relate the quantities of power, current, and voltage to the charge per unit length. I thought I came close with a formula that relates the current and drift velocity and charge per unit length, but the drift velocity then becomes an extra unknown, and it doesn't work out. 
+
+So, I'm abandoning this avenue for the time being, so I can focus on the coaxial and SWTL cases, which should yield more easily attainable results analytically.
+
+
+
+\subsubsection{Coaxial Line Dielectric}
+\indent \indent To be sure that I'm correctly relating the power in a Tx line to the computed SAR values, what I'm attempting to do here is to calculate the ``SAR" in the dielectric between the conductors of a coaxial cable. This should ensure that the method of relating the power to the SAR values calculated is correct.
+
+For this computation, I should be able to use the well-known Tx line equations for a coaxial line, and I should be able to easily relate the power in the line to the computed SAR. 
+
+Got sidetracked a bit here with installing CST and trying to get some simulations to work, will return to this shortly...
+
+
+
+
+%August 18, 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{18 August 2013:}
+
+\indent \indent Moving on to testing the SWTL in uncooked chicken breast, which should better represent muscle tissue. I need to make 3 new cables, and make sure to construct the quarter-wave sleeve-balun of the correct size.
+
+
+
+\subsection{Quarter-Wave Sleeve-Balun}
+\indent \indent Just as in the SWTL cable assemblies, I need to make quarter-wave sleeve baluns to excite the standing wave modes on the thin wire transmission line. Since the wavelength of the carrier frequency changes inside the chicken, I need to determine what it is to make the sleeve-balun the correct length.
+
+According to a source (http://ps.fass.org/content/86/11/2433.long) that did measurements on the dielectric properties of chicken breast, the permittivity of chicken breast around 915 MHz is: 
+
+\begin{equation}
+\epsilon_r = 52.7 - j 20.1
+\end{equation}
+
+So, right off the bat, we can see that the both the relative dielectric constant and the dielectric loss are less than that of the 0.91\% saline. Essentially, from this we can tell that the chicken should be slightly less lossy than the saline, and the wavelength of the carrier at 915 MHz should also be greater. 
+
+So, the wavelength of a 915 MHz wave in chicken should be:
+
+\[ \lambda = \frac{c}{f \sqrt{\epsilon'_r}} = \frac{3 \times 10^8}{\left( 915 \times 10^6 \right) \left( 52.7 \right) }  \approx 4.52 \, \text{cm} \]
+
+so, the quarter-wave sleeve-balun should be $\lambda_g = 1.13$ cm.
+
+
+
+
+\subsection{SWTL in chicken}
+\indent \indent I did a preliminary experiment using the SWTL in chicken, mainly to ensure my methods work out and that the results are as expected. The loss, in dB/cm, should be better in the chicken, since it has less dielectric loss.
+
+
+\subsubsection{AWG 36 SWTL}
+\indent \indent The first preliminary test I did with the SWTL in chicken was using the AWG 36 wire, the thinnest we have. To ensure that the entirety of the wire assembly, including the launchers (coaxial sleeve-baluns), are embedded inside the chicken specimen, I used a 6 cm length of AWG 36 wire. The coaxial cable used was also on the shorter side, about 15 cm total length. 
+
+The cable assembly was constructed in the same way as	 the SWTL cables for the saline experiments, cutting the coaxial cable in half, adding the sleeve-balun, soldering the thin wire, and then using silicone to seal everything up. A picture of the constructed cable is shown below in Figure \ref{fig:AWG36_cable}.
+
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Pictures/18Aug2013/AWG36_cable}
+	\caption{ Constructed SWTL cable assembly for use in chicken. The SWTL is an AWG 36 wire. Silicone is used to seal up each end, and copper tape is used as the launcher at each end, where it acts as a quarter-wave sleeve-balun. This cable has already been used, and some corrosion can be seen on the launchers, as the seal may not have been watertight. } 
+	\label{fig:AWG36_cable}
+\end{figure}
+
+
+While this cable worked for a quick preliminary test, there is some corrosion clearly visible on the copper tape launchers after a single use. The silicone setting time is also slowing down the data-taking process, so having an alternative might be a viable option.
+
+After talking with Kris Spaeth a bit, it seems that using some sort of polyurethane coating might be the best option. They generally have quick curing times, and since they start out as a liquid, it should be able to adhere to all the surfaces and create a more watertight seal. The only thing I'll have to figure out is how to coat the wires with the polyurethane. I might have to mix the polyurethane in a small mixing tray, and then roll the wire in it to coat. 
+
+
+
+The chicken used for the preliminary test can be seen in Figures \ref{fig:chix_cut_closeup} - \ref{fig:chix_closeup_w_SWTL}. 
+
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[Cut chicken closeup]{
+		\includegraphics[width=0.45\textwidth]{Pictures/18Aug2013/chix_cut_closeup} 
+		\label{fig:chix_cut_closeup}
+		}
+		\quad
+	\subfigure[Inside of chicken ``incision"]{
+	\includegraphics[width=0.45\textwidth]{Pictures/18Aug2013/chix_cut_closeup_open}
+	\label{fig:chix_cut_closeup_open}
+		}
+		
+	\subfigure[SWTL in chicken ]{
+	\includegraphics[width=0.45\textwidth]{Pictures/18Aug2013/chix_w_wire_VNA}
+	\label{fig:chix_w_wire_VNA}
+		}
+		\quad
+	\subfigure[SWTL in chicken, wire closeup]{
+	\includegraphics[width=0.45\textwidth]{Pictures/18Aug2013/chix_closeup_w_SWTL}
+	\label{fig:chix_closeup_w_SWTL}
+		}
+	\label{fig:SWTL_chicken}
+	\caption{Setup for testing SWTL in chicken. }
+\end{figure}
+
+
+We can easily see the ``incision" I made in the middle of the chicken breast for inserting the SWTL. In the background of Figure \ref{fig:chix_w_wire_VNA}, we can see the measurement for S21, showing the power loss of the SWTL in chicken. Using this setup, I recorded all the S-parameters to fully characterize the AWG 36 SWTL in chicken.
+
+
+The preliminary results for the return loss of the SWTL and the cable loss can be seen in Figures \ref{fig:AWG36_SWTL_chicken_RL} - \ref{fig:AWG36_SWTL_chicken_cable_loss}.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[Return Loss]{
+		\includegraphics[width=0.45\textwidth]{Pictures/18Aug2013/AWG36_SWTL_chicken_RL} 
+		\label{fig:AWG36_SWTL_chicken_RL}
+		}
+		\quad
+	\subfigure[Cable Loss]{
+	\includegraphics[width=0.45\textwidth]{Pictures/18Aug2013/AWG36_SWTL_chicken_cable_loss}
+	\label{fig:AWG36_SWTL_chicken_cable_loss}
+		}
+	\label{fig:SWTL_chicken_AWG36_Sparam}
+	\caption{S-parameter results for the AWG 36 SWTL in chicken. }
+\end{figure}
+
+
+
+
+Here, in Table \ref{tab:AWG36_SWTL_chicken}, we have the return loss and cable loss of the AWG 36 SWTL in chicken at 915 MHz. 
+
+
+
+\begin{table}[h!]
+\centering
+	\caption{AWG 36 SWTL in Chicken at 915 MHz}
+	\vspace{10pt}
+	\begin{tabular}{| c | c |}
+	\hline
+	$S_{11}$ & -6.90 dB \\ \hline
+	$S_{22}$ & -6.26 dB \\ \hline
+	$S_{12}$ & -1.60 dB/cm \\ \hline
+	$S_{21}$ & -1.64 dB/cm \\ \hline
+	\end{tabular}
+\label{tab:AWG36_SWTL_chicken}
+\end{table}
+
+
+Now, on first glance, it would appear that the AWG 36 SWTL in chicken performs worse than that in saline, as the loss of the same cable in saline was about 1 dB/cm. However, the matching for the SWTL in chicken is about 3 dB worse for $S_{11}$ and $S_{22}$, so I believe this makes up for it appearing worse. With this in mind, I believe the SWTL in chicken actually performs better, as expected. I need to go through the process of equating the two scenarios so they can be fairly compared. 
+
+Ideally, what I should do is take all the S-parameter information and convert everything so that it appears that the cable is perfectly matched to $50 \, \Omega$, then everything will be on the same plane and be compared. 
+
+
+
+
+%August 19, 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{19 August 2013:}
+
+\indent \indent Since my method of constructing the preliminary SWTL cable for testing in the chicken wasn't the best, Kris helped me come up with a couple of better ideas. Here's a quick description of the new method for constructing the cables.
+
+
+\subsection{Constructing SWTL's for Chicken Testing: New Method}
+\indent \indent First off, since it's difficult to work with the silicone and it's hard to tell if it actually produces a watertight seal all around the copper and solder points, I'm moving to using a polyurethane-type potting compound which is less viscous and should create a more watertight seal.
+
+I'm using a silicone potting compound, making it in small portions, and essentially submerging the area I need covered in a small tray of the potting compound so it can cure. Once the curing is complete, I can simply cut away all the excess coating that is unnecessary, leaving a nice, small, water tight seal in the area desired. I'm testing the silicone potting compound now on a dummy cable to make sure it works as expected. 
+
+
 \end{document}

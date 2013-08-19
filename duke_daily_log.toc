@@ -1,171 +1,180 @@
-\contentsline {section}{\numberline {1}26 March 2012:}{7}{section.1}
-\contentsline {subsection}{\numberline {1.1}Inductor Impedance Tests}{7}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Loop Impedance Tests}{8}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Chip Impedance Tests}{9}{subsection.1.3}
-\contentsline {section}{\numberline {2}31 May 2012:}{11}{section.2}
-\contentsline {subsection}{\numberline {2.1}NXP Tag Chip Impedance in Saline Using Agilent Cal}{11}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Small Loop Impedance in Saline Using Agilent Cal}{12}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Matching NXP Tag Chip in Saline to 50 $\Omega $}{12}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Matching Small Loop in Saline to 50 $\Omega $}{13}{subsection.2.4}
-\contentsline {section}{\numberline {3}18 February 2013:}{15}{section.3}
-\contentsline {subsection}{\numberline {3.1}Comparing Receiver Architecture Analog Front Ends (AFE)}{15}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Circulator Architecture}{15}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}23 dB Coupler Architecture}{16}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}10 dB Coupler Architecture}{17}{subsubsection.3.1.3}
-\contentsline {section}{\numberline {4}19 February 2013:}{20}{section.4}
-\contentsline {subsection}{\numberline {4.1}Harvested Voltage}{20}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Return Signal Strength}{21}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Rejection Ratio}{22}{subsection.4.3}
-\contentsline {section}{\numberline {5}20 February 2013:}{24}{section.5}
-\contentsline {subsection}{\numberline {5.1}Using an LNA to Increase Backscatter Signal Strength}{24}{subsection.5.1}
-\contentsline {section}{\numberline {6}21 February 2013:}{27}{section.6}
-\contentsline {subsection}{\numberline {6.1}Testing for Chip Damage}{27}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Testing and Matching New Bug3 Chips}{28}{subsection.6.2}
-\contentsline {section}{\numberline {7}22 February 2013:}{30}{section.7}
-\contentsline {subsection}{\numberline {7.1}Testing and Matching New Bug3 Chips}{30}{subsection.7.1}
-\contentsline {section}{\numberline {8}25 February 2013:}{33}{section.8}
-\contentsline {subsection}{\numberline {8.1}Testing and Matching Bug3 Chips}{33}{subsection.8.1}
-\contentsline {subsubsection}{\numberline {8.1.1}Chip \#1}{33}{subsubsection.8.1.1}
-\contentsline {subsubsection}{\numberline {8.1.2}Chip \#2}{33}{subsubsection.8.1.2}
-\contentsline {subsection}{\numberline {8.2}Impedance Characteristics of 9.5 mm Diameter Loop Antenna in Saline}{34}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Impedance Characteristics of Bug3 Chip in Saline}{36}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Matching the Bug3 Chip to the Small Loop Antenna in Saline}{37}{subsection.8.4}
-\contentsline {section}{\numberline {9}26 February 2013:}{38}{section.9}
-\contentsline {subsection}{\numberline {9.1}Matching the Bug3 Chip to the Small Loop Antenna in Saline}{38}{subsection.9.1}
-\contentsline {section}{\numberline {10}27 February 2013:}{41}{section.10}
-\contentsline {section}{\numberline {11}28 February 2013:}{42}{section.11}
-\contentsline {subsection}{\numberline {11.1}MTT Paper Completion Plan}{42}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Impedance Characteristics of 9.5 mm Single Turn Loop Antenna in Chicken}{42}{subsection.11.2}
-\contentsline {subsubsection}{\numberline {11.2.1}Free Space}{42}{subsubsection.11.2.1}
-\contentsline {subsubsection}{\numberline {11.2.2}Chicken}{43}{subsubsection.11.2.2}
-\contentsline {section}{\numberline {12}1 March 2013:}{45}{section.12}
-\contentsline {subsection}{\numberline {12.1}Chip Mismatch in Chicken}{45}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Demodulating a Signal in Saline}{45}{subsection.12.2}
-\contentsline {subsubsection}{\numberline {12.2.1}Sine Wave Demodulation}{46}{subsubsection.12.2.1}
-\contentsline {section}{\numberline {13}4 March 2013:}{47}{section.13}
-\contentsline {subsection}{\numberline {13.1}Demodulating a Signal in Saline}{47}{subsection.13.1}
-\contentsline {subsubsection}{\numberline {13.1.1}Demodulating a Sine Wave in Saline}{47}{subsubsection.13.1.1}
-\contentsline {subsubsection}{\numberline {13.1.2}Demodulating ECG Data in Saline}{49}{subsubsection.13.1.2}
-\contentsline {section}{\numberline {14}5 March 2013:}{50}{section.14}
-\contentsline {subsection}{\numberline {14.1}Demodulating ECG Data in Saline}{50}{subsection.14.1}
-\contentsline {section}{\numberline {15}6 March 2013:}{52}{section.15}
-\contentsline {section}{\numberline {16}7 March 2013:}{54}{section.16}
-\contentsline {section}{\numberline {17}8 March 2013:}{55}{section.17}
-\contentsline {subsection}{\numberline {17.1}Demodulating ECG Data in Saline}{55}{subsection.17.1}
-\contentsline {section}{\numberline {18}11 March 2013:}{56}{section.18}
-\contentsline {section}{\numberline {19}12 March 2013:}{57}{section.19}
-\contentsline {subsection}{\numberline {19.1}RFID 2013 Paper Shepherding}{57}{subsection.19.1}
-\contentsline {subsubsection}{\numberline {19.1.1}Telemetry Device Power Breakdown: Only Used Channels}{57}{subsubsection.19.1.1}
-\contentsline {subsubsection}{\numberline {19.1.2}Operating Range Only Using Required Channels}{57}{subsubsection.19.1.2}
-\contentsline {subsubsection}{\numberline {19.1.3}Calculating Semi-passive Ideal Range}{59}{subsubsection.19.1.3}
-\contentsline {section}{\numberline {20}13 March 2013:}{60}{section.20}
-\contentsline {subsection}{\numberline {20.1}More RFID Shepherding}{60}{subsection.20.1}
-\contentsline {subsubsection}{\numberline {20.1.1}``Ideal" OTA ECG}{60}{subsubsection.20.1.1}
-\contentsline {subsection}{\numberline {20.2}Bistatic Receiver Setup}{63}{subsection.20.2}
-\contentsline {subsection}{\numberline {20.3}Monostatic Receiver Setup}{63}{subsection.20.3}
-\contentsline {subsection}{\numberline {20.4}Lining Up Tx and Rx ECG Data for Near-Field Biotelemetry Paper}{65}{subsection.20.4}
-\contentsline {section}{\numberline {21}14 March 2013:}{66}{section.21}
-\contentsline {section}{\numberline {22}4 April 2013:}{67}{section.22}
-\contentsline {subsection}{\numberline {22.1}Using The EMG Channels On The Bug3 Chip For {\emph {in vivo}} Biotelemetry}{67}{subsection.22.1}
-\contentsline {section}{\numberline {23}6 May 2013:}{68}{section.23}
-\contentsline {subsection}{\numberline {23.1}Implantable Transponder Antenna}{68}{subsection.23.1}
-\contentsline {section}{\numberline {24}7 May 2013:}{69}{section.24}
-\contentsline {subsection}{\numberline {24.1}Loop Antenna Background}{69}{subsection.24.1}
-\contentsline {subsubsection}{\numberline {24.1.1}Introduction}{69}{subsubsection.24.1.1}
-\contentsline {subsubsection}{\numberline {24.1.2}Antenna Radiation Efficiency}{69}{subsubsection.24.1.2}
-\contentsline {subsubsection}{\numberline {24.1.3}Radiated Fields}{70}{subsubsection.24.1.3}
-\contentsline {subsection}{\numberline {24.2}Radiation Resistance}{70}{subsection.24.2}
-\contentsline {subsection}{\numberline {24.3}Loss Resistance}{71}{subsection.24.3}
-\contentsline {section}{\numberline {25}8 May 2013:}{73}{section.25}
-\contentsline {subsection}{\numberline {25.1}Proximity Effect and Antenna Radiation Efficiency}{73}{subsection.25.1}
-\contentsline {subsubsection}{\numberline {25.1.1}Model/Assumption Constraints}{73}{subsubsection.25.1.1}
-\contentsline {subsubsection}{\numberline {25.1.2}Antenna Radiation Efficiency vs. Number of Turns and Wire Gauge}{74}{subsubsection.25.1.2}
-\contentsline {section}{\numberline {26}9 \& 10 \& 13-14 May 2013:}{78}{section.26}
-\contentsline {subsection}{\numberline {26.1}Induced Voltage at Small Loop Antenna's Terminals}{78}{subsection.26.1}
-\contentsline {subsubsection}{\numberline {26.1.1}Small Circular Loop Model}{78}{subsubsection.26.1.1}
-\contentsline {subsubsection}{\numberline {26.1.2}Induced Voltage for Single Turn Loop}{78}{subsubsection.26.1.2}
-\contentsline {subsubsection}{\numberline {26.1.3}Small Circular Loop Circuit Model}{79}{subsubsection.26.1.3}
-\contentsline {subsubsection}{\numberline {26.1.4}Computing the Voltage Delivered to the Load}{80}{subsubsection.26.1.4}
-\contentsline {section}{\numberline {27}17 May 2013:}{86}{section.27}
-\contentsline {subsection}{\numberline {27.1}Loop Antenna in Dielectric Medium}{86}{subsection.27.1}
-\contentsline {section}{\numberline {28}23 May 2013:}{92}{section.28}
-\contentsline {subsection}{\numberline {28.1}New Dragonfly Test Board}{92}{subsection.28.1}
-\contentsline {subsubsection}{\numberline {28.1.1}Input Impedance}{92}{subsubsection.28.1.1}
-\contentsline {subsubsection}{\numberline {28.1.2}Harvesting Voltage}{93}{subsubsection.28.1.2}
-\contentsline {section}{\numberline {29}24 May 2013:}{94}{section.29}
-\contentsline {section}{\numberline {30}27 May 2013:}{95}{section.30}
-\contentsline {subsection}{\numberline {30.1}Coaxial Cable as a Transmission Line}{95}{subsection.30.1}
-\contentsline {subsubsection}{\numberline {30.1.1}Lumped Element Circuit Model for Transmission Line}{95}{subsubsection.30.1.1}
-\contentsline {subsubsection}{\numberline {30.1.2}Wave Propagation on Transmission Lines}{96}{subsubsection.30.1.2}
-\contentsline {subsubsection}{\numberline {30.1.3}Transmission Line Parameters of a Coaxial Line}{97}{subsubsection.30.1.3}
-\contentsline {subsubsection}{\numberline {30.1.4}Coaxial Line Characteristic Impedance}{99}{subsubsection.30.1.4}
-\contentsline {subsection}{\numberline {30.2}FEP Dielectric Wire Characteristics}{99}{subsection.30.2}
-\contentsline {subsubsection}{\numberline {30.2.1}FEP Dielectric Wire as Coaxial Cable: Surrounded by PEC}{99}{subsubsection.30.2.1}
-\contentsline {section}{\numberline {31}28 \& 29 \& 30 May 2013:}{102}{section.31}
-\contentsline {subsection}{\numberline {31.1}Dielectric Media Parameters}{102}{subsection.31.1}
-\contentsline {subsection}{\numberline {31.2}Computing Single-Wire Coaxial Properties in Lossy Media using ADS LineCalc}{103}{subsection.31.2}
-\contentsline {section}{\numberline {32}4 June 2013:}{104}{section.32}
-\contentsline {subsection}{\numberline {32.1}Electric and Magnetic Fields in ``Traditional" Coaxial Line}{104}{subsection.32.1}
-\contentsline {subsection}{\numberline {32.2}Derivation of EM Fields in Single-Wire ``Coaxial Line"}{105}{subsection.32.2}
-\contentsline {subsubsection}{\numberline {32.2.1}Field Boundary Conditions at Dielectric Interface}{105}{subsubsection.32.2.1}
-\contentsline {subsubsection}{\numberline {32.2.2}Magnetic Field}{107}{subsubsection.32.2.2}
-\contentsline {subsubsection}{\numberline {32.2.3}Electric Field}{108}{subsubsection.32.2.3}
-\contentsline {section}{\numberline {33}8 June 2013:}{109}{section.33}
-\contentsline {subsection}{\numberline {33.1}Saline Tank Rig}{109}{subsection.33.1}
-\contentsline {subsection}{\numberline {33.2}Single-wire Test Cables}{109}{subsection.33.2}
-\contentsline {subsubsection}{\numberline {33.2.1}Wavelength Inside Saline}{109}{subsubsection.33.2.1}
-\contentsline {subsubsection}{\numberline {33.2.2}Fabricated Cables}{110}{subsubsection.33.2.2}
-\contentsline {subsection}{\numberline {33.3}A Note on Time Domain Reflectometry}{110}{subsection.33.3}
-\contentsline {section}{\numberline {34}9 \& 10 June 2013:}{112}{section.34}
-\contentsline {subsection}{\numberline {34.1}Single-Wire Loss Measurement Results}{112}{subsection.34.1}
-\contentsline {subsubsection}{\numberline {34.1.1}Calibration}{112}{subsubsection.34.1.1}
-\contentsline {subsection}{\numberline {34.2}Return Loss}{113}{subsection.34.2}
-\contentsline {subsection}{\numberline {34.3}Power Loss}{113}{subsection.34.3}
-\contentsline {section}{\numberline {35}11 \& 12 June 2013:}{116}{section.35}
-\contentsline {subsection}{\numberline {35.1}Single-Wire Loss Measurement Results}{116}{subsection.35.1}
-\contentsline {section}{\numberline {36}24 June 2013:}{117}{section.36}
-\contentsline {subsection}{\numberline {36.1}Effect of Temperature on the Dielectric Properties of Normal Saline}{117}{subsection.36.1}
-\contentsline {subsubsection}{\numberline {36.1.1}Single-Wire RF Transmission Line Loss Versus Temperature}{117}{subsubsection.36.1.1}
-\contentsline {section}{\numberline {37}25 \& 26 June 2013:}{120}{section.37}
-\contentsline {subsection}{\numberline {37.1}Backscatter With A SWTL In Saline}{120}{subsection.37.1}
-\contentsline {subsubsection}{\numberline {37.1.1}Results}{121}{subsubsection.37.1.1}
-\contentsline {section}{\numberline {38}27 \& 28 June 2013:}{124}{section.38}
-\contentsline {subsection}{\numberline {38.1}Modified Backscatter With A SWTL In Saline Setup}{124}{subsection.38.1}
-\contentsline {subsubsection}{\numberline {38.1.1}Results: AWG 36 SWTL}{125}{subsubsection.38.1.1}
-\contentsline {section}{\numberline {39}2 July 2013:}{128}{section.39}
-\contentsline {subsection}{\numberline {39.1}New SWTL and Tag Experimental Settings}{128}{subsection.39.1}
-\contentsline {subsection}{\numberline {39.2}SWTL and Tag Results: AWG 29 Wire}{129}{subsection.39.2}
-\contentsline {subsection}{\numberline {39.3}SWTL and Tag Results: AWG 36 Wire}{130}{subsection.39.3}
-\contentsline {section}{\numberline {40}3 \& 5 \& 8 \& 9 July 2013:}{132}{section.40}
-\contentsline {subsection}{\numberline {40.1}New Bug3a Board and Matching}{132}{subsection.40.1}
-\contentsline {subsubsection}{\numberline {40.1.1}Matching Network}{132}{subsubsection.40.1.1}
-\contentsline {subsubsection}{\numberline {40.1.2}Harvested Voltage: New Bug3a Chip ``A"}{133}{subsubsection.40.1.2}
-\contentsline {section}{\numberline {41}10 July 2013:}{136}{section.41}
-\contentsline {subsection}{\numberline {41.1}Investigating TDR of the SWTL in Saline}{136}{subsection.41.1}
-\contentsline {subsubsection}{\numberline {41.1.1}Initial TDR for AWG 36 Wire}{136}{subsubsection.41.1.1}
-\contentsline {subsubsection}{\numberline {41.1.2}TDR for All Wire Gauges Tested}{137}{subsubsection.41.1.2}
-\contentsline {section}{\numberline {42}11 July 2013:}{140}{section.42}
-\contentsline {subsection}{\numberline {42.1}New Bug3a Board and Matching}{140}{subsection.42.1}
-\contentsline {section}{\numberline {43}22 \& 23 \& 24 July 2013:}{141}{section.43}
-\contentsline {subsection}{\numberline {43.1}Flip and Shift TDR of $S_{11}$ and $S_{22}$ for SWTL in saline}{141}{subsection.43.1}
-\contentsline {subsubsection}{\numberline {43.1.1}Increasing IFFT Points}{142}{subsubsection.43.1.1}
-\contentsline {subsubsection}{\numberline {43.1.2}Windowing IFFT TDR Data}{143}{subsubsection.43.1.2}
-\contentsline {subsubsection}{\numberline {43.1.3}Combining $S_{11}$ and $S_{22}$ Data}{145}{subsubsection.43.1.3}
-\contentsline {subsection}{\numberline {43.2}Verifying Phase Velocity in SWTL in Saline}{147}{subsection.43.2}
-\contentsline {section}{\numberline {44}29 \& 30 \& 31 July 2013:}{151}{section.44}
-\contentsline {subsection}{\numberline {44.1}SWTL \& RFID Tag: New Bug3 Chip}{151}{subsection.44.1}
-\contentsline {subsubsection}{\numberline {44.1.1}AWG 36 SWTL \& RFID Tag}{151}{subsubsection.44.1.1}
-\contentsline {subsubsection}{\numberline {44.1.2}AWG 29 SWTL \& RFID Tag}{155}{subsubsection.44.1.2}
-\contentsline {subsubsection}{\numberline {44.1.3}Comparison of RFID Tag \& SWTL Cable Assembly for Different Wire Gauges}{159}{subsubsection.44.1.3}
-\contentsline {section}{\numberline {45}1 \& 2 August 2013:}{161}{section.45}
-\contentsline {subsection}{\numberline {45.1}AWG 26 SWTL \& RFID Tag}{161}{subsection.45.1}
-\contentsline {subsubsection}{\numberline {45.1.1}Tag Response: Power Referred to Tag Input Terminals}{161}{subsubsection.45.1.1}
-\contentsline {subsubsection}{\numberline {45.1.2}Tag Response: Power Referred to SWTL}{163}{subsubsection.45.1.2}
-\contentsline {subsection}{\numberline {45.2}Final Comparison of RFID Tag \& SWTL Cable Assembly for Different Wire Gauges}{165}{subsection.45.2}
-\contentsline {section}{\numberline {46}5 August 2013:}{166}{section.46}
-\contentsline {section}{\numberline {47}6 \& 7 August 2013:}{168}{section.47}
-\contentsline {subsection}{\numberline {47.1}General Notes on Specific Absorption Rate (SAR)}{168}{subsection.47.1}
-\contentsline {subsubsection}{\numberline {47.1.1}A Quick Look at the Maximum $E$-field}{168}{subsubsection.47.1.1}
-\contentsline {subsection}{\numberline {47.2}Simple Example: SAR Around a Single, Non-Tx Line Wire in Dielectric Media}{169}{subsection.47.2}
-\contentsline {section}{\numberline {48}8 \& 9 August 2013:}{172}{section.48}
-\contentsline {subsection}{\numberline {48.1}Simple SAR Example Revisited: SAR Around a Single, Non-Tx Line Wire in Dielectric Media}{172}{subsection.48.1}
+\contentsline {section}{\numberline {1}26 March 2012:}{8}{section.1}
+\contentsline {subsection}{\numberline {1.1}Inductor Impedance Tests}{8}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Loop Impedance Tests}{9}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Chip Impedance Tests}{10}{subsection.1.3}
+\contentsline {section}{\numberline {2}31 May 2012:}{12}{section.2}
+\contentsline {subsection}{\numberline {2.1}NXP Tag Chip Impedance in Saline Using Agilent Cal}{12}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Small Loop Impedance in Saline Using Agilent Cal}{13}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Matching NXP Tag Chip in Saline to 50 $\Omega $}{13}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Matching Small Loop in Saline to 50 $\Omega $}{14}{subsection.2.4}
+\contentsline {section}{\numberline {3}18 February 2013:}{16}{section.3}
+\contentsline {subsection}{\numberline {3.1}Comparing Receiver Architecture Analog Front Ends (AFE)}{16}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Circulator Architecture}{16}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}23 dB Coupler Architecture}{17}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}10 dB Coupler Architecture}{18}{subsubsection.3.1.3}
+\contentsline {section}{\numberline {4}19 February 2013:}{21}{section.4}
+\contentsline {subsection}{\numberline {4.1}Harvested Voltage}{21}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Return Signal Strength}{22}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Rejection Ratio}{23}{subsection.4.3}
+\contentsline {section}{\numberline {5}20 February 2013:}{25}{section.5}
+\contentsline {subsection}{\numberline {5.1}Using an LNA to Increase Backscatter Signal Strength}{25}{subsection.5.1}
+\contentsline {section}{\numberline {6}21 February 2013:}{28}{section.6}
+\contentsline {subsection}{\numberline {6.1}Testing for Chip Damage}{28}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Testing and Matching New Bug3 Chips}{29}{subsection.6.2}
+\contentsline {section}{\numberline {7}22 February 2013:}{31}{section.7}
+\contentsline {subsection}{\numberline {7.1}Testing and Matching New Bug3 Chips}{31}{subsection.7.1}
+\contentsline {section}{\numberline {8}25 February 2013:}{34}{section.8}
+\contentsline {subsection}{\numberline {8.1}Testing and Matching Bug3 Chips}{34}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}Chip \#1}{34}{subsubsection.8.1.1}
+\contentsline {subsubsection}{\numberline {8.1.2}Chip \#2}{34}{subsubsection.8.1.2}
+\contentsline {subsection}{\numberline {8.2}Impedance Characteristics of 9.5 mm Diameter Loop Antenna in Saline}{35}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Impedance Characteristics of Bug3 Chip in Saline}{37}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Matching the Bug3 Chip to the Small Loop Antenna in Saline}{38}{subsection.8.4}
+\contentsline {section}{\numberline {9}26 February 2013:}{39}{section.9}
+\contentsline {subsection}{\numberline {9.1}Matching the Bug3 Chip to the Small Loop Antenna in Saline}{39}{subsection.9.1}
+\contentsline {section}{\numberline {10}27 February 2013:}{42}{section.10}
+\contentsline {section}{\numberline {11}28 February 2013:}{43}{section.11}
+\contentsline {subsection}{\numberline {11.1}MTT Paper Completion Plan}{43}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Impedance Characteristics of 9.5 mm Single Turn Loop Antenna in Chicken}{43}{subsection.11.2}
+\contentsline {subsubsection}{\numberline {11.2.1}Free Space}{43}{subsubsection.11.2.1}
+\contentsline {subsubsection}{\numberline {11.2.2}Chicken}{44}{subsubsection.11.2.2}
+\contentsline {section}{\numberline {12}1 March 2013:}{46}{section.12}
+\contentsline {subsection}{\numberline {12.1}Chip Mismatch in Chicken}{46}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Demodulating a Signal in Saline}{46}{subsection.12.2}
+\contentsline {subsubsection}{\numberline {12.2.1}Sine Wave Demodulation}{47}{subsubsection.12.2.1}
+\contentsline {section}{\numberline {13}4 March 2013:}{48}{section.13}
+\contentsline {subsection}{\numberline {13.1}Demodulating a Signal in Saline}{48}{subsection.13.1}
+\contentsline {subsubsection}{\numberline {13.1.1}Demodulating a Sine Wave in Saline}{48}{subsubsection.13.1.1}
+\contentsline {subsubsection}{\numberline {13.1.2}Demodulating ECG Data in Saline}{50}{subsubsection.13.1.2}
+\contentsline {section}{\numberline {14}5 March 2013:}{51}{section.14}
+\contentsline {subsection}{\numberline {14.1}Demodulating ECG Data in Saline}{51}{subsection.14.1}
+\contentsline {section}{\numberline {15}6 March 2013:}{53}{section.15}
+\contentsline {section}{\numberline {16}7 March 2013:}{55}{section.16}
+\contentsline {section}{\numberline {17}8 March 2013:}{56}{section.17}
+\contentsline {subsection}{\numberline {17.1}Demodulating ECG Data in Saline}{56}{subsection.17.1}
+\contentsline {section}{\numberline {18}11 March 2013:}{57}{section.18}
+\contentsline {section}{\numberline {19}12 March 2013:}{58}{section.19}
+\contentsline {subsection}{\numberline {19.1}RFID 2013 Paper Shepherding}{58}{subsection.19.1}
+\contentsline {subsubsection}{\numberline {19.1.1}Telemetry Device Power Breakdown: Only Used Channels}{58}{subsubsection.19.1.1}
+\contentsline {subsubsection}{\numberline {19.1.2}Operating Range Only Using Required Channels}{58}{subsubsection.19.1.2}
+\contentsline {subsubsection}{\numberline {19.1.3}Calculating Semi-passive Ideal Range}{60}{subsubsection.19.1.3}
+\contentsline {section}{\numberline {20}13 March 2013:}{61}{section.20}
+\contentsline {subsection}{\numberline {20.1}More RFID Shepherding}{61}{subsection.20.1}
+\contentsline {subsubsection}{\numberline {20.1.1}``Ideal" OTA ECG}{61}{subsubsection.20.1.1}
+\contentsline {subsection}{\numberline {20.2}Bistatic Receiver Setup}{64}{subsection.20.2}
+\contentsline {subsection}{\numberline {20.3}Monostatic Receiver Setup}{64}{subsection.20.3}
+\contentsline {subsection}{\numberline {20.4}Lining Up Tx and Rx ECG Data for Near-Field Biotelemetry Paper}{66}{subsection.20.4}
+\contentsline {section}{\numberline {21}14 March 2013:}{67}{section.21}
+\contentsline {section}{\numberline {22}4 April 2013:}{68}{section.22}
+\contentsline {subsection}{\numberline {22.1}Using The EMG Channels On The Bug3 Chip For {\emph {in vivo}} Biotelemetry}{68}{subsection.22.1}
+\contentsline {section}{\numberline {23}6 May 2013:}{69}{section.23}
+\contentsline {subsection}{\numberline {23.1}Implantable Transponder Antenna}{69}{subsection.23.1}
+\contentsline {section}{\numberline {24}7 May 2013:}{70}{section.24}
+\contentsline {subsection}{\numberline {24.1}Loop Antenna Background}{70}{subsection.24.1}
+\contentsline {subsubsection}{\numberline {24.1.1}Introduction}{70}{subsubsection.24.1.1}
+\contentsline {subsubsection}{\numberline {24.1.2}Antenna Radiation Efficiency}{70}{subsubsection.24.1.2}
+\contentsline {subsubsection}{\numberline {24.1.3}Radiated Fields}{71}{subsubsection.24.1.3}
+\contentsline {subsection}{\numberline {24.2}Radiation Resistance}{71}{subsection.24.2}
+\contentsline {subsection}{\numberline {24.3}Loss Resistance}{72}{subsection.24.3}
+\contentsline {section}{\numberline {25}8 May 2013:}{74}{section.25}
+\contentsline {subsection}{\numberline {25.1}Proximity Effect and Antenna Radiation Efficiency}{74}{subsection.25.1}
+\contentsline {subsubsection}{\numberline {25.1.1}Model/Assumption Constraints}{74}{subsubsection.25.1.1}
+\contentsline {subsubsection}{\numberline {25.1.2}Antenna Radiation Efficiency vs. Number of Turns and Wire Gauge}{75}{subsubsection.25.1.2}
+\contentsline {section}{\numberline {26}9 \& 10 \& 13-14 May 2013:}{79}{section.26}
+\contentsline {subsection}{\numberline {26.1}Induced Voltage at Small Loop Antenna's Terminals}{79}{subsection.26.1}
+\contentsline {subsubsection}{\numberline {26.1.1}Small Circular Loop Model}{79}{subsubsection.26.1.1}
+\contentsline {subsubsection}{\numberline {26.1.2}Induced Voltage for Single Turn Loop}{79}{subsubsection.26.1.2}
+\contentsline {subsubsection}{\numberline {26.1.3}Small Circular Loop Circuit Model}{80}{subsubsection.26.1.3}
+\contentsline {subsubsection}{\numberline {26.1.4}Computing the Voltage Delivered to the Load}{81}{subsubsection.26.1.4}
+\contentsline {section}{\numberline {27}17 May 2013:}{87}{section.27}
+\contentsline {subsection}{\numberline {27.1}Loop Antenna in Dielectric Medium}{87}{subsection.27.1}
+\contentsline {section}{\numberline {28}23 May 2013:}{93}{section.28}
+\contentsline {subsection}{\numberline {28.1}New Dragonfly Test Board}{93}{subsection.28.1}
+\contentsline {subsubsection}{\numberline {28.1.1}Input Impedance}{93}{subsubsection.28.1.1}
+\contentsline {subsubsection}{\numberline {28.1.2}Harvesting Voltage}{94}{subsubsection.28.1.2}
+\contentsline {section}{\numberline {29}24 May 2013:}{95}{section.29}
+\contentsline {section}{\numberline {30}27 May 2013:}{96}{section.30}
+\contentsline {subsection}{\numberline {30.1}Coaxial Cable as a Transmission Line}{96}{subsection.30.1}
+\contentsline {subsubsection}{\numberline {30.1.1}Lumped Element Circuit Model for Transmission Line}{96}{subsubsection.30.1.1}
+\contentsline {subsubsection}{\numberline {30.1.2}Wave Propagation on Transmission Lines}{97}{subsubsection.30.1.2}
+\contentsline {subsubsection}{\numberline {30.1.3}Transmission Line Parameters of a Coaxial Line}{98}{subsubsection.30.1.3}
+\contentsline {subsubsection}{\numberline {30.1.4}Coaxial Line Characteristic Impedance}{100}{subsubsection.30.1.4}
+\contentsline {subsection}{\numberline {30.2}FEP Dielectric Wire Characteristics}{100}{subsection.30.2}
+\contentsline {subsubsection}{\numberline {30.2.1}FEP Dielectric Wire as Coaxial Cable: Surrounded by PEC}{100}{subsubsection.30.2.1}
+\contentsline {section}{\numberline {31}28 \& 29 \& 30 May 2013:}{103}{section.31}
+\contentsline {subsection}{\numberline {31.1}Dielectric Media Parameters}{103}{subsection.31.1}
+\contentsline {subsection}{\numberline {31.2}Computing Single-Wire Coaxial Properties in Lossy Media using ADS LineCalc}{104}{subsection.31.2}
+\contentsline {section}{\numberline {32}4 June 2013:}{105}{section.32}
+\contentsline {subsection}{\numberline {32.1}Electric and Magnetic Fields in ``Traditional" Coaxial Line}{105}{subsection.32.1}
+\contentsline {subsection}{\numberline {32.2}Derivation of EM Fields in Single-Wire ``Coaxial Line"}{106}{subsection.32.2}
+\contentsline {subsubsection}{\numberline {32.2.1}Field Boundary Conditions at Dielectric Interface}{106}{subsubsection.32.2.1}
+\contentsline {subsubsection}{\numberline {32.2.2}Magnetic Field}{108}{subsubsection.32.2.2}
+\contentsline {subsubsection}{\numberline {32.2.3}Electric Field}{109}{subsubsection.32.2.3}
+\contentsline {section}{\numberline {33}8 June 2013:}{110}{section.33}
+\contentsline {subsection}{\numberline {33.1}Saline Tank Rig}{110}{subsection.33.1}
+\contentsline {subsection}{\numberline {33.2}Single-wire Test Cables}{110}{subsection.33.2}
+\contentsline {subsubsection}{\numberline {33.2.1}Wavelength Inside Saline}{110}{subsubsection.33.2.1}
+\contentsline {subsubsection}{\numberline {33.2.2}Fabricated Cables}{111}{subsubsection.33.2.2}
+\contentsline {subsection}{\numberline {33.3}A Note on Time Domain Reflectometry}{111}{subsection.33.3}
+\contentsline {section}{\numberline {34}9 \& 10 June 2013:}{113}{section.34}
+\contentsline {subsection}{\numberline {34.1}Single-Wire Loss Measurement Results}{113}{subsection.34.1}
+\contentsline {subsubsection}{\numberline {34.1.1}Calibration}{113}{subsubsection.34.1.1}
+\contentsline {subsection}{\numberline {34.2}Return Loss}{114}{subsection.34.2}
+\contentsline {subsection}{\numberline {34.3}Power Loss}{114}{subsection.34.3}
+\contentsline {section}{\numberline {35}11 \& 12 June 2013:}{117}{section.35}
+\contentsline {subsection}{\numberline {35.1}Single-Wire Loss Measurement Results}{117}{subsection.35.1}
+\contentsline {section}{\numberline {36}24 June 2013:}{118}{section.36}
+\contentsline {subsection}{\numberline {36.1}Effect of Temperature on the Dielectric Properties of Normal Saline}{118}{subsection.36.1}
+\contentsline {subsubsection}{\numberline {36.1.1}Single-Wire RF Transmission Line Loss Versus Temperature}{118}{subsubsection.36.1.1}
+\contentsline {section}{\numberline {37}25 \& 26 June 2013:}{121}{section.37}
+\contentsline {subsection}{\numberline {37.1}Backscatter With A SWTL In Saline}{121}{subsection.37.1}
+\contentsline {subsubsection}{\numberline {37.1.1}Results}{122}{subsubsection.37.1.1}
+\contentsline {section}{\numberline {38}27 \& 28 June 2013:}{125}{section.38}
+\contentsline {subsection}{\numberline {38.1}Modified Backscatter With A SWTL In Saline Setup}{125}{subsection.38.1}
+\contentsline {subsubsection}{\numberline {38.1.1}Results: AWG 36 SWTL}{126}{subsubsection.38.1.1}
+\contentsline {section}{\numberline {39}2 July 2013:}{129}{section.39}
+\contentsline {subsection}{\numberline {39.1}New SWTL and Tag Experimental Settings}{129}{subsection.39.1}
+\contentsline {subsection}{\numberline {39.2}SWTL and Tag Results: AWG 29 Wire}{130}{subsection.39.2}
+\contentsline {subsection}{\numberline {39.3}SWTL and Tag Results: AWG 36 Wire}{131}{subsection.39.3}
+\contentsline {section}{\numberline {40}3 \& 5 \& 8 \& 9 July 2013:}{133}{section.40}
+\contentsline {subsection}{\numberline {40.1}New Bug3a Board and Matching}{133}{subsection.40.1}
+\contentsline {subsubsection}{\numberline {40.1.1}Matching Network}{133}{subsubsection.40.1.1}
+\contentsline {subsubsection}{\numberline {40.1.2}Harvested Voltage: New Bug3a Chip ``A"}{134}{subsubsection.40.1.2}
+\contentsline {section}{\numberline {41}10 July 2013:}{137}{section.41}
+\contentsline {subsection}{\numberline {41.1}Investigating TDR of the SWTL in Saline}{137}{subsection.41.1}
+\contentsline {subsubsection}{\numberline {41.1.1}Initial TDR for AWG 36 Wire}{137}{subsubsection.41.1.1}
+\contentsline {subsubsection}{\numberline {41.1.2}TDR for All Wire Gauges Tested}{138}{subsubsection.41.1.2}
+\contentsline {section}{\numberline {42}11 July 2013:}{141}{section.42}
+\contentsline {subsection}{\numberline {42.1}New Bug3a Board and Matching}{141}{subsection.42.1}
+\contentsline {section}{\numberline {43}22 \& 23 \& 24 July 2013:}{142}{section.43}
+\contentsline {subsection}{\numberline {43.1}Flip and Shift TDR of $S_{11}$ and $S_{22}$ for SWTL in saline}{142}{subsection.43.1}
+\contentsline {subsubsection}{\numberline {43.1.1}Increasing IFFT Points}{143}{subsubsection.43.1.1}
+\contentsline {subsubsection}{\numberline {43.1.2}Windowing IFFT TDR Data}{144}{subsubsection.43.1.2}
+\contentsline {subsubsection}{\numberline {43.1.3}Combining $S_{11}$ and $S_{22}$ Data}{146}{subsubsection.43.1.3}
+\contentsline {subsection}{\numberline {43.2}Verifying Phase Velocity in SWTL in Saline}{148}{subsection.43.2}
+\contentsline {section}{\numberline {44}29 \& 30 \& 31 July 2013:}{152}{section.44}
+\contentsline {subsection}{\numberline {44.1}SWTL \& RFID Tag: New Bug3 Chip}{152}{subsection.44.1}
+\contentsline {subsubsection}{\numberline {44.1.1}AWG 36 SWTL \& RFID Tag}{152}{subsubsection.44.1.1}
+\contentsline {subsubsection}{\numberline {44.1.2}AWG 29 SWTL \& RFID Tag}{156}{subsubsection.44.1.2}
+\contentsline {subsubsection}{\numberline {44.1.3}Comparison of RFID Tag \& SWTL Cable Assembly for Different Wire Gauges}{160}{subsubsection.44.1.3}
+\contentsline {section}{\numberline {45}1 \& 2 August 2013:}{162}{section.45}
+\contentsline {subsection}{\numberline {45.1}AWG 26 SWTL \& RFID Tag}{162}{subsection.45.1}
+\contentsline {subsubsection}{\numberline {45.1.1}Tag Response: Power Referred to Tag Input Terminals}{162}{subsubsection.45.1.1}
+\contentsline {subsubsection}{\numberline {45.1.2}Tag Response: Power Referred to SWTL}{164}{subsubsection.45.1.2}
+\contentsline {subsection}{\numberline {45.2}Final Comparison of RFID Tag \& SWTL Cable Assembly for Different Wire Gauges}{166}{subsection.45.2}
+\contentsline {section}{\numberline {46}5 August 2013:}{167}{section.46}
+\contentsline {section}{\numberline {47}6 \& 7 August 2013:}{169}{section.47}
+\contentsline {subsection}{\numberline {47.1}General Notes on Specific Absorption Rate (SAR)}{169}{subsection.47.1}
+\contentsline {subsubsection}{\numberline {47.1.1}A Quick Look at the Maximum $E$-field}{169}{subsubsection.47.1.1}
+\contentsline {subsection}{\numberline {47.2}Simple Example: SAR Around a Single, Non-Tx Line Wire in Dielectric Media}{170}{subsection.47.2}
+\contentsline {section}{\numberline {48}8 \& 9 August 2013:}{173}{section.48}
+\contentsline {subsection}{\numberline {48.1}Simple SAR Example Revisited: SAR Around a Single, Non-Tx Line Wire in Dielectric Media}{173}{subsection.48.1}
+\contentsline {section}{\numberline {49}12 - 15 August 2013:}{175}{section.49}
+\contentsline {subsection}{\numberline {49.1}Re-Plot of Comparison of All Wire Gauges for Powering an RFID Tag With a SWTL}{175}{subsection.49.1}
+\contentsline {subsection}{\numberline {49.2}SAR Around Single-Wire Tx and Non-Tx Lines and Coaxial Lines in a Dielectric Medium}{175}{subsection.49.2}
+\contentsline {subsubsection}{\numberline {49.2.1}Single non-Tx Wire}{177}{subsubsection.49.2.1}
+\contentsline {subsubsection}{\numberline {49.2.2}Coaxial Line Dielectric}{177}{subsubsection.49.2.2}
+\contentsline {section}{\numberline {50}18 August 2013:}{178}{section.50}
+\contentsline {subsection}{\numberline {50.1}Quarter-Wave Sleeve-Balun}{178}{subsection.50.1}
+\contentsline {subsection}{\numberline {50.2}SWTL in chicken}{178}{subsection.50.2}
+\contentsline {subsubsection}{\numberline {50.2.1}AWG 36 SWTL}{178}{subsubsection.50.2.1}
