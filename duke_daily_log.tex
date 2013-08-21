@@ -3760,9 +3760,9 @@ Ideally, what I should do is take all the S-parameter information and convert ev
 
 
 
-%August 19, 2013-----------------------------------------------------------------------------------------------------------------------
+%August 19, 20, 21 2013-----------------------------------------------------------------------------------------------------------------------
 \clearpage
-\section{19 August 2013:}
+\section{19 \& 20 \& 21 August 2013:}
 
 \indent \indent Since my method of constructing the preliminary SWTL cable for testing in the chicken wasn't the best, Kris helped me come up with a couple of better ideas. Here's a quick description of the new method for constructing the cables.
 
@@ -3771,6 +3771,37 @@ Ideally, what I should do is take all the S-parameter information and convert ev
 \indent \indent First off, since it's difficult to work with the silicone and it's hard to tell if it actually produces a watertight seal all around the copper and solder points, I'm moving to using a polyurethane-type potting compound which is less viscous and should create a more watertight seal.
 
 I'm using a silicone potting compound, making it in small portions, and essentially submerging the area I need covered in a small tray of the potting compound so it can cure. Once the curing is complete, I can simply cut away all the excess coating that is unnecessary, leaving a nice, small, water tight seal in the area desired. I'm testing the silicone potting compound now on a dummy cable to make sure it works as expected. 
+
+So, after testing out the silicone potting compound on a dummy cable the other day, the potting compound seems to work fine. However, just submerging the cable in a tray of it did not work out too well, Parts of the balun were exposed, and since the potting was not completely surrounding the necessary areas of the cable, it tore off very easily. 
+
+But now, after some inspiration from Kris (again!), there's one final way that I think will work very well for potting these SWTL cables. Once the cables are ready to be potted, I take a small diameter test plastic test tube (or a small tapered specimen holder thingy) and cut away one side of it, leaving a tube open at both ends that is larger than the diameter of the coaxial cable. Now, I place the cable inside the tube so that the end of the balun is above the bottom of the tube, and the soldered portion of the single-wire is within the tube. Using some parafilm wax (this stuff is magic!), I seal the end of the tube with the coaxial cable, making a valley for the potting compound to go in. Now, all I have to do is stand the cable up in a vice or something similar, pour the compound in, and let it set overnight. The trick part will be getting the tube off once the compound has set. Beyond that, this should work very well, and should produce a nice watertight seal in the appropriate area. This could potentially be done to both sides of the cable at the same time, but for now, I'm doing half now and the other half later. Figures \ref{fig:potting_tapered_tube} - \ref{fig:potting_test_tube} below show the cables inside the tubes with the compound curing. 
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[AWG 29 and 26 using tapered tube for potting]{
+		\includegraphics[width=0.45\textwidth]{Pictures/18Aug2013/potting_tapered_tube} 
+		\label{fig:potting_tapered_tube}
+		}
+		\quad
+	\subfigure[AWG 36 using non-tapered test tube]{
+	\includegraphics[width=0.45\textwidth]{Pictures/18Aug2013/potting_test_tube}
+	\label{fig:potting_test_tube}
+		}
+	\label{fig:potting_cables}
+	\caption{Potting the SWTL cable assemblies with the silicone based compound }
+\end{figure}
+
+
+
+So, after letting the silicone potting compound set overnight, I came in to take a look and see if it would be viable for testing. However, I quickly discovered that while the compound did set and covered the necessary components of the SWTL cable, it was very difficult to remove the ``mold" without disrupting the compound inside. For the brittle, non-tapered mold, it was easy enough to just crack it and remove it in pieces. But, the compound is large on the end of the cable, and it appears that a good amount of the field will stay in there, potentially affecting the results. Not to mention, the long curing time of the silicone potting compound means that the cables will take at least a day to make, possibly longer. I'm thinking this still might not be the best way moving forward.
+
+Finally, it seems that just using the parafilm wax to seal the necessary areas of the SWTL cables might work. It's quick, easy, and I can mold the covering to the desired shape. The only worry is that the upper end of the SWTL might not be sealed completely, but if I melt the wax slightly using either the hot air gun or by twisting it in my fingers, I should be able to create a tight seal there. While the wax might not be a long term solution, as it will eventually dry out and crack, it will definitely provide a good seal for quickly testing these cables. 
+
+
+\subsection{Comparing SWTL Characteristics in Chicken and Saline}
+\indent \indent 
 
 
 \end{document}

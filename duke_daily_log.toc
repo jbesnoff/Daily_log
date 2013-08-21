@@ -178,3 +178,5 @@
 \contentsline {subsection}{\numberline {50.1}Quarter-Wave Sleeve-Balun}{178}{subsection.50.1}
 \contentsline {subsection}{\numberline {50.2}SWTL in chicken}{178}{subsection.50.2}
 \contentsline {subsubsection}{\numberline {50.2.1}AWG 36 SWTL}{178}{subsubsection.50.2.1}
+\contentsline {section}{\numberline {51}19 \& 20 \& 21 August 2013:}{183}{section.51}
+\contentsline {subsection}{\numberline {51.1}Constructing SWTL's for Chicken Testing: New Method}{183}{subsection.51.1}
