@@ -3801,7 +3801,87 @@ Finally, it seems that just using the parafilm wax to seal the necessary areas o
 
 
 \subsection{Comparing SWTL Characteristics in Chicken and Saline}
-\indent \indent 
+\indent \indent Using the preliminary results from testing the AWG 36 SWTL in chicken, I can compare these to the saline results. If we plot the insertion losses on the same axes, we arrive at Figure \ref{fig:AWG36_SWTL_cable_loss_chicken_and_saline}.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Pictures/18Aug2013/AWG36_SWTL_cable_loss_chicken_and_saline}
+	\caption{ Comparing insertion loss of AWG 36 SWTL in chicken and saline dielectric media } 
+	\label{fig:AWG36_SWTL_cable_loss_chicken_and_saline}
+\end{figure}
+
+
+
+At 915 MHz, the frequency we're focused on (center of the UHF ISM band), we have Tables \ref{tab:AWG36_SWTL_chicken} and \ref{tab:AWG36_SWTL_saline}. While it appears that the SWTL in chicken experiences more loss, this is unfair comparison because the return loss at each end of the cable is different for each scenario.
+
+
+
+\begin{table}[h!]
+\centering
+	\caption{AWG 36 SWTL in Chicken at 915 MHz}
+	\vspace{10pt}
+	\begin{tabular}{| c | c |}
+	\hline
+	$S_{11}$ & -6.90 dB \\ \hline
+	$S_{22}$ & -6.26 dB \\ \hline
+	$S_{12}$ & -1.60 dB/cm \\ \hline
+	$S_{21}$ & -1.64 dB/cm \\ \hline
+	\end{tabular}
+\label{tab:AWG36_SWTL_chicken}
+\end{table}
+
+
+\begin{table}[h!]
+\centering
+	\caption{AWG 36 SWTL in Saline at 915 MHz}
+	\vspace{10pt}
+	\begin{tabular}{| c | c |}
+	\hline
+	$S_{11}$ & -10.6 dB \\ \hline
+	$S_{22}$ & -9.6 dB \\ \hline
+	$S_{12}$ & -1.00 dB/cm \\ \hline
+	$S_{21}$ & -1.00 dB/cm \\ \hline
+	\end{tabular}
+\label{tab:AWG36_SWTL_saline}
+\end{table}
+
+
+
+To make a fair comparison, we can use the maximum transducer gain (Pozar, section 11.3). This essentially corrects the insertion loss, assuming a perfect conjugate match at each end of the DUT. There are conditions where this is possible, and the details can be found in Pozar. So, applying the maximum transducer gain to the S-parameters, we arrive at Table \ref{tab:AWG36_SWTL_Gtmax}. 
+
+
+
+\begin{table}[h!]
+\centering
+	\caption{Maximum Transducer Gain at 915 MHz}
+	\vspace{10pt}
+	\begin{tabular}{| c | c |}
+	\hline
+	Dielectric & $G_{T,\text{max}}$ at 915 MHz \\ \hline
+	Chicken & -1.24 dB/cm \\ \hline
+	Saline & -0.90 dB/cm \\ \hline
+	\end{tabular}
+\label{tab:AWG36_SWTL_Gtmax}
+\end{table}
+
+
+
+With the corrected insertion losses, the loss in dB/cm is still apparently favorable for the AWG 36 SWTL in saline over that in chicken by about 0.3 dB/cm. I had expected the loss in chicken to be less than that in saline, since the loss tangent for chicken (as found in the literature) is less than that of saline, according to my theoretical calculations of the dielectric properties of saline. However, there are many reasons that can explain the results that I'm seeing here. The published values for chicken dielectric properties will not directly correspond to my scenario, as the chicken is a different temperature, there will be slight air-gaps inside the ``incision" where the wire was placed, etc. The same can be said of the saline, as the dielectric properties depend on temperature, salinity, the existence of impurities, etc. All of these factors may lead to the results that I've obtained here. 
+
+One thing I can possibly due to confirm that these results make sense is to use a dielectric probe to experimentally determine the dielectric properties of any given material. The theory behind this is somewhat unclear to me right now and I'll have to do some reading to get a good understanding, but from a high level, using a dielectric probe will allow one to determine the dielectric properties of a material based on the scattering and reflection of injected signals.
+
+
+
+
+
+%August 22, 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{22 August 2013:}
+
+\indent \indent Today I'll be focusing on the analytic SAR solution for single-wire transmission lines embedded in a dielectric media, and a bit on my CST simulations as well. Time permitting, I might also try to get more results for the SWTL in saline using the parafilm wax coated wires, as I can construct these much faster.
+
 
 
 \end{document}
