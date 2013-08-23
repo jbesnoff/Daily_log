@@ -3915,7 +3915,11 @@ Now, the characteristic impedance is independent of the length of cable, it only
 
 So, let's now assume that we have a 1 meter length of coaxial cable. Thus, the extra resistance incurred by the material at 915 MHz is about $6.44 \Omega$. So, we're looking at a resistance of $56.33 - j 0.111$.
 
-We should now be able to determine 
+We should now be able to determine the voltage and current waveforms present on this coaxial line given the power and frequency, which we already assumed to be 915 MHz. 
+
+One thing to note here. Obviously, since we're working in the UHF band, the voltage and current waveforms will be sinusoidal. The power that I keep mentioning is assumed to be an RMS power, and so all the currents and voltages mentioned will be RMS values of their sinusoidal nature. This is what the power setting on our RF generator outputs, and I verified that just now (making sure to take cable loss into account!). Plus, the transmission line model uses RMS values, as well as the equation for SAR.
+
+So, what I can do now is sweep the power injected into this 1 meter section of coaxial cable, and plot the voltage, current, E-field, and SAR within the cable's dielectric. 
 
 
 \end{document}

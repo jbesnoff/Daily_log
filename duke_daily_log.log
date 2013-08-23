@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2008.12.28)  22 AUG 2013 17:25
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2008.12.28)  23 AUG 2013 11:10
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
@@ -3532,27 +3532,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 3890--3895
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3917.
 [188
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3917.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3921.
+ [189]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3921.
  (./duke_daily_log.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3917.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3917.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3921.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3921.
 
-Package rerunfilecheck Info: File `duke_daily_log.out' has not changed.
-(rerunfilecheck)             Checksum: 6A281CCE0E8059F49341AFBA3676D060;14885.
 
+
+Package rerunfilecheck Warning: File `duke_daily_log.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `duke_daily_log.out':
+(rerunfilecheck)             Before: B154425283054818B7587D3604D0C9E6;14068
+(rerunfilecheck)             After:  6A281CCE0E8059F49341AFBA3676D060;14885.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3917.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3921.
  ) 
 Here is how much of TeX's memory you used:
- 8403 strings out of 493876
- 165435 string characters out of 1150567
- 204913 words of memory out of 3000000
+ 8404 strings out of 493876
+ 165443 string characters out of 1150567
+ 205125 words of memory out of 3000000
  10756 multiletter control sequences out of 10000+50000
  13367 words of font info for 50 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
@@ -3576,9 +3583,9 @@ pe1/bluesky/cm/cmr8.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky
 xlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmtt12.pfb></usr/local/texlive/200
 8/texmf-dist/fonts/type1/public/cmex/fmex8.pfb></usr/local/texlive/2008/texmf-d
 ist/fonts/type1/public/wasy/wasy10.pfb>
-Output written on duke_daily_log.pdf (189 pages, 46121567 bytes).
+Output written on duke_daily_log.pdf (190 pages, 46122807 bytes).
 PDF statistics:
- 4218 PDF objects out of 4296 (max. 8388607)
- 653 named destinations out of 1000 (max. 131072)
+ 4222 PDF objects out of 4296 (max. 8388607)
+ 654 named destinations out of 1000 (max. 131072)
  2341 words of extra memory for PDF output out of 10000 (max. 10000000)
 
