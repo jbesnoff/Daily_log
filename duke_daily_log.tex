@@ -3884,4 +3884,38 @@ One thing I can possibly due to confirm that these results make sense is to use 
 
 
 
+\subsection{SAR in Coaxial Cable}
+\indent \indent Analytically solving for the SAR inside the dielectric in a typical coaxial cable. This should help in computing the SAR from a SWTL embedded in a dielectric medium.
+
+The transmission line parameters of a coaxial line depend upon the geometry, as well as the material. The standard transmission line model applies here, and it can be fully characterized once the material and geometry are known. So, if we use parameters of a typical coaxial line that we have in lab, we have: \\
+\\
+dielectric: PTFE, $\epsilon_r \approx 2.1$, loss tangent $\approx 0.0002$ at 10 GHz \\
+inner diameter: 0.50 mm \\
+outer diameter: 1.67 mm \\
+
+So, with these in mind, we can compute the transmission line parameters as follows:
+
+$L = \frac{\mu}{2 \pi} \ln \left( \frac{r_o}{r_i} \right) = \frac{4 \pi \times 10^{-7}}{2 \pi} \ln \left( \frac{0.835}{0.25} \right) \approx 241.2$ nH/m
+
+$C = \frac{2 \pi \epsilon'}{\ln \left( \frac{r_o}{r_i} \right) } = \frac{2 \pi (2.1) \epsilon_0}{\ln \left( \frac{0.835}{0.25} \right) } \approx 96.9$ pF/m
+
+$R = \frac{R_s}{2 \pi} \left( \frac{1}{r_i} + \frac{1}{r_o} \right) = \frac{0.007785}{2 \pi} \left( \frac{1}{0.25 \times 10^{-3}} + \frac{1}{0.835 \times 10^{-3}} \right) \approx 6.44 \Omega$/m
+
+$G = \frac{2 \pi \omega \epsilon''}{\ln \left( \frac{r_o}{r_i} \right) } = \frac{2 \pi (2 * \pi * 915 \times 10^6)(4.2 \times 10^{-4}) \epsilon_0}{\ln \left( \frac{0.835}{0.25} \right)} \approx 1.114 \times 10^{-4}$ S/m
+
+
+Therefore, we can compute the characteristic impedance as follows:
+
+$ Z_0 = \sqrt{ \frac{R + j \omega L}{G + j \omega C}} \approx 49.89 - j 0.111$
+
+which is close to $50 \Omega$, as expected.
+
+
+Now, the characteristic impedance is independent of the length of cable, it only depends on the geometry and materials. It represents the ratio of the voltage and current wave at any point in its travels along the transmission line. So, if we wanted to determine the actual, or ``total" impedance of the line in order to relate the power, voltage, and current of an injected wave, we would need to add the resistance of the length of cable to the characteristic impedance (at least I think this is the case...). 
+
+So, let's now assume that we have a 1 meter length of coaxial cable. Thus, the extra resistance incurred by the material at 915 MHz is about $6.44 \Omega$. So, we're looking at a resistance of $56.33 - j 0.111$.
+
+We should now be able to determine 
+
+
 \end{document}
