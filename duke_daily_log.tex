@@ -2815,7 +2815,7 @@ As mentioned previously, it is possible to place the TDR data on a distance scal
 	\label{fig:SWTL_TDR_s22_dist_all_wires}
 		}
 	\label{fig:SWTL_TDR_dist_all_wires}
-	\caption{TDR in distance. The reflection strength is in linear units (directly taking an IFFT of complex s-parameter data. }
+	\caption{TDR in distance. The reflection strength is in linear units (directly taking an IFFT of complex s-parameter data). }
 \end{figure}
 
 
@@ -3920,6 +3920,257 @@ We should now be able to determine the voltage and current waveforms present on 
 One thing to note here. Obviously, since we're working in the UHF band, the voltage and current waveforms will be sinusoidal. The power that I keep mentioning is assumed to be an RMS power, and so all the currents and voltages mentioned will be RMS values of their sinusoidal nature. This is what the power setting on our RF generator outputs, and I verified that just now (making sure to take cable loss into account!). Plus, the transmission line model uses RMS values, as well as the equation for SAR.
 
 So, what I can do now is sweep the power injected into this 1 meter section of coaxial cable, and plot the voltage, current, E-field, and SAR within the cable's dielectric. 
+
+
+
+
+%August 26, 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{26 August 2013:}
+
+\indent \indent Looking at the results from testing the newly constructed SWTL cables, with the parafilm wax, inside of raw chicken. Also working on the SAR/E-field in coaxial line, which should lead up to SAR/E-field in a SWTL in an arbitrary dielectric media.
+
+
+
+\subsection{SWTL in Chicken: Parafilm Wax Cables}
+\indent \indent I tested all three wire gauges inside raw chicken, using parafilm wax to seal up the ends of the cables. Figures \ref{fig:AWG29_chicken_ziptie2} - \ref{fig:AWG36_chicken_ziptie_launcher_closeup2} show the experimental setup, using large zipties to keep the SWTL in place. I used two pieces of chicken, one for the bottom half, the other for the top half, zipties the SWTL to the bottom half, and placed the top half on top for an ``implanted" scenario.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[AWG 29 SWTL zip-tied to piece of raw chicken breast]{
+		\includegraphics[width=0.45\textwidth]{Pictures/26Aug2013/AWG29_chicken_ziptie2} 
+		\label{fig:AWG29_chicken_ziptie2}
+		}
+	\subfigure[AWG 36 SWTL embedded in raw chicken breast and characterized]{
+	\includegraphics[width=0.45\textwidth]{Pictures/26Aug2013/AWG36_chicken_ziptie_topbottom}
+	\label{fig:AWG36_chicken_ziptie_topbottom}
+		}
+	\subfigure[Closeup of AWG 36 SWTL ``implanted" in raw chicken breast, showing launcher and parafilm wax seal]{
+	\includegraphics[width=0.45\textwidth]{Pictures/26Aug2013/AWG36_chicken_ziptie_launcher_closeup2}
+	\label{fig:AWG36_chicken_ziptie_launcher_closeup2}
+		}
+	\label{fig:SWTL_chicken_new_cables_experimental_setup}
+	\caption{Experimental setup for testing SWTL's in raw chicken breast, which functions as a tissue proxy for muscle }
+\end{figure}
+
+
+
+
+The results of the forward and reverse return loss and insertion loss are shown here, in Figures \ref{fig:SWTL_chicken_RL_AWG26} - \ref{fig:SWTL_insertion_loss_comparison_AWG29}. These are all the results.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[Return Loss AWG 26]{
+		\includegraphics[width=0.3\textwidth]{Pictures/26Aug2013/SWTL_chicken_RL_AWG26} 
+		\label{fig:SWTL_chicken_RL_AWG26}
+		}
+	\subfigure[Insertion Loss AWG 26]{
+	\includegraphics[width=0.3\textwidth]{Pictures/26Aug2013/SWTL_chicken_insertion_loss_AWG26}
+	\label{fig:SWTL_chicken_insertion_loss_AWG26}
+		}
+	\subfigure[Comparison with saline insertion loss - AWG 26]{
+	\includegraphics[width=0.3\textwidth]{Pictures/26Aug2013/SWTL_insertion_loss_comparison_AWG26}
+	\label{fig:SWTL_insertion_loss_comparison}
+		}
+	\subfigure[Return Loss AWG 29]{
+	\includegraphics[width=0.3\textwidth]{Pictures/26Aug2013/SWTL_chicken_RL_AWG29}
+	\label{fig:SWTL_chicken_RL_AWG29}
+		}
+	\subfigure[Insertion Loss AWG 29]{
+	\includegraphics[width=0.3\textwidth]{Pictures/26Aug2013/SWTL_chicken_insertion_loss_AWG29}
+	\label{fig:SWTL_chicken_insertion_loss_AWG29}
+		}
+	\subfigure[Comparison with saline insertion loss - AWG 29]{
+	\includegraphics[width=0.3\textwidth]{Pictures/26Aug2013/SWTL_insertion_loss_comparison_AWG29}
+	\label{fig:SWTL_insertion_loss_comparison_AWG29}
+		}
+	\subfigure[Return Loss AWG 36]{
+	\includegraphics[width=0.3\textwidth]{Pictures/26Aug2013/SWTL_chicken_RL_AWG36}
+	\label{fig:SWTL_chicken_RL_AWG36}
+		}
+	\subfigure[Insertion Loss AWG 36]{
+	\includegraphics[width=0.3\textwidth]{Pictures/26Aug2013/SWTL_chicken_insertion_loss_AWG36}
+	\label{fig:SWTL_chicken_insertion_loss_AWG36}
+		}
+	\subfigure[Comparison with saline insertion loss - AWG 36]{
+	\includegraphics[width=0.3\textwidth]{Pictures/26Aug2013/SWTL_insertion_loss_comparison_AWG36}
+	\label{fig:SWTL_insertion_loss_comparison_AWG29}
+		}
+	\label{fig:SWTL_chicken_new_cables_Sparam}
+	\caption{Single-wire transmission lines (SWTL's) tested inside raw chicken breast }
+\end{figure}
+
+
+
+The first column is the return loss, the 2nd is the insertion loss of the SWTL, and the third column is the insertion loss for the SWTL in chicken compared to that in saline. However, this comparison of the two results is not entirely fair, as the return loss at each port is different for each scenario, so there is no even basis for comparison.
+
+To make a fair insertion loss comparison between the two, I need to utilize the maximum transducer gain, as this assumes a perfect conjugate match at both ends of the cable, and adjusts the insertion loss accordingly. With both systems ``conjugately matched," I can then fairly compare and contrast the two scenarios. 
+
+I've done this using the maximum transducer gain and S-parameters for each scenario, and the results are summarized in Table \ref{tab:Gt_max_comparison}. Now that the comparison is ``fair," we can see that the two dielectric media are essentially equivalent in terms of loss through the SWTL. Initially, I had thought that since the loss tangent of the chicken was smaller than that of the saline, 0.3814 compared to 0.4128, that the insertion loss of the SWTL in the chicken would be smaller than that of the SWTL in saline. However, the loss tangent of these two materials only differs by 0.03, and the numbers I have computed for loss tangent are entirely theoretical. The dielectric properties of saline were computed based on equations from Stogryn's paper, and the properties are highly dependent on temperature, true salinity, and the presence of any impurities (which there are because I'm using tap water!). Also, the dielectric properties of the chicken were found in a paper, as mentioned earlier, and may not apply to the particular chicken used, as those properties also depend upon temperature, among other factors.
+
+So, now it is not so surprising that the two media being compared cause roughly the same amount of insertion loss for each wire gauge tested, when it is assumed that each is perfectly matched with an input and output matching network. One difference, which can be seen in Figures \ref{fig:SWTL_chicken_RL_AWG26} - \ref{fig:SWTL_insertion_loss_comparison_AWG29}, is that the return loss for the SWTL is different depending on the material used (saline vs. chicken). This just tells us which material the SWTL is better matched to in a 50 $\Omega$ system. 
+
+
+
+\begin{table}[h!]
+\centering
+	\caption{Maximum Transducer Gain for SWTL in Chicken and Saline Dielectric at 915 MHz}
+	\vspace{10pt}
+	\begin{tabular}{| c | c | c |}
+	\hline
+	 & \multicolumn{2}{c|}{$S_{21}$ (dB/cm)} \\ \hline
+	 Wire Gauge (AWG) & Chicken & Saline \\ \hline
+	 26 & -1.55 & -1.60 \\ \hline
+	 29 & -1.30 & -1.25 \\ \hline
+	 36 & -0.94 & -0.90 \\ \hline
+	\end{tabular}
+\label{tab:Gt_max_comparison}
+\end{table}
+
+
+
+One other thing we can look at, related to the maximum transducer gain, is the stability of the SWTL system. This means that we can determine if it is possible to achieve a perfect conjugate match at the input and output terminals of the system, theoretically. I'm not going to look into these/plot these now, but they are included in the maximum transducer gain function I've been using in Matlab, and I can easily plot them if need be. 
+
+
+
+
+%August 27 - 28, 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{27 \& 28 August 2013:}
+
+\subsection{Follow-up on SWTL Comparison in Chicken and Saline}
+\indent \indent For group meeting (28 August, 2013), I added a table that shows why I think the insertion loss from the SWTL in chicken and saline is essentially equivalent. At first, based on the theory/dielectric properties found in the literature, I thought that since the imaginary component of the permittivity of saline was larger (by about 10 linear units), that the loss from the SWTL in saline would necessarily be noticeably larger. However, the factor that determines the loss is not only this component, but also the conductivity and the real component of the permittivity. Essentially, the combination of these factors determines the true loss, which can be reflected in the loss tangent. So, Table \ref{tab:media_loss_comparison} looks at the loss tangent of these 2 media
+
+
+\begin{table}[h!]
+\centering
+	\caption{Comparing Media Loss Characteristics at 915 MHz}
+	\begin{tabular}{| c | c | c |}
+	\hline
+	 Media & $\epsilon_r$ & $\tan \delta$ \\ \hline
+	 Saline & $76.8 - j31.7^\dagger$ & 0.4128 \\ \hline
+	 Chicken & $52.7 - j20.1^\ddagger$ & 0.3814 \\ \hline
+	\end{tabular}
+\label{tab:media_loss_comparison}
+\end{table}
+
+{\footnotesize
+$\dagger$ \noindent A. Stogryn, ``Equations for calculating the dielectric constant of saline water," {\textit {IEEE Transactions on Microwave Theory and Techniques}}, vol. 19, no. 8, pp. 733-736, 1971. \\
+$\ddagger$ H. Zhuang, S. O. Nelson, S. Trabelsi, and E. M. Savage, ``Dielectric Properties of Uncooked Chicken Breast Muscles from 10 to 1800 MHz," \emph{Poultry Science}, November 2007. \\
+}
+
+
+By looking at the loss tangent of the two media considered, as they essentially equivalent, it is not surprising, and in fact expected that the loss of the SWTL in each medium is equal within experimental error. This argument holds true once the loss is normalized per unit length, as the SWTL length tested in the saline was 10 cm, and that in the chicken was 6 cm. Equating these insertion loss values through the maximum transducer gain is necessary, as the return loss is not the same in each case. 
+
+One other thing I can do is to plot the maximum transducer gain for a range of frequencies we care about, to show that even off of the center frequency of 915 MHz, the insertion loss in each medium is essentially equivalent. I'll just need to be careful about where the maximum transducer gain applies due to stability. This is all covered in Pozar's book.
+
+
+
+\subsection{Coaxial EM Field Characteristics}
+\indent \indent Another stepping stone to having a full model/characterization of the SWTL is the ability to calculate the E-field and SAR surrounding the wire. In order to make sure I'm heading in the right direction mathematically, I took a look at the E-field and SAR inside a coaxial cable as the power was swept. I used the well-known transmission line equations to compute these fields, so I'm pretty confident that the plots are correct. In Matlab, I made a video showing the E-field and SAR inside the dielectric of a coaxial cable as the power was swept. I can't include the video here, but it's in the Dropbox folder Duke $>$ Research $>$ Transmission\_line\_files. Below in Figure \ref{fig:coaxial_Efield_screenshot}, there's just a screenshot of the video showing the 1st frame.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Pictures/27Aug2013/coaxial_Efield_screenshot}
+	\caption{ EM field inside a coaxial cable while sweeping power } 
+	\label{fig:coaxial_Efield_screenshot}
+\end{figure}
+
+
+\subsection{CST Simulations}
+\indent \indent Now that I have a faster computer (Intel i5, 24 GB RAM), I can reliably run CST and get results from simulations much quicker. I had a slight issue with Windows updates (darn it Windows...), as it was failing to update after claiming to install a ton of updates. Turns out this has happened to a ton of people with Lenovo machines. A brain-dead workaround is to install the updates in small batches, and that seemed to work, although it took a while. 
+
+I was also having issues with CST. Anytime I tried to start a new project, a very strange error would popup, claiming that in a directory within the System32 folder, there was an invalid path. It then went on about some other errors, and then closed the new project. This happened every time, and I couldn't figure out why. So, I tried uninstalling and reinstalling CST, but to no avail. My next solution is to finish all the Windows updates, turn off the anti-virus during the install, and hooking the computer straight into the ethernet jack in the wall instead of through a router, which is how it's hooked up now.
+
+So...turns out I found the problem. It had nothing to do with Windows updates, or how the computer was accessing the CST floating license. It turns out that CST uses a temporary directory for storing certain files, especially when you first open up a new project. For some reason, and this might have been my fault somehow, the temporary directory was set to a random folder in the System32 directory. Every time I tried to open a new project, CST would complain that it can't access certain things in that path, because new folders in that directory would automatically become protected, I believe. To change this directory, I went to the CST options on the main page, and changed the temporary directory to a folder in my personal documents folder. Then, voila! Works like a charm. Finding this problem took way longer than it should have...
+
+
+
+\subsubsection{Simulating an AWG 36 Wire}
+\indent \indent With CST up and running, I can now attempt to simulate an AWG 36 wire and see if it matches up with what is expected based on field theory. 
+
+The first simulation I did was to run a simple AWG 36 wire of length 10 cm in air, to see if the fields are indeed radially symmetric about the wire. I found that using waveguide ports is a bad idea, as they only create a field inside the insulation of the wire, and the insertion loss values from simulation seemed very incorrect as they were around -70 to -80 dB for a 10 cm simple length of wire, which doesn't seem realistic. Switching to discrete ports, which are for now connecting the inner conductor to the insulation, seems to work much better. For one thing, I can actually set the voltage or current of the discrete ports and monitor those values, whereas the waveguide ports I believe always inject +30 dBm (1 W) of power. 
+
+Using the setup with the discrete ports on the AWG 36 wire in air, I was able to obtain the E-field surrounding the wire, and this is shown below in Figure \ref{fig:CST_sim_single_wire_air}.
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Pictures/28Aug2013/CST_sim_single_wire_air}
+	\caption{ Simulating the E-field of an AWG 36 wire, 10 cm length, in air at 915 MHz } 
+	\label{fig:CST_sim_single_wire_air}
+\end{figure}
+
+
+
+The view is a cross section of the wire, so the wire is going into (or out of) the plane of the page. The discrete ports are set at 1 Volt, and we are looking at the E-field at 915 MHz. The field appears radially symmetric about the wire for the most part, which is expected. The reason it is not perfect is possibly due to the choice of spacing in exporting the data to an ASCII file. The field is strongest very close to the wire, and dies out as the radial distance from the wire increases, tending towards 0 around +/- 50 mm away from the center of the wire. 
+
+I would like to compare this to the theoretical computation of the E-field around a charge carrying wire. There are well-known formulas for infinitely long uniformly charged wires, but I don't think they apply here. I might have to solve the field based on Maxwell's Equations and the known geometry and voltage on the wire. This is in progress. 
+
+
+Another simulation I ran quickly for group meeting was placing the single-wire in a block of conducting material. I used the built-in material of Sea Water here, since it is a very conductive material. I placed a large block of it around the single-wire and ran the simulation. The resulting E-field is shown in Figure \ref{fig:CST_sim_single_wire_water}.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Pictures/28Aug2013/CST_sim_single_wire_water}
+	\caption{ Simulating the E-field of an AWG 36 wire, 10 cm length, in sea water at 915 MHz } 
+	\label{fig:CST_sim_single_wire_water}
+\end{figure}
+
+
+
+This plot didn't come out great and I'm not entirely sure why. It might have something to do with some of the options I set when exporting the data, so I'll need to look into that. Here, the field is again radially symmetric as it should be. Also, we can note that the E-field close to the wire is stronger than in the case with the wire in air. The same voltage is being used in both scenarios. So, this tells us that the sea water absorbs more of the E-field than air, which is expected as sea water is more conductive and has a larger permittivity. 
+
+
+These simulations were run mainly to show that I can get nice E-field results in CST. I am going to work on perfecting the models/simulations, and hopefully will be able to develop one that mocks the implantable situation with a SWTL.
+
+
+
+
+
+%August 29, 2013-----------------------------------------------------------------------------------------------------------------------
+\clearpage
+\section{29 August 2013:}
+
+
+\indent \indent Things I'd like to get done/work on today: CST simulations (mainly fixing the single-wire in air/sea water shown last time, and how to make SAR measurements), analytic E-field calculations around single-wire and SWTL, and editing the MTT paper!!! I also need to start thinking about my prelim committee and should determine who is going to be on it so I can start a Doodle Poll and find a time that works for everyone. Gotta get these done before volleyball practice at 7:30 tonight...
+
+
+
+\subsection{More CST Single-wire Simulations}
+\indent \indent I made a slight discovery when exporting E-field data from CST to plot in Matlab. Since you can animate the fields in CST, this changes the phase of the signal you're currently viewing. So when I exported the E-field data for the plots in the previous log entry, I don't think they were the same phase, so it skewed the comparison between the two. 
+
+Another thing I noticed about the sea water single-wire simulation was that I had the block of sea water covering the ends of the single-wire, where the discrete ports are. I think this threw off some of the SAR calculations I was looking at. So for now, I've shrunk the ends of the sea water block so it only covers the middle of the single-wire.
+
+Below in Figures \ref{fig:CST_sim_single_wire_air_phase0} - \ref{fig:CST_sim_single_wire_seawater_phase0} I have the E-field of the single-wire in air and sea water, where the phase in each case is 0 degrees.
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfigure[Single-wire in air]{
+		\includegraphics[width=0.45\textwidth]{Pictures/29Aug2013/CST_sim_single_wire_air_phase0} 
+		\label{fig:CST_sim_single_wire_air_phase0}
+		}
+	\subfigure[Single-wire in sea water]{
+	\includegraphics[width=0.45\textwidth]{Pictures/29Aug2013/CST_sim_single_wire_seawater_phase0}
+	\label{fig:CST_sim_single_wire_seawater_phase0}
+		}
+	\label{fig:single_wire_media_Efield_phase0}
+	\caption{Single-wire E-field from CST simulation at 915 MHz, setting the phase to 0 degrees. Cut-plane is Z = 0. }
+\end{figure}
+
+
+
+Now, from these plots, note that the color scale in each is different. Here the opposite trend is seen now that the phase agrees for each dataset. The E-field in the single-wire in sea water is significantly smaller than that in air. By significantly, the maximum differs by about 2 orders of magnitude (20 dB). 
 
 
 \end{document}

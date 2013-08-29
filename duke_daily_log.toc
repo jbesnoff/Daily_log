@@ -183,3 +183,12 @@
 \contentsline {subsection}{\numberline {51.2}Comparing SWTL Characteristics in Chicken and Saline}{184}{subsection.51.2}
 \contentsline {section}{\numberline {52}22 August 2013:}{188}{section.52}
 \contentsline {subsection}{\numberline {52.1}SAR in Coaxial Cable}{188}{subsection.52.1}
+\contentsline {section}{\numberline {53}26 August 2013:}{190}{section.53}
+\contentsline {subsection}{\numberline {53.1}SWTL in Chicken: Parafilm Wax Cables}{190}{subsection.53.1}
+\contentsline {section}{\numberline {54}27 \& 28 August 2013:}{194}{section.54}
+\contentsline {subsection}{\numberline {54.1}Follow-up on SWTL Comparison in Chicken and Saline}{194}{subsection.54.1}
+\contentsline {subsection}{\numberline {54.2}Coaxial EM Field Characteristics}{195}{subsection.54.2}
+\contentsline {subsection}{\numberline {54.3}CST Simulations}{195}{subsection.54.3}
+\contentsline {subsubsection}{\numberline {54.3.1}Simulating an AWG 36 Wire}{196}{subsubsection.54.3.1}
+\contentsline {section}{\numberline {55}29 August 2013:}{200}{section.55}
+\contentsline {subsection}{\numberline {55.1}More CST Single-wire Simulations}{200}{subsection.55.1}
